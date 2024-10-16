@@ -212,11 +212,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 1
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -255,6 +256,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
@@ -267,6 +269,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -279,6 +282,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -291,6 +295,33 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -1651,73 +1682,72 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Barbarian_ThrowThingsShadow_3_06: 1442730849862255858
-      Barbarian_ThrowThingsShadow_2_06: -2674181919024156386
-      Barbarian_ThrowThingsShadow_1_01: -8291805904611268658
-      Barbarian_ThrowThingsShadow_1_13: 5344838909504264078
-      Barbarian_ThrowThingsShadow_3_12: -1724572486798032417
-      Barbarian_ThrowThingsShadow_2_08: 2385756976152304984
-      Barbarian_ThrowThingsShadow_3_07: 5219699263222556180
-      Barbarian_ThrowThingsShadow_0_15: 6636633059601819655
-      Barbarian_ThrowThingsShadow_3_10: 1248029304327777415
-      Barbarian_ThrowThingsShadow_3_01: 7507166297622194069
-      Barbarian_ThrowThingsShadow_3_14: 4197239222418877345
-      Barbarian_ThrowThingsShadow_2_00: -7274772669028066812
-      Barbarian_ThrowThingsShadow_2_10: 5236340369250310710
-      Barbarian_ThrowThingsShadow_2_07: -861334406542291892
-      Barbarian_ThrowThingsShadow_2_01: 3158977021306554620
+      Barbarian_ThrowThingsShadow_0_00: 6104661593503590304
+      Barbarian_ThrowThingsShadow_0_01: 4752171543014563541
+      Barbarian_ThrowThingsShadow_0_02: -2462540272822474228
       Barbarian_ThrowThingsShadow_0_03: -840210656442790754
-      Barbarian_ThrowThingsShadow_1_07: -2604597870290140426
-      Barbarian_ThrowThingsShadow_0_12: -5364299104261226158
+      Barbarian_ThrowThingsShadow_0_04: -1391603949176023830
+      Barbarian_ThrowThingsShadow_0_05: -7117630749662034668
+      Barbarian_ThrowThingsShadow_0_06: 5712947332857379658
+      Barbarian_ThrowThingsShadow_0_07: 3483405067905035273
+      Barbarian_ThrowThingsShadow_0_08: 7494765766467910203
+      Barbarian_ThrowThingsShadow_0_09: 6629297625733055897
       Barbarian_ThrowThingsShadow_0_10: -5303965926922439380
-      Barbarian_ThrowThingsShadow_2_02: 8086610828723406353
-      Barbarian_ThrowThingsShadow_2_11: 6447650785148452851
+      Barbarian_ThrowThingsShadow_0_11: -7385479490489567723
+      Barbarian_ThrowThingsShadow_0_12: -5364299104261226158
       Barbarian_ThrowThingsShadow_0_13: 3669765251601723415
       Barbarian_ThrowThingsShadow_0_14: -9082654087421357457
-      Barbarian_ThrowThingsShadow_1_08: -1678664641813229055
-      Barbarian_ThrowThingsShadow_1_11: 2218369330824461639
-      Barbarian_ThrowThingsShadow_2_15: -4026929036913247240
-      Barbarian_ThrowThingsShadow_3_13: -1569251075813054667
-      Barbarian_ThrowThingsShadow_0_01: 4752171543014563541
-      Barbarian_ThrowThingsShadow_3_05: 796078863830601549
-      Barbarian_ThrowThingsShadow_2_13: 5570620373646884708
-      Barbarian_ThrowThingsShadow_0_04: -1391603949176023830
-      Barbarian_ThrowThingsShadow_1_05: -8231359641587857764
-      Barbarian_ThrowThingsShadow_3_04: 8820034069212651638
-      Barbarian_ThrowThingsShadow_0_05: -7117630749662034668
-      Barbarian_ThrowThingsShadow_1_02: -1416077546300641421
-      Barbarian_ThrowThingsShadow_2_12: -673332123717708038
-      Barbarian_ThrowThingsShadow_1_06: -8729654690426654806
-      Barbarian_ThrowThingsShadow_1_14: 1776507974183734419
-      Barbarian_ThrowThingsShadow_2_04: -7342916689247914684
-      Barbarian_ThrowThingsShadow_0_11: -7385479490489567723
-      Barbarian_ThrowThingsShadow_3_11: -6774095017543845311
-      Barbarian_ThrowThingsShadow_1_12: -6139804479204652638
-      Barbarian_ThrowThingsShadow_0_00: 6104661593503590304
-      Barbarian_ThrowThingsShadow_3_00: 5499724614985872860
-      Barbarian_ThrowThingsShadow_3_02: -1028327555059931232
-      Barbarian_ThrowThingsShadow_1_03: 6806727751675146633
+      Barbarian_ThrowThingsShadow_0_15: 6636633059601819655
       Barbarian_ThrowThingsShadow_1_00: -1738901332530870050
+      Barbarian_ThrowThingsShadow_1_01: -8291805904611268658
+      Barbarian_ThrowThingsShadow_1_02: -1416077546300641421
+      Barbarian_ThrowThingsShadow_1_03: 6806727751675146633
       Barbarian_ThrowThingsShadow_1_04: 6400218270058744436
-      Barbarian_ThrowThingsShadow_3_03: -2006384823035446838
-      Barbarian_ThrowThingsShadow_3_09: 4915379053603568505
-      Barbarian_ThrowThingsShadow_0_06: 5712947332857379658
-      Barbarian_ThrowThingsShadow_2_03: 6475157819248988817
+      Barbarian_ThrowThingsShadow_1_05: -8231359641587857764
+      Barbarian_ThrowThingsShadow_1_06: -8729654690426654806
+      Barbarian_ThrowThingsShadow_1_07: -2604597870290140426
+      Barbarian_ThrowThingsShadow_1_08: -1678664641813229055
       Barbarian_ThrowThingsShadow_1_09: 2795851722382406428
-      Barbarian_ThrowThingsShadow_1_15: -6707283280105664333
-      Barbarian_ThrowThingsShadow_0_02: -2462540272822474228
-      Barbarian_ThrowThingsShadow_0_08: 7494765766467910203
-      Barbarian_ThrowThingsShadow_2_09: 1250027793688090274
-      Barbarian_ThrowThingsShadow_2_05: -872112694544922181
-      Barbarian_ThrowThingsShadow_0_09: 6629297625733055897
-      Barbarian_ThrowThingsShadow_3_15: 5202209773332126425
-      Barbarian_ThrowThingsShadow_2_14: 5339472548843333010
       Barbarian_ThrowThingsShadow_1_10: -1309166239894443036
-      Barbarian_ThrowThingsShadow_0_07: 3483405067905035273
+      Barbarian_ThrowThingsShadow_1_11: 2218369330824461639
+      Barbarian_ThrowThingsShadow_1_12: -6139804479204652638
+      Barbarian_ThrowThingsShadow_1_13: 5344838909504264078
+      Barbarian_ThrowThingsShadow_1_14: 1776507974183734419
+      Barbarian_ThrowThingsShadow_1_15: -6707283280105664333
+      Barbarian_ThrowThingsShadow_2_00: -7274772669028066812
+      Barbarian_ThrowThingsShadow_2_01: 3158977021306554620
+      Barbarian_ThrowThingsShadow_2_02: 8086610828723406353
+      Barbarian_ThrowThingsShadow_2_03: 6475157819248988817
+      Barbarian_ThrowThingsShadow_2_04: -7342916689247914684
+      Barbarian_ThrowThingsShadow_2_05: -872112694544922181
+      Barbarian_ThrowThingsShadow_2_06: -2674181919024156386
+      Barbarian_ThrowThingsShadow_2_07: -861334406542291892
+      Barbarian_ThrowThingsShadow_2_08: 2385756976152304984
+      Barbarian_ThrowThingsShadow_2_09: 1250027793688090274
+      Barbarian_ThrowThingsShadow_2_10: 5236340369250310710
+      Barbarian_ThrowThingsShadow_2_11: 6447650785148452851
+      Barbarian_ThrowThingsShadow_2_12: -673332123717708038
+      Barbarian_ThrowThingsShadow_2_13: 5570620373646884708
+      Barbarian_ThrowThingsShadow_2_14: 5339472548843333010
+      Barbarian_ThrowThingsShadow_2_15: -4026929036913247240
+      Barbarian_ThrowThingsShadow_3_00: 5499724614985872860
+      Barbarian_ThrowThingsShadow_3_01: 7507166297622194069
+      Barbarian_ThrowThingsShadow_3_02: -1028327555059931232
+      Barbarian_ThrowThingsShadow_3_03: -2006384823035446838
+      Barbarian_ThrowThingsShadow_3_04: 8820034069212651638
+      Barbarian_ThrowThingsShadow_3_05: 796078863830601549
+      Barbarian_ThrowThingsShadow_3_06: 1442730849862255858
+      Barbarian_ThrowThingsShadow_3_07: 5219699263222556180
       Barbarian_ThrowThingsShadow_3_08: 1330297161264022090
-  spritePackingTag: 
+      Barbarian_ThrowThingsShadow_3_09: 4915379053603568505
+      Barbarian_ThrowThingsShadow_3_10: 1248029304327777415
+      Barbarian_ThrowThingsShadow_3_11: -6774095017543845311
+      Barbarian_ThrowThingsShadow_3_12: -1724572486798032417
+      Barbarian_ThrowThingsShadow_3_13: -1569251075813054667
+      Barbarian_ThrowThingsShadow_3_14: 4197239222418877345
+      Barbarian_ThrowThingsShadow_3_15: 5202209773332126425
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

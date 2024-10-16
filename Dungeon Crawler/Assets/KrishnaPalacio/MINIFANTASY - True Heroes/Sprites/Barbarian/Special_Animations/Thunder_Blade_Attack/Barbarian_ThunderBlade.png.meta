@@ -224,11 +224,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 1
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -267,6 +268,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
@@ -279,6 +281,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -291,6 +294,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -303,6 +307,33 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -1747,77 +1778,76 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Barbarian_ThunderBlade_2_07: 1822034213541211757
-      Barbarian_ThunderBlade_2_00: 8641024475986055805
-      Barbarian_ThunderBlade_1_04: 5098420190529941005
-      Barbarian_ThunderBlade_1_02: -6630705684325264995
-      Barbarian_ThunderBlade_1_12: -4552198364916156596
-      Barbarian_ThunderBlade_1_15: -6184710061574902228
-      Barbarian_ThunderBlade_1_13: -4532792664681398245
-      Barbarian_ThunderBlade_0_04: 5370431660734092487
-      Barbarian_ThunderBlade_2_08: -984895212100748276
-      Barbarian_ThunderBlade_3_16: 2710394591167809544
-      Barbarian_ThunderBlade_0_11: 8455209744532347133
-      Barbarian_ThunderBlade_3_14: -4117664533419586991
-      Barbarian_ThunderBlade_2_01: 4801837018316043500
-      Barbarian_ThunderBlade_0_03: -4054833024495830920
-      Barbarian_ThunderBlade_1_07: 1220731627778302084
-      Barbarian_ThunderBlade_3_09: -176028407981182985
-      Barbarian_ThunderBlade_2_15: -8545598131635395454
-      Barbarian_ThunderBlade_1_14: 911372585955243414
-      Barbarian_ThunderBlade_2_14: 7868999776631330886
-      Barbarian_ThunderBlade_3_03: -8628851442688525593
-      Barbarian_ThunderBlade_1_00: 7346741528991973842
-      Barbarian_ThunderBlade_0_07: -3462724150843015824
-      Barbarian_ThunderBlade_0_12: -3881299975537321189
-      Barbarian_ThunderBlade_1_01: 1274731305827043136
-      Barbarian_ThunderBlade_2_12: 1438576427017034276
-      Barbarian_ThunderBlade_1_05: -3836151003987894854
-      Barbarian_ThunderBlade_0_09: 3431676782513613046
-      Barbarian_ThunderBlade_2_03: -955633278181454954
-      Barbarian_ThunderBlade_3_06: 8288147248198887461
-      Barbarian_ThunderBlade_3_12: 3553466951755384271
-      Barbarian_ThunderBlade_1_09: 613527618037147945
-      Barbarian_ThunderBlade_2_13: -1593460713245780325
-      Barbarian_ThunderBlade_0_15: -3945653249791028168
-      Barbarian_ThunderBlade_3_00: 9021982977594053339
       Barbarian_ThunderBlade_0_00: 7956382701889571513
-      Barbarian_ThunderBlade_2_16: 8991537880391966388
       Barbarian_ThunderBlade_0_01: -6629371692707604676
-      Barbarian_ThunderBlade_1_10: -9205854620909451462
-      Barbarian_ThunderBlade_1_16: 1132328773508873793
-      Barbarian_ThunderBlade_2_04: -8029994207455820990
-      Barbarian_ThunderBlade_2_11: -4030781055713428530
-      Barbarian_ThunderBlade_0_10: 1505890418784678304
-      Barbarian_ThunderBlade_2_09: 342763151848843904
       Barbarian_ThunderBlade_0_02: -6055176720228313320
+      Barbarian_ThunderBlade_0_03: -4054833024495830920
+      Barbarian_ThunderBlade_0_04: 5370431660734092487
       Barbarian_ThunderBlade_0_05: 2199823819035240364
-      Barbarian_ThunderBlade_3_04: 2469743942262644107
-      Barbarian_ThunderBlade_1_06: 2445406758269209422
-      Barbarian_ThunderBlade_2_10: 3875650413096516999
-      Barbarian_ThunderBlade_1_11: -1359642819933730365
-      Barbarian_ThunderBlade_3_07: 8577859236412015601
-      Barbarian_ThunderBlade_2_05: 6382281790109420702
-      Barbarian_ThunderBlade_3_08: -6993127658281024774
-      Barbarian_ThunderBlade_1_03: 9199418745929676603
-      Barbarian_ThunderBlade_0_08: -623380167346913578
-      Barbarian_ThunderBlade_1_08: -2681619880123638062
-      Barbarian_ThunderBlade_0_16: -7898092177949055223
-      Barbarian_ThunderBlade_3_05: -2237923486156293997
-      Barbarian_ThunderBlade_2_06: 3791242299915579330
-      Barbarian_ThunderBlade_3_11: 7829183198016849789
-      Barbarian_ThunderBlade_0_14: 56552900194604062
-      Barbarian_ThunderBlade_0_13: -4868236624553971784
-      Barbarian_ThunderBlade_3_15: -5030029269707223537
-      Barbarian_ThunderBlade_3_10: -5889313480494025020
-      Barbarian_ThunderBlade_3_02: 972884384592826629
       Barbarian_ThunderBlade_0_06: 7821287418256452675
-      Barbarian_ThunderBlade_3_01: -7728933936972796738
-      Barbarian_ThunderBlade_3_13: -2579203492564202394
+      Barbarian_ThunderBlade_0_07: -3462724150843015824
+      Barbarian_ThunderBlade_0_08: -623380167346913578
+      Barbarian_ThunderBlade_0_09: 3431676782513613046
+      Barbarian_ThunderBlade_0_10: 1505890418784678304
+      Barbarian_ThunderBlade_0_11: 8455209744532347133
+      Barbarian_ThunderBlade_0_12: -3881299975537321189
+      Barbarian_ThunderBlade_0_13: -4868236624553971784
+      Barbarian_ThunderBlade_0_14: 56552900194604062
+      Barbarian_ThunderBlade_0_15: -3945653249791028168
+      Barbarian_ThunderBlade_0_16: -7898092177949055223
+      Barbarian_ThunderBlade_1_00: 7346741528991973842
+      Barbarian_ThunderBlade_1_01: 1274731305827043136
+      Barbarian_ThunderBlade_1_02: -6630705684325264995
+      Barbarian_ThunderBlade_1_03: 9199418745929676603
+      Barbarian_ThunderBlade_1_04: 5098420190529941005
+      Barbarian_ThunderBlade_1_05: -3836151003987894854
+      Barbarian_ThunderBlade_1_06: 2445406758269209422
+      Barbarian_ThunderBlade_1_07: 1220731627778302084
+      Barbarian_ThunderBlade_1_08: -2681619880123638062
+      Barbarian_ThunderBlade_1_09: 613527618037147945
+      Barbarian_ThunderBlade_1_10: -9205854620909451462
+      Barbarian_ThunderBlade_1_11: -1359642819933730365
+      Barbarian_ThunderBlade_1_12: -4552198364916156596
+      Barbarian_ThunderBlade_1_13: -4532792664681398245
+      Barbarian_ThunderBlade_1_14: 911372585955243414
+      Barbarian_ThunderBlade_1_15: -6184710061574902228
+      Barbarian_ThunderBlade_1_16: 1132328773508873793
+      Barbarian_ThunderBlade_2_00: 8641024475986055805
+      Barbarian_ThunderBlade_2_01: 4801837018316043500
       Barbarian_ThunderBlade_2_02: -140470899356641701
-  spritePackingTag: 
+      Barbarian_ThunderBlade_2_03: -955633278181454954
+      Barbarian_ThunderBlade_2_04: -8029994207455820990
+      Barbarian_ThunderBlade_2_05: 6382281790109420702
+      Barbarian_ThunderBlade_2_06: 3791242299915579330
+      Barbarian_ThunderBlade_2_07: 1822034213541211757
+      Barbarian_ThunderBlade_2_08: -984895212100748276
+      Barbarian_ThunderBlade_2_09: 342763151848843904
+      Barbarian_ThunderBlade_2_10: 3875650413096516999
+      Barbarian_ThunderBlade_2_11: -4030781055713428530
+      Barbarian_ThunderBlade_2_12: 1438576427017034276
+      Barbarian_ThunderBlade_2_13: -1593460713245780325
+      Barbarian_ThunderBlade_2_14: 7868999776631330886
+      Barbarian_ThunderBlade_2_15: -8545598131635395454
+      Barbarian_ThunderBlade_2_16: 8991537880391966388
+      Barbarian_ThunderBlade_3_00: 9021982977594053339
+      Barbarian_ThunderBlade_3_01: -7728933936972796738
+      Barbarian_ThunderBlade_3_02: 972884384592826629
+      Barbarian_ThunderBlade_3_03: -8628851442688525593
+      Barbarian_ThunderBlade_3_04: 2469743942262644107
+      Barbarian_ThunderBlade_3_05: -2237923486156293997
+      Barbarian_ThunderBlade_3_06: 8288147248198887461
+      Barbarian_ThunderBlade_3_07: 8577859236412015601
+      Barbarian_ThunderBlade_3_08: -6993127658281024774
+      Barbarian_ThunderBlade_3_09: -176028407981182985
+      Barbarian_ThunderBlade_3_10: -5889313480494025020
+      Barbarian_ThunderBlade_3_11: 7829183198016849789
+      Barbarian_ThunderBlade_3_12: 3553466951755384271
+      Barbarian_ThunderBlade_3_13: -2579203492564202394
+      Barbarian_ThunderBlade_3_14: -4117664533419586991
+      Barbarian_ThunderBlade_3_15: -5030029269707223537
+      Barbarian_ThunderBlade_3_16: 2710394591167809544
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

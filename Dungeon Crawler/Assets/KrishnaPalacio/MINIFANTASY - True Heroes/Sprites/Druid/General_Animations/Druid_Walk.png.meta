@@ -68,11 +68,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 1
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -111,6 +112,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
@@ -123,6 +125,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -135,6 +138,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -147,6 +151,33 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -499,25 +530,24 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Druid_Walk_1_00: -5389941732967508181
-      Druid_Walk_1_02: 3635508649797286495
-      Druid_Walk_0_01: 8581229385144822644
-      Druid_Walk_1_01: -6937456091217336798
-      Druid_Walk_3_00: -2815450275259300386
-      Druid_Walk_0_03: 5533536239698923996
-      Druid_Walk_2_02: 6498845477668669345
       Druid_Walk_0_00: -2005362215968772832
-      Druid_Walk_3_01: 3198765456444585096
-      Druid_Walk_2_03: -4035456380850786469
+      Druid_Walk_0_01: 8581229385144822644
       Druid_Walk_0_02: 84038715937091196
+      Druid_Walk_0_03: 5533536239698923996
+      Druid_Walk_1_00: -5389941732967508181
+      Druid_Walk_1_01: -6937456091217336798
+      Druid_Walk_1_02: 3635508649797286495
+      Druid_Walk_1_03: 1439931633020821995
       Druid_Walk_2_00: 8454824098130527683
       Druid_Walk_2_01: 5396585737319697858
-      Druid_Walk_3_03: 6945186452872233764
+      Druid_Walk_2_02: 6498845477668669345
+      Druid_Walk_2_03: -4035456380850786469
+      Druid_Walk_3_00: -2815450275259300386
+      Druid_Walk_3_01: 3198765456444585096
       Druid_Walk_3_02: -1950435254644320645
-      Druid_Walk_1_03: 1439931633020821995
-  spritePackingTag: 
+      Druid_Walk_3_03: 6945186452872233764
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

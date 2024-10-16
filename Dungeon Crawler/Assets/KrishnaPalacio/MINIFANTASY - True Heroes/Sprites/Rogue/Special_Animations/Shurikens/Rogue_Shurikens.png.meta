@@ -200,11 +200,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 1
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -243,6 +244,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
@@ -255,6 +257,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -267,6 +270,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -279,6 +283,33 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -1555,69 +1586,68 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Rogue_Shurikens_3_00: -3475764728585005671
-      Rogue_Shurikens_1_09: -5254743234977044192
-      Rogue_Shurikens_0_01: 8058659744260925830
-      Rogue_Shurikens_3_13: -8450030100478641357
-      Rogue_Shurikens_0_03: 1469458381853877854
-      Rogue_Shurikens_0_11: -8677018038950056208
-      Rogue_Shurikens_3_12: -8220925660654715507
-      Rogue_Shurikens_1_02: -3848395489267154280
-      Rogue_Shurikens_2_14: 2755002144527338651
-      Rogue_Shurikens_2_01: -250934955694618719
-      Rogue_Shurikens_2_07: -7727227536410150358
-      Rogue_Shurikens_0_13: 9194164623005298123
-      Rogue_Shurikens_2_05: 2773385024946775106
-      Rogue_Shurikens_3_06: -3058296202671106611
-      Rogue_Shurikens_0_04: 7331755868907592410
-      Rogue_Shurikens_1_04: -5061527194054533680
-      Rogue_Shurikens_2_12: -1366813346788102882
-      Rogue_Shurikens_1_14: 5071523740576986247
-      Rogue_Shurikens_3_11: 5069199548123048495
       Rogue_Shurikens_0_00: -6470524111555238879
-      Rogue_Shurikens_2_04: -2575197364967003966
-      Rogue_Shurikens_2_13: 558724097173615700
-      Rogue_Shurikens_0_14: 8251507571235624089
+      Rogue_Shurikens_0_01: 8058659744260925830
+      Rogue_Shurikens_0_02: -2674918401701392151
+      Rogue_Shurikens_0_03: 1469458381853877854
+      Rogue_Shurikens_0_04: 7331755868907592410
+      Rogue_Shurikens_0_05: -8970815265556814577
+      Rogue_Shurikens_0_06: 5643628303747622410
+      Rogue_Shurikens_0_07: 2911879621403949083
       Rogue_Shurikens_0_08: 4344788422993664614
+      Rogue_Shurikens_0_09: -3797040488037829174
+      Rogue_Shurikens_0_10: -8960469087632390963
+      Rogue_Shurikens_0_11: -8677018038950056208
+      Rogue_Shurikens_0_12: -6386634578727612856
+      Rogue_Shurikens_0_13: 9194164623005298123
+      Rogue_Shurikens_0_14: 8251507571235624089
+      Rogue_Shurikens_1_00: -3062838136833020108
+      Rogue_Shurikens_1_01: -333445823286421384
+      Rogue_Shurikens_1_02: -3848395489267154280
+      Rogue_Shurikens_1_03: -3652386568657107818
+      Rogue_Shurikens_1_04: -5061527194054533680
+      Rogue_Shurikens_1_05: 8985958376558193921
+      Rogue_Shurikens_1_06: 2378524131001308323
+      Rogue_Shurikens_1_07: 143862403764462025
+      Rogue_Shurikens_1_08: -2323076708423510725
+      Rogue_Shurikens_1_09: -5254743234977044192
+      Rogue_Shurikens_1_10: -4368680962527545349
+      Rogue_Shurikens_1_11: 8100182095284733614
+      Rogue_Shurikens_1_12: 3751146575271165183
+      Rogue_Shurikens_1_13: 3578727654061894901
+      Rogue_Shurikens_1_14: 5071523740576986247
+      Rogue_Shurikens_2_00: 3494177516288873618
+      Rogue_Shurikens_2_01: -250934955694618719
+      Rogue_Shurikens_2_02: -4440767308155810195
+      Rogue_Shurikens_2_03: 7588021590548266615
+      Rogue_Shurikens_2_04: -2575197364967003966
+      Rogue_Shurikens_2_05: 2773385024946775106
+      Rogue_Shurikens_2_06: -2727558440304042164
+      Rogue_Shurikens_2_07: -7727227536410150358
       Rogue_Shurikens_2_08: -6252843917204259143
-      Rogue_Shurikens_3_09: -9118489444139372808
       Rogue_Shurikens_2_09: 464773735338194521
       Rogue_Shurikens_2_10: -2200452769007719415
-      Rogue_Shurikens_3_10: 6716541603072177973
-      Rogue_Shurikens_1_06: 2378524131001308323
-      Rogue_Shurikens_2_03: 7588021590548266615
-      Rogue_Shurikens_3_08: -2746819095196948415
+      Rogue_Shurikens_2_11: 5729414106487578417
+      Rogue_Shurikens_2_12: -1366813346788102882
+      Rogue_Shurikens_2_13: 558724097173615700
+      Rogue_Shurikens_2_14: 2755002144527338651
+      Rogue_Shurikens_3_00: -3475764728585005671
+      Rogue_Shurikens_3_01: -645629460269793918
+      Rogue_Shurikens_3_02: -3448303321573402302
       Rogue_Shurikens_3_03: -3153516590502241526
       Rogue_Shurikens_3_04: -2584117323912788202
-      Rogue_Shurikens_0_05: -8970815265556814577
-      Rogue_Shurikens_1_03: -3652386568657107818
-      Rogue_Shurikens_1_11: 8100182095284733614
-      Rogue_Shurikens_1_10: -4368680962527545349
-      Rogue_Shurikens_1_05: 8985958376558193921
-      Rogue_Shurikens_3_07: -4791416899052342974
-      Rogue_Shurikens_0_09: -3797040488037829174
-      Rogue_Shurikens_1_07: 143862403764462025
-      Rogue_Shurikens_3_01: -645629460269793918
-      Rogue_Shurikens_0_07: 2911879621403949083
-      Rogue_Shurikens_0_02: -2674918401701392151
-      Rogue_Shurikens_2_11: 5729414106487578417
-      Rogue_Shurikens_0_12: -6386634578727612856
-      Rogue_Shurikens_1_13: 3578727654061894901
-      Rogue_Shurikens_1_12: 3751146575271165183
-      Rogue_Shurikens_1_00: -3062838136833020108
-      Rogue_Shurikens_3_02: -3448303321573402302
       Rogue_Shurikens_3_05: 1678086093270822438
-      Rogue_Shurikens_2_02: -4440767308155810195
-      Rogue_Shurikens_2_00: 3494177516288873618
-      Rogue_Shurikens_1_01: -333445823286421384
-      Rogue_Shurikens_0_06: 5643628303747622410
-      Rogue_Shurikens_1_08: -2323076708423510725
-      Rogue_Shurikens_0_10: -8960469087632390963
-      Rogue_Shurikens_2_06: -2727558440304042164
+      Rogue_Shurikens_3_06: -3058296202671106611
+      Rogue_Shurikens_3_07: -4791416899052342974
+      Rogue_Shurikens_3_08: -2746819095196948415
+      Rogue_Shurikens_3_09: -9118489444139372808
+      Rogue_Shurikens_3_10: 6716541603072177973
+      Rogue_Shurikens_3_11: 5069199548123048495
+      Rogue_Shurikens_3_12: -8220925660654715507
+      Rogue_Shurikens_3_13: -8450030100478641357
       Rogue_Shurikens_3_14: -8145085466213136873
-  spritePackingTag: 
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

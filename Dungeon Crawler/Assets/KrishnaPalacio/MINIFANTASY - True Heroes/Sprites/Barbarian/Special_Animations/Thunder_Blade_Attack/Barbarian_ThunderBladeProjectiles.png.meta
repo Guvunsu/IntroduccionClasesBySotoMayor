@@ -128,11 +128,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 1
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -171,6 +172,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
@@ -183,6 +185,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -195,6 +198,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -207,6 +211,33 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -979,45 +1010,44 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Barbarian_ThunderBladeProjectiles_2_01: 4783248174175730965
-      Barbarian_ThunderBladeProjectiles_0_02: 7476514907480759533
-      Barbarian_ThunderBladeProjectiles_2_00: -5653380184456568504
+      Barbarian_ThunderBladeProjectiles_0_00: -2011526429698918646
       Barbarian_ThunderBladeProjectiles_0_01: -5866136535906612216
-      Barbarian_ThunderBladeProjectiles_1_09: -5391580022411455050
-      Barbarian_ThunderBladeProjectiles_0_07: -297538464608594258
-      Barbarian_ThunderBladeProjectiles_0_08: -9133506041835338808
-      Barbarian_ThunderBladeProjectiles_1_08: 9051095661585340968
-      Barbarian_ThunderBladeProjectiles_2_07: -9164955444720830887
+      Barbarian_ThunderBladeProjectiles_0_02: 7476514907480759533
+      Barbarian_ThunderBladeProjectiles_0_03: -6581955711427090758
       Barbarian_ThunderBladeProjectiles_0_04: 1558469185305493048
       Barbarian_ThunderBladeProjectiles_0_05: -7011568785076397911
-      Barbarian_ThunderBladeProjectiles_1_00: 2462774538261745810
-      Barbarian_ThunderBladeProjectiles_1_04: -966336771160447959
-      Barbarian_ThunderBladeProjectiles_1_06: -5458097648225813525
-      Barbarian_ThunderBladeProjectiles_0_03: -6581955711427090758
-      Barbarian_ThunderBladeProjectiles_1_02: 2129539248537847670
       Barbarian_ThunderBladeProjectiles_0_06: 2398509377071610056
+      Barbarian_ThunderBladeProjectiles_0_07: -297538464608594258
+      Barbarian_ThunderBladeProjectiles_0_08: -9133506041835338808
       Barbarian_ThunderBladeProjectiles_0_09: 691375110266465253
+      Barbarian_ThunderBladeProjectiles_0_10: 3811044724567664736
+      Barbarian_ThunderBladeProjectiles_0_11: 7604415321656406753
+      Barbarian_ThunderBladeProjectiles_1_00: 2462774538261745810
+      Barbarian_ThunderBladeProjectiles_1_01: -5492963734939068415
+      Barbarian_ThunderBladeProjectiles_1_02: 2129539248537847670
+      Barbarian_ThunderBladeProjectiles_1_03: 5806005004353313791
+      Barbarian_ThunderBladeProjectiles_1_04: -966336771160447959
+      Barbarian_ThunderBladeProjectiles_1_05: -3102877721279832143
+      Barbarian_ThunderBladeProjectiles_1_06: -5458097648225813525
+      Barbarian_ThunderBladeProjectiles_1_07: 1524827414533054153
+      Barbarian_ThunderBladeProjectiles_1_08: 9051095661585340968
+      Barbarian_ThunderBladeProjectiles_1_09: -5391580022411455050
+      Barbarian_ThunderBladeProjectiles_1_10: 7256606009241368475
+      Barbarian_ThunderBladeProjectiles_1_11: 8427333150858139916
+      Barbarian_ThunderBladeProjectiles_2_00: -5653380184456568504
+      Barbarian_ThunderBladeProjectiles_2_01: 4783248174175730965
+      Barbarian_ThunderBladeProjectiles_2_02: -2657289005762740769
+      Barbarian_ThunderBladeProjectiles_2_03: 1576754024875602352
+      Barbarian_ThunderBladeProjectiles_2_04: -5325854307289919839
+      Barbarian_ThunderBladeProjectiles_2_05: 1053459927448728141
+      Barbarian_ThunderBladeProjectiles_2_06: 2672679964326501300
+      Barbarian_ThunderBladeProjectiles_2_07: -9164955444720830887
       Barbarian_ThunderBladeProjectiles_2_08: 6396656787300005473
       Barbarian_ThunderBladeProjectiles_2_09: -426485051445606766
-      Barbarian_ThunderBladeProjectiles_2_11: 7445480410065053585
-      Barbarian_ThunderBladeProjectiles_1_01: -5492963734939068415
-      Barbarian_ThunderBladeProjectiles_2_03: 1576754024875602352
-      Barbarian_ThunderBladeProjectiles_1_07: 1524827414533054153
-      Barbarian_ThunderBladeProjectiles_1_10: 7256606009241368475
-      Barbarian_ThunderBladeProjectiles_2_02: -2657289005762740769
       Barbarian_ThunderBladeProjectiles_2_10: -309291634493928376
-      Barbarian_ThunderBladeProjectiles_2_04: -5325854307289919839
-      Barbarian_ThunderBladeProjectiles_0_10: 3811044724567664736
-      Barbarian_ThunderBladeProjectiles_1_03: 5806005004353313791
-      Barbarian_ThunderBladeProjectiles_1_05: -3102877721279832143
-      Barbarian_ThunderBladeProjectiles_0_11: 7604415321656406753
-      Barbarian_ThunderBladeProjectiles_2_06: 2672679964326501300
-      Barbarian_ThunderBladeProjectiles_2_05: 1053459927448728141
-      Barbarian_ThunderBladeProjectiles_0_00: -2011526429698918646
-      Barbarian_ThunderBladeProjectiles_1_11: 8427333150858139916
-  spritePackingTag: 
+      Barbarian_ThunderBladeProjectiles_2_11: 7445480410065053585
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

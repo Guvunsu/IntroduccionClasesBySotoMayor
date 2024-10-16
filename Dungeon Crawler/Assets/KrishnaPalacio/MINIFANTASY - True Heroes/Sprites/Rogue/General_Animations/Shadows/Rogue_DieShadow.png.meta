@@ -98,11 +98,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 1
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -141,6 +142,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
@@ -153,6 +155,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -165,6 +168,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -177,6 +181,33 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -739,35 +770,34 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Rogue_DieShadow_0_07: -8524537651272904597
-      Rogue_DieShadow_0_25: 8894955493764153966
-      Rogue_DieShadow_0_15: 6748930303772001921
-      Rogue_DieShadow_0_12: 7600640178000854794
-      Rogue_DieShadow_0_04: -8839824803666880703
-      Rogue_DieShadow_0_22: -6454103464588166251
-      Rogue_DieShadow_0_08: 6304261943384115989
-      Rogue_DieShadow_0_09: 8995767901568928844
+      Rogue_DieShadow_0_00: 5677590150136390078
+      Rogue_DieShadow_0_01: 2516400669909887521
+      Rogue_DieShadow_0_02: 7981217097660470040
       Rogue_DieShadow_0_03: -439055189408312600
-      Rogue_DieShadow_0_19: -7098699515336796285
-      Rogue_DieShadow_0_18: -6886977169915845677
-      Rogue_DieShadow_0_21: -7079059326516737425
-      Rogue_DieShadow_0_20: 8395551029941471158
-      Rogue_DieShadow_0_24: 6546636840119182742
+      Rogue_DieShadow_0_04: -8839824803666880703
       Rogue_DieShadow_0_05: -789788435513675466
       Rogue_DieShadow_0_06: 5326418568576837939
-      Rogue_DieShadow_0_13: 2883035379803687953
+      Rogue_DieShadow_0_07: -8524537651272904597
+      Rogue_DieShadow_0_08: 6304261943384115989
+      Rogue_DieShadow_0_09: 8995767901568928844
       Rogue_DieShadow_0_10: 3689722347670240241
-      Rogue_DieShadow_0_14: -6819349569870188401
-      Rogue_DieShadow_0_17: -4202916324697514409
       Rogue_DieShadow_0_11: 7667407519589620969
-      Rogue_DieShadow_0_23: 2204180013954795561
-      Rogue_DieShadow_0_00: 5677590150136390078
-      Rogue_DieShadow_0_02: 7981217097660470040
+      Rogue_DieShadow_0_12: 7600640178000854794
+      Rogue_DieShadow_0_13: 2883035379803687953
+      Rogue_DieShadow_0_14: -6819349569870188401
+      Rogue_DieShadow_0_15: 6748930303772001921
       Rogue_DieShadow_0_16: 3728194300042296527
-      Rogue_DieShadow_0_01: 2516400669909887521
-  spritePackingTag: 
+      Rogue_DieShadow_0_17: -4202916324697514409
+      Rogue_DieShadow_0_18: -6886977169915845677
+      Rogue_DieShadow_0_19: -7098699515336796285
+      Rogue_DieShadow_0_20: 8395551029941471158
+      Rogue_DieShadow_0_21: -7079059326516737425
+      Rogue_DieShadow_0_22: -6454103464588166251
+      Rogue_DieShadow_0_23: 2204180013954795561
+      Rogue_DieShadow_0_24: 6546636840119182742
+      Rogue_DieShadow_0_25: 8894955493764153966
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

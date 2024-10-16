@@ -92,11 +92,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 1
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -135,6 +136,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
@@ -147,6 +149,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -159,6 +162,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -171,6 +175,33 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -691,33 +722,32 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Barbarian_AttackBrokenGround_0_04: -6415135794316588584
-      Barbarian_AttackBrokenGround_0_02: -6785393856260770144
-      Barbarian_AttackBrokenGround_3_05: 1138706724453763084
-      Barbarian_AttackBrokenGround_3_02: -2113185254724575701
-      Barbarian_AttackBrokenGround_3_00: -6486126074388749118
+      Barbarian_AttackBrokenGround_0_00: -4134564722025844735
       Barbarian_AttackBrokenGround_0_01: -1773581689632722704
-      Barbarian_AttackBrokenGround_3_04: -1979679224682798448
+      Barbarian_AttackBrokenGround_0_02: -6785393856260770144
+      Barbarian_AttackBrokenGround_0_03: -5994978692518432850
+      Barbarian_AttackBrokenGround_0_04: -6415135794316588584
+      Barbarian_AttackBrokenGround_0_05: 5267511477799255896
+      Barbarian_AttackBrokenGround_1_00: 8977999061699083500
+      Barbarian_AttackBrokenGround_1_01: 6071174132613799928
+      Barbarian_AttackBrokenGround_1_02: -8544394695740159657
+      Barbarian_AttackBrokenGround_1_03: -5236550508083388502
+      Barbarian_AttackBrokenGround_1_04: -1978191148356009017
+      Barbarian_AttackBrokenGround_1_05: -4412251842444150621
+      Barbarian_AttackBrokenGround_2_00: -7656114662844283622
+      Barbarian_AttackBrokenGround_2_01: -1795603496958167607
+      Barbarian_AttackBrokenGround_2_02: -7005740637724368007
       Barbarian_AttackBrokenGround_2_03: 6355210809503767978
       Barbarian_AttackBrokenGround_2_04: 3844752436039194100
-      Barbarian_AttackBrokenGround_1_02: -8544394695740159657
-      Barbarian_AttackBrokenGround_3_03: 3486878796294253282
       Barbarian_AttackBrokenGround_2_05: -2281409374754884898
-      Barbarian_AttackBrokenGround_2_02: -7005740637724368007
-      Barbarian_AttackBrokenGround_1_00: 8977999061699083500
-      Barbarian_AttackBrokenGround_0_03: -5994978692518432850
-      Barbarian_AttackBrokenGround_1_01: 6071174132613799928
-      Barbarian_AttackBrokenGround_2_01: -1795603496958167607
-      Barbarian_AttackBrokenGround_2_00: -7656114662844283622
-      Barbarian_AttackBrokenGround_1_03: -5236550508083388502
-      Barbarian_AttackBrokenGround_0_00: -4134564722025844735
-      Barbarian_AttackBrokenGround_1_04: -1978191148356009017
-      Barbarian_AttackBrokenGround_0_05: 5267511477799255896
-      Barbarian_AttackBrokenGround_1_05: -4412251842444150621
+      Barbarian_AttackBrokenGround_3_00: -6486126074388749118
       Barbarian_AttackBrokenGround_3_01: 794959649944316169
-  spritePackingTag: 
+      Barbarian_AttackBrokenGround_3_02: -2113185254724575701
+      Barbarian_AttackBrokenGround_3_03: 3486878796294253282
+      Barbarian_AttackBrokenGround_3_04: -1979679224682798448
+      Barbarian_AttackBrokenGround_3_05: 1138706724453763084
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

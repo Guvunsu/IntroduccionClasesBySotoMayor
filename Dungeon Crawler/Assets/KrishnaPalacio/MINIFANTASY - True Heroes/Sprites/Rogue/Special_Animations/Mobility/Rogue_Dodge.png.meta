@@ -116,11 +116,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 1
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -159,6 +160,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
@@ -171,6 +173,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -183,6 +186,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -195,6 +199,33 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -883,41 +914,40 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Rogue_Dodge_1_02: 896574244047827117
-      Rogue_Dodge_0_02: 1115788683342690161
-      Rogue_Dodge_1_04: -5628991737649876271
-      Rogue_Dodge_3_07: 2049319656013665081
+      Rogue_Dodge_0_00: -8476935032392604956
       Rogue_Dodge_0_01: -5261657944192699309
-      Rogue_Dodge_3_03: 2757327413665965084
-      Rogue_Dodge_2_05: 1676772714029066551
-      Rogue_Dodge_3_06: -8445863986225743587
+      Rogue_Dodge_0_02: 1115788683342690161
+      Rogue_Dodge_0_03: -549397412484501144
+      Rogue_Dodge_0_04: 3980018454691818017
+      Rogue_Dodge_0_05: -7783874860296582161
+      Rogue_Dodge_0_06: -2469911307784283127
+      Rogue_Dodge_0_07: -5468198524643592512
       Rogue_Dodge_1_00: -3544447054255014562
       Rogue_Dodge_1_01: -8242091280565239977
-      Rogue_Dodge_0_05: -7783874860296582161
-      Rogue_Dodge_3_02: 4862168173917502097
-      Rogue_Dodge_0_06: -2469911307784283127
-      Rogue_Dodge_2_00: 6489893570925974277
+      Rogue_Dodge_1_02: 896574244047827117
       Rogue_Dodge_1_03: -7537741922998738019
-      Rogue_Dodge_3_05: -9218416205858409791
-      Rogue_Dodge_2_01: -8540778469334174929
+      Rogue_Dodge_1_04: -5628991737649876271
       Rogue_Dodge_1_05: -6379367377167115367
-      Rogue_Dodge_2_07: -349410310803665072
-      Rogue_Dodge_0_03: -549397412484501144
-      Rogue_Dodge_0_00: -8476935032392604956
+      Rogue_Dodge_1_06: -1975541689164013903
+      Rogue_Dodge_1_07: 5643769369418975880
+      Rogue_Dodge_2_00: 6489893570925974277
+      Rogue_Dodge_2_01: -8540778469334174929
       Rogue_Dodge_2_02: 4630428301751456780
       Rogue_Dodge_2_03: 4283431507774274428
-      Rogue_Dodge_0_04: 3980018454691818017
-      Rogue_Dodge_2_06: 3768133112659457198
-      Rogue_Dodge_3_00: -1439252944178686934
-      Rogue_Dodge_0_07: -5468198524643592512
-      Rogue_Dodge_3_01: 6561254761609801045
-      Rogue_Dodge_1_06: -1975541689164013903
       Rogue_Dodge_2_04: -7271959646638213199
-      Rogue_Dodge_1_07: 5643769369418975880
+      Rogue_Dodge_2_05: 1676772714029066551
+      Rogue_Dodge_2_06: 3768133112659457198
+      Rogue_Dodge_2_07: -349410310803665072
+      Rogue_Dodge_3_00: -1439252944178686934
+      Rogue_Dodge_3_01: 6561254761609801045
+      Rogue_Dodge_3_02: 4862168173917502097
+      Rogue_Dodge_3_03: 2757327413665965084
       Rogue_Dodge_3_04: -2289476478601386321
-  spritePackingTag: 
+      Rogue_Dodge_3_05: -9218416205858409791
+      Rogue_Dodge_3_06: -8445863986225743587
+      Rogue_Dodge_3_07: 2049319656013665081
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

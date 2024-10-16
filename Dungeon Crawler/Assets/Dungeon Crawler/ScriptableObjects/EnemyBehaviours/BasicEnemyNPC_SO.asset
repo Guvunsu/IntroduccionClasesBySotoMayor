@@ -15,10 +15,10 @@ MonoBehaviour:
   patrolBehaviours:
   - type: 0
     speed: 0
-    time: 1
+    time: 3
   - type: 1
     speed: 1
-    time: 2
+    time: 5
   persecutionBehaviours:
   - type: 3
     speed: 2

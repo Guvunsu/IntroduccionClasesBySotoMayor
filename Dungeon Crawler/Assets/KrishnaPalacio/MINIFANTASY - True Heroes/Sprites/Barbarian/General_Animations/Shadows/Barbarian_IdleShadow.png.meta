@@ -212,11 +212,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 1
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -255,6 +256,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
@@ -267,6 +269,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -279,6 +282,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -291,6 +295,33 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -1651,73 +1682,72 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Barbarian_IdleShadow_0_11: 1409045228245786507
-      Barbarian_IdleShadow_1_02: -749614872733390613
-      Barbarian_IdleShadow_0_07: -945950685369242419
-      Barbarian_IdleShadow_3_02: -7607090055998499731
-      Barbarian_IdleShadow_2_13: 7846335819963630178
-      Barbarian_IdleShadow_1_08: -221708090374893525
-      Barbarian_IdleShadow_0_08: 5841206289242323410
-      Barbarian_IdleShadow_2_05: -4334238011614597317
-      Barbarian_IdleShadow_0_04: -7879573076480662
-      Barbarian_IdleShadow_1_12: 1651757476290808947
-      Barbarian_IdleShadow_3_11: -5524575201630122924
-      Barbarian_IdleShadow_2_14: -895486141380721914
-      Barbarian_IdleShadow_2_06: 4739150003889285926
-      Barbarian_IdleShadow_1_05: 8861021639260188267
-      Barbarian_IdleShadow_1_03: -5786385984041587573
-      Barbarian_IdleShadow_3_07: 4171525271967879803
-      Barbarian_IdleShadow_2_07: -3610641447399012528
-      Barbarian_IdleShadow_2_10: 344398492674838243
-      Barbarian_IdleShadow_2_01: -5925188203955629158
-      Barbarian_IdleShadow_0_06: -2153593138905096332
-      Barbarian_IdleShadow_2_15: 693967414622727281
-      Barbarian_IdleShadow_1_15: 794711305159507964
-      Barbarian_IdleShadow_3_15: 5746751742151546425
-      Barbarian_IdleShadow_0_14: 1114558716197723713
-      Barbarian_IdleShadow_3_09: 7551817297664793305
-      Barbarian_IdleShadow_3_13: 3127458898294633409
-      Barbarian_IdleShadow_2_04: -6422888266760918274
-      Barbarian_IdleShadow_3_10: 243655948274915805
+      Barbarian_IdleShadow_0_00: 6034729228324195212
       Barbarian_IdleShadow_0_01: 810378966699984258
       Barbarian_IdleShadow_0_02: 2621101144977550223
-      Barbarian_IdleShadow_1_06: -5602083755598890165
-      Barbarian_IdleShadow_1_11: 8972391038264138655
-      Barbarian_IdleShadow_3_12: -6806609850452236808
-      Barbarian_IdleShadow_3_03: -1635394114014083456
-      Barbarian_IdleShadow_1_04: -7196576249366992139
+      Barbarian_IdleShadow_0_03: 6687970246065424332
+      Barbarian_IdleShadow_0_04: -7879573076480662
+      Barbarian_IdleShadow_0_05: -7383506238350419781
+      Barbarian_IdleShadow_0_06: -2153593138905096332
+      Barbarian_IdleShadow_0_07: -945950685369242419
+      Barbarian_IdleShadow_0_08: 5841206289242323410
+      Barbarian_IdleShadow_0_09: 7289914966816872792
+      Barbarian_IdleShadow_0_10: -3091354498029981205
+      Barbarian_IdleShadow_0_11: 1409045228245786507
+      Barbarian_IdleShadow_0_12: -8340824211413960129
       Barbarian_IdleShadow_0_13: 4279290537928034261
-      Barbarian_IdleShadow_3_08: 2665561047015189193
+      Barbarian_IdleShadow_0_14: 1114558716197723713
+      Barbarian_IdleShadow_0_15: -738456146436367799
+      Barbarian_IdleShadow_1_00: 9194882502374329363
+      Barbarian_IdleShadow_1_01: 5835289649604422244
+      Barbarian_IdleShadow_1_02: -749614872733390613
+      Barbarian_IdleShadow_1_03: -5786385984041587573
+      Barbarian_IdleShadow_1_04: -7196576249366992139
+      Barbarian_IdleShadow_1_05: 8861021639260188267
+      Barbarian_IdleShadow_1_06: -5602083755598890165
+      Barbarian_IdleShadow_1_07: 8534831022134090760
+      Barbarian_IdleShadow_1_08: -221708090374893525
+      Barbarian_IdleShadow_1_09: -538861283314214602
+      Barbarian_IdleShadow_1_10: 3600248366374520804
+      Barbarian_IdleShadow_1_11: 8972391038264138655
+      Barbarian_IdleShadow_1_12: 1651757476290808947
       Barbarian_IdleShadow_1_13: 4711723257673248604
       Barbarian_IdleShadow_1_14: 7859779031177813958
-      Barbarian_IdleShadow_3_14: 8196908157800543641
-      Barbarian_IdleShadow_3_04: -5926918739503027367
-      Barbarian_IdleShadow_3_06: 4458955122520357569
-      Barbarian_IdleShadow_0_09: 7289914966816872792
-      Barbarian_IdleShadow_3_05: -1400354164650129979
-      Barbarian_IdleShadow_2_11: 9028210572850640252
-      Barbarian_IdleShadow_3_00: -4080152739589257791
-      Barbarian_IdleShadow_0_00: 6034729228324195212
-      Barbarian_IdleShadow_0_12: -8340824211413960129
-      Barbarian_IdleShadow_1_00: 9194882502374329363
-      Barbarian_IdleShadow_1_09: -538861283314214602
+      Barbarian_IdleShadow_1_15: 794711305159507964
       Barbarian_IdleShadow_2_00: -629971782311459690
-      Barbarian_IdleShadow_2_08: -7730898540320839941
-      Barbarian_IdleShadow_1_01: 5835289649604422244
+      Barbarian_IdleShadow_2_01: -5925188203955629158
       Barbarian_IdleShadow_2_02: -1175062704108943907
-      Barbarian_IdleShadow_0_03: 6687970246065424332
-      Barbarian_IdleShadow_1_10: 3600248366374520804
-      Barbarian_IdleShadow_2_12: 6134266195471838790
-      Barbarian_IdleShadow_0_10: -3091354498029981205
-      Barbarian_IdleShadow_0_15: -738456146436367799
       Barbarian_IdleShadow_2_03: -3986887328959040107
-      Barbarian_IdleShadow_3_01: 6795889225009935634
-      Barbarian_IdleShadow_0_05: -7383506238350419781
-      Barbarian_IdleShadow_1_07: 8534831022134090760
+      Barbarian_IdleShadow_2_04: -6422888266760918274
+      Barbarian_IdleShadow_2_05: -4334238011614597317
+      Barbarian_IdleShadow_2_06: 4739150003889285926
+      Barbarian_IdleShadow_2_07: -3610641447399012528
+      Barbarian_IdleShadow_2_08: -7730898540320839941
       Barbarian_IdleShadow_2_09: -2085652510335152070
-  spritePackingTag: 
+      Barbarian_IdleShadow_2_10: 344398492674838243
+      Barbarian_IdleShadow_2_11: 9028210572850640252
+      Barbarian_IdleShadow_2_12: 6134266195471838790
+      Barbarian_IdleShadow_2_13: 7846335819963630178
+      Barbarian_IdleShadow_2_14: -895486141380721914
+      Barbarian_IdleShadow_2_15: 693967414622727281
+      Barbarian_IdleShadow_3_00: -4080152739589257791
+      Barbarian_IdleShadow_3_01: 6795889225009935634
+      Barbarian_IdleShadow_3_02: -7607090055998499731
+      Barbarian_IdleShadow_3_03: -1635394114014083456
+      Barbarian_IdleShadow_3_04: -5926918739503027367
+      Barbarian_IdleShadow_3_05: -1400354164650129979
+      Barbarian_IdleShadow_3_06: 4458955122520357569
+      Barbarian_IdleShadow_3_07: 4171525271967879803
+      Barbarian_IdleShadow_3_08: 2665561047015189193
+      Barbarian_IdleShadow_3_09: 7551817297664793305
+      Barbarian_IdleShadow_3_10: 243655948274915805
+      Barbarian_IdleShadow_3_11: -5524575201630122924
+      Barbarian_IdleShadow_3_12: -6806609850452236808
+      Barbarian_IdleShadow_3_13: 3127458898294633409
+      Barbarian_IdleShadow_3_14: 8196908157800543641
+      Barbarian_IdleShadow_3_15: 5746751742151546425
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

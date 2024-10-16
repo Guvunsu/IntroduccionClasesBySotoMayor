@@ -152,11 +152,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 1
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -195,6 +196,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
@@ -207,6 +209,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -219,6 +222,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -231,6 +235,33 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -1171,53 +1202,52 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Rogue_ThrowBomb_1_00: 8374409518449833704
-      Rogue_ThrowBomb_0_04: -1490193558610538382
-      Rogue_ThrowBomb_3_04: 9187774045147805690
-      Rogue_ThrowBomb_3_10: -2933493186559864150
-      Rogue_ThrowBomb_2_03: 1205915343766824585
-      Rogue_ThrowBomb_3_01: -6694478348883435317
-      Rogue_ThrowBomb_3_00: -3062969123696309963
-      Rogue_ThrowBomb_0_03: -7252064052390936397
       Rogue_ThrowBomb_0_00: -8009012062521144906
-      Rogue_ThrowBomb_3_09: 8090618833481439567
-      Rogue_ThrowBomb_1_03: 7899531008882371598
-      Rogue_ThrowBomb_1_05: -6468263289798758305
-      Rogue_ThrowBomb_1_07: 5078850600314739886
-      Rogue_ThrowBomb_3_08: -8800166425482819645
-      Rogue_ThrowBomb_0_06: 1868709598029534358
-      Rogue_ThrowBomb_2_10: -1309753630260818515
       Rogue_ThrowBomb_0_01: -649000692316483900
-      Rogue_ThrowBomb_3_02: -3487754883476184549
       Rogue_ThrowBomb_0_02: 5900336860512924500
-      Rogue_ThrowBomb_2_06: 735644378564466368
-      Rogue_ThrowBomb_2_09: -5411703247981897768
-      Rogue_ThrowBomb_0_07: 5889447885211698781
-      Rogue_ThrowBomb_3_06: 2294445416885329694
-      Rogue_ThrowBomb_1_10: -3709941083822196319
+      Rogue_ThrowBomb_0_03: -7252064052390936397
+      Rogue_ThrowBomb_0_04: -1490193558610538382
       Rogue_ThrowBomb_0_05: -2005083751159202892
+      Rogue_ThrowBomb_0_06: 1868709598029534358
+      Rogue_ThrowBomb_0_07: 5889447885211698781
       Rogue_ThrowBomb_0_08: 6969010469877879814
-      Rogue_ThrowBomb_2_02: 5976997968172895238
-      Rogue_ThrowBomb_2_04: 1619048515899583942
-      Rogue_ThrowBomb_2_01: -2133337792170267548
-      Rogue_ThrowBomb_1_06: 8853738910476182579
       Rogue_ThrowBomb_0_09: -7230621719390029613
-      Rogue_ThrowBomb_3_03: 2018735256089512017
-      Rogue_ThrowBomb_2_07: -849546157579394447
+      Rogue_ThrowBomb_0_10: -1275919238946191846
+      Rogue_ThrowBomb_1_00: 8374409518449833704
+      Rogue_ThrowBomb_1_01: 8595076929248208134
+      Rogue_ThrowBomb_1_02: -1486097304766036631
+      Rogue_ThrowBomb_1_03: 7899531008882371598
+      Rogue_ThrowBomb_1_04: 8748605085889124483
+      Rogue_ThrowBomb_1_05: -6468263289798758305
+      Rogue_ThrowBomb_1_06: 8853738910476182579
+      Rogue_ThrowBomb_1_07: 5078850600314739886
       Rogue_ThrowBomb_1_08: 1097422098541067500
       Rogue_ThrowBomb_1_09: -2369547578194457649
-      Rogue_ThrowBomb_1_02: -1486097304766036631
-      Rogue_ThrowBomb_0_10: -1275919238946191846
-      Rogue_ThrowBomb_3_05: 4778335064049371386
-      Rogue_ThrowBomb_1_04: 8748605085889124483
+      Rogue_ThrowBomb_1_10: -3709941083822196319
       Rogue_ThrowBomb_2_00: -5436462380177196911
+      Rogue_ThrowBomb_2_01: -2133337792170267548
+      Rogue_ThrowBomb_2_02: 5976997968172895238
+      Rogue_ThrowBomb_2_03: 1205915343766824585
+      Rogue_ThrowBomb_2_04: 1619048515899583942
       Rogue_ThrowBomb_2_05: 6203229713579669238
-      Rogue_ThrowBomb_3_07: 6905327277044150344
-      Rogue_ThrowBomb_1_01: 8595076929248208134
+      Rogue_ThrowBomb_2_06: 735644378564466368
+      Rogue_ThrowBomb_2_07: -849546157579394447
       Rogue_ThrowBomb_2_08: 4835545586046169298
-  spritePackingTag: 
+      Rogue_ThrowBomb_2_09: -5411703247981897768
+      Rogue_ThrowBomb_2_10: -1309753630260818515
+      Rogue_ThrowBomb_3_00: -3062969123696309963
+      Rogue_ThrowBomb_3_01: -6694478348883435317
+      Rogue_ThrowBomb_3_02: -3487754883476184549
+      Rogue_ThrowBomb_3_03: 2018735256089512017
+      Rogue_ThrowBomb_3_04: 9187774045147805690
+      Rogue_ThrowBomb_3_05: 4778335064049371386
+      Rogue_ThrowBomb_3_06: 2294445416885329694
+      Rogue_ThrowBomb_3_07: 6905327277044150344
+      Rogue_ThrowBomb_3_08: -8800166425482819645
+      Rogue_ThrowBomb_3_09: 8090618833481439567
+      Rogue_ThrowBomb_3_10: -2933493186559864150
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

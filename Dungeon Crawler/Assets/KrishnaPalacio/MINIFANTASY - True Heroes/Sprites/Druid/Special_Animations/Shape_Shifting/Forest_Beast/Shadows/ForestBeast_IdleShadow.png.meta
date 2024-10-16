@@ -152,11 +152,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 1
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -195,6 +196,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
@@ -207,6 +209,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -219,6 +222,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -231,6 +235,33 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -1171,53 +1202,52 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      ForestBeast_IdleShadow_2_03: -1501664844859372174
-      ForestBeast_IdleShadow_2_01: 8737562254281613641
-      ForestBeast_IdleShadow_1_06: 7046350505353734611
-      ForestBeast_IdleShadow_0_05: 2539366121142420829
-      ForestBeast_IdleShadow_0_08: 3059527056157015080
-      ForestBeast_IdleShadow_0_04: 8552808170454188406
-      ForestBeast_IdleShadow_0_07: 2782372537271285529
-      ForestBeast_IdleShadow_2_04: 7054407518175817277
-      ForestBeast_IdleShadow_1_04: 2853436852505083022
-      ForestBeast_IdleShadow_3_01: -928166955458899450
-      ForestBeast_IdleShadow_0_02: -6933556922796739771
-      ForestBeast_IdleShadow_2_06: 5036809234890630091
-      ForestBeast_IdleShadow_0_03: -4079160975845387579
-      ForestBeast_IdleShadow_2_09: -6552900127770263234
-      ForestBeast_IdleShadow_1_02: 3912878065090088050
-      ForestBeast_IdleShadow_2_05: -3454375376994014087
-      ForestBeast_IdleShadow_3_09: 8476808266519381277
-      ForestBeast_IdleShadow_3_00: -5841466481647345188
-      ForestBeast_IdleShadow_3_06: -2684106666621472291
-      ForestBeast_IdleShadow_1_07: 5112816628166687108
-      ForestBeast_IdleShadow_3_07: -429274847203627851
-      ForestBeast_IdleShadow_1_00: -6572663034796895646
-      ForestBeast_IdleShadow_1_09: 7094477622807529728
-      ForestBeast_IdleShadow_0_10: -2071835177622368195
-      ForestBeast_IdleShadow_2_02: 2799694391140085708
-      ForestBeast_IdleShadow_0_09: -7330608776278670527
-      ForestBeast_IdleShadow_2_07: 423901348260053687
-      ForestBeast_IdleShadow_1_08: -8255862881551964174
       ForestBeast_IdleShadow_0_00: 3883179095246604904
       ForestBeast_IdleShadow_0_01: 8028162566258461439
-      ForestBeast_IdleShadow_1_03: -8863076324771917665
-      ForestBeast_IdleShadow_3_10: -9005111980390113781
-      ForestBeast_IdleShadow_2_08: 5261915005089670892
-      ForestBeast_IdleShadow_3_04: 6031130285270114590
-      ForestBeast_IdleShadow_3_03: 463333885359571296
+      ForestBeast_IdleShadow_0_02: -6933556922796739771
+      ForestBeast_IdleShadow_0_03: -4079160975845387579
+      ForestBeast_IdleShadow_0_04: 8552808170454188406
+      ForestBeast_IdleShadow_0_05: 2539366121142420829
       ForestBeast_IdleShadow_0_06: 4685803087054107077
-      ForestBeast_IdleShadow_2_10: 4293496678939470344
-      ForestBeast_IdleShadow_2_00: 8150134721241177039
+      ForestBeast_IdleShadow_0_07: 2782372537271285529
+      ForestBeast_IdleShadow_0_08: 3059527056157015080
+      ForestBeast_IdleShadow_0_09: -7330608776278670527
+      ForestBeast_IdleShadow_0_10: -2071835177622368195
+      ForestBeast_IdleShadow_1_00: -6572663034796895646
       ForestBeast_IdleShadow_1_01: 4371215392194745334
-      ForestBeast_IdleShadow_3_02: -2301367042398665872
-      ForestBeast_IdleShadow_3_08: 4688528886858136127
-      ForestBeast_IdleShadow_3_05: -2221619010021185393
-      ForestBeast_IdleShadow_1_10: 3615498688190823639
+      ForestBeast_IdleShadow_1_02: 3912878065090088050
+      ForestBeast_IdleShadow_1_03: -8863076324771917665
+      ForestBeast_IdleShadow_1_04: 2853436852505083022
       ForestBeast_IdleShadow_1_05: -2587772299834022728
-  spritePackingTag: 
+      ForestBeast_IdleShadow_1_06: 7046350505353734611
+      ForestBeast_IdleShadow_1_07: 5112816628166687108
+      ForestBeast_IdleShadow_1_08: -8255862881551964174
+      ForestBeast_IdleShadow_1_09: 7094477622807529728
+      ForestBeast_IdleShadow_1_10: 3615498688190823639
+      ForestBeast_IdleShadow_2_00: 8150134721241177039
+      ForestBeast_IdleShadow_2_01: 8737562254281613641
+      ForestBeast_IdleShadow_2_02: 2799694391140085708
+      ForestBeast_IdleShadow_2_03: -1501664844859372174
+      ForestBeast_IdleShadow_2_04: 7054407518175817277
+      ForestBeast_IdleShadow_2_05: -3454375376994014087
+      ForestBeast_IdleShadow_2_06: 5036809234890630091
+      ForestBeast_IdleShadow_2_07: 423901348260053687
+      ForestBeast_IdleShadow_2_08: 5261915005089670892
+      ForestBeast_IdleShadow_2_09: -6552900127770263234
+      ForestBeast_IdleShadow_2_10: 4293496678939470344
+      ForestBeast_IdleShadow_3_00: -5841466481647345188
+      ForestBeast_IdleShadow_3_01: -928166955458899450
+      ForestBeast_IdleShadow_3_02: -2301367042398665872
+      ForestBeast_IdleShadow_3_03: 463333885359571296
+      ForestBeast_IdleShadow_3_04: 6031130285270114590
+      ForestBeast_IdleShadow_3_05: -2221619010021185393
+      ForestBeast_IdleShadow_3_06: -2684106666621472291
+      ForestBeast_IdleShadow_3_07: -429274847203627851
+      ForestBeast_IdleShadow_3_08: 4688528886858136127
+      ForestBeast_IdleShadow_3_09: 8476808266519381277
+      ForestBeast_IdleShadow_3_10: -9005111980390113781
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

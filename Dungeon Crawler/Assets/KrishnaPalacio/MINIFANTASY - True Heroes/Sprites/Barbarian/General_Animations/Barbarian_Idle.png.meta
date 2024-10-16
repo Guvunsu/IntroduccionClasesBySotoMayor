@@ -212,11 +212,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 1
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -255,6 +256,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
@@ -267,6 +269,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -279,6 +282,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -291,6 +295,33 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -1651,73 +1682,72 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Barbarian_Idle_3_11: 4206222307254722840
-      Barbarian_Idle_0_04: -7292417272352711073
-      Barbarian_Idle_0_15: 6553123269836475117
-      Barbarian_Idle_1_01: 7298729165193281055
-      Barbarian_Idle_2_15: -1346127096553373271
-      Barbarian_Idle_0_03: -5000548066390371503
-      Barbarian_Idle_0_01: 2858322793884652947
-      Barbarian_Idle_0_12: -6895936072002176764
-      Barbarian_Idle_0_11: -7951815446063330029
-      Barbarian_Idle_1_09: -2489671752363452448
-      Barbarian_Idle_1_07: -2759418781777739931
-      Barbarian_Idle_3_15: -1157460468980048563
-      Barbarian_Idle_2_09: 2971999510240459089
-      Barbarian_Idle_2_02: -7173192078935776053
-      Barbarian_Idle_1_08: 1564989801930019569
-      Barbarian_Idle_0_02: 5879441952268446154
       Barbarian_Idle_0_00: 144358105095527518
-      Barbarian_Idle_3_04: -7961854148623938909
-      Barbarian_Idle_2_07: -1051962020531056771
-      Barbarian_Idle_3_07: 8331867777759899175
-      Barbarian_Idle_2_10: -470709953470849238
-      Barbarian_Idle_3_14: -3328842420868749701
+      Barbarian_Idle_0_01: 2858322793884652947
+      Barbarian_Idle_0_02: 5879441952268446154
+      Barbarian_Idle_0_03: -5000548066390371503
+      Barbarian_Idle_0_04: -7292417272352711073
+      Barbarian_Idle_0_05: 3301303139404533334
+      Barbarian_Idle_0_06: -5313111135581660328
+      Barbarian_Idle_0_07: -3772858756953804362
+      Barbarian_Idle_0_08: -9065284335413900753
+      Barbarian_Idle_0_09: -649702202731025952
+      Barbarian_Idle_0_10: 2391231289012769600
+      Barbarian_Idle_0_11: -7951815446063330029
+      Barbarian_Idle_0_12: -6895936072002176764
+      Barbarian_Idle_0_13: -7827755583619377504
+      Barbarian_Idle_0_14: -1734253713105915642
+      Barbarian_Idle_0_15: 6553123269836475117
+      Barbarian_Idle_1_00: -8033777872786021371
+      Barbarian_Idle_1_01: 7298729165193281055
+      Barbarian_Idle_1_02: -7644971809363008571
+      Barbarian_Idle_1_03: -406709839738018855
+      Barbarian_Idle_1_04: 3021495663748802711
+      Barbarian_Idle_1_05: 434249480852330869
+      Barbarian_Idle_1_06: 4093231154734218810
+      Barbarian_Idle_1_07: -2759418781777739931
+      Barbarian_Idle_1_08: 1564989801930019569
+      Barbarian_Idle_1_09: -2489671752363452448
+      Barbarian_Idle_1_10: 1616500717792749456
       Barbarian_Idle_1_11: -4097226411901625824
       Barbarian_Idle_1_12: -5170651846526920853
-      Barbarian_Idle_0_05: 3301303139404533334
-      Barbarian_Idle_1_05: 434249480852330869
-      Barbarian_Idle_0_07: -3772858756953804362
-      Barbarian_Idle_2_06: -534646121544006447
-      Barbarian_Idle_3_13: -1208496878563454195
       Barbarian_Idle_1_13: 2400708088677758973
-      Barbarian_Idle_1_04: 3021495663748802711
-      Barbarian_Idle_0_09: -649702202731025952
-      Barbarian_Idle_2_14: -8789427402243192302
-      Barbarian_Idle_3_10: -7232994352833778481
-      Barbarian_Idle_3_05: 1899852197063565182
-      Barbarian_Idle_0_13: -7827755583619377504
-      Barbarian_Idle_3_00: 6530792476991667452
-      Barbarian_Idle_1_00: -8033777872786021371
-      Barbarian_Idle_0_06: -5313111135581660328
+      Barbarian_Idle_1_14: 437150247419032705
+      Barbarian_Idle_1_15: -5266779524312707596
+      Barbarian_Idle_2_00: 3460259786764254768
       Barbarian_Idle_2_01: 4479945491165193578
-      Barbarian_Idle_3_01: -8452626627081097128
-      Barbarian_Idle_1_02: -7644971809363008571
+      Barbarian_Idle_2_02: -7173192078935776053
       Barbarian_Idle_2_03: 4155517973244128652
       Barbarian_Idle_2_04: 1852379458233657448
-      Barbarian_Idle_3_06: -8645547782566476546
-      Barbarian_Idle_0_10: 2391231289012769600
-      Barbarian_Idle_2_08: -4201536761942099771
-      Barbarian_Idle_1_03: -406709839738018855
-      Barbarian_Idle_1_15: -5266779524312707596
-      Barbarian_Idle_3_08: -3178034305557421297
-      Barbarian_Idle_3_02: 5483463180384581619
-      Barbarian_Idle_0_14: -1734253713105915642
-      Barbarian_Idle_0_08: -9065284335413900753
       Barbarian_Idle_2_05: -7887456206092875408
+      Barbarian_Idle_2_06: -534646121544006447
+      Barbarian_Idle_2_07: -1051962020531056771
+      Barbarian_Idle_2_08: -4201536761942099771
+      Barbarian_Idle_2_09: 2971999510240459089
+      Barbarian_Idle_2_10: -470709953470849238
       Barbarian_Idle_2_11: -5101855481264203648
-      Barbarian_Idle_1_14: 437150247419032705
-      Barbarian_Idle_2_00: 3460259786764254768
-      Barbarian_Idle_1_06: 4093231154734218810
-      Barbarian_Idle_3_12: 1150610103500319315
-      Barbarian_Idle_3_09: 5510392845169736485
       Barbarian_Idle_2_12: -314161029320492573
-      Barbarian_Idle_3_03: 1001437830185727265
-      Barbarian_Idle_1_10: 1616500717792749456
       Barbarian_Idle_2_13: -4520686870320881248
-  spritePackingTag: 
+      Barbarian_Idle_2_14: -8789427402243192302
+      Barbarian_Idle_2_15: -1346127096553373271
+      Barbarian_Idle_3_00: 6530792476991667452
+      Barbarian_Idle_3_01: -8452626627081097128
+      Barbarian_Idle_3_02: 5483463180384581619
+      Barbarian_Idle_3_03: 1001437830185727265
+      Barbarian_Idle_3_04: -7961854148623938909
+      Barbarian_Idle_3_05: 1899852197063565182
+      Barbarian_Idle_3_06: -8645547782566476546
+      Barbarian_Idle_3_07: 8331867777759899175
+      Barbarian_Idle_3_08: -3178034305557421297
+      Barbarian_Idle_3_09: 5510392845169736485
+      Barbarian_Idle_3_10: -7232994352833778481
+      Barbarian_Idle_3_11: 4206222307254722840
+      Barbarian_Idle_3_12: 1150610103500319315
+      Barbarian_Idle_3_13: -1208496878563454195
+      Barbarian_Idle_3_14: -3328842420868749701
+      Barbarian_Idle_3_15: -1157460468980048563
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

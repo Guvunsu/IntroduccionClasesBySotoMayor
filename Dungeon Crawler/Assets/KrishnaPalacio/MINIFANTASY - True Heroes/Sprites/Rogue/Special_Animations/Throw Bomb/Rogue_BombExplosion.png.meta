@@ -53,11 +53,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 1
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -96,6 +97,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
@@ -108,6 +110,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -120,6 +123,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -132,6 +136,33 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -379,20 +410,19 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Rogue_BombExplosion_0_04: -6311967976622703756
-      Rogue_BombExplosion_0_06: -318078411873832865
-      Rogue_BombExplosion_0_10: 7946418812262658093
-      Rogue_BombExplosion_0_07: 5678678311018258130
-      Rogue_BombExplosion_0_05: -1879752718535663827
-      Rogue_BombExplosion_0_03: 9046714887975196720
-      Rogue_BombExplosion_0_09: -8244253332281019044
-      Rogue_BombExplosion_0_01: 912921102212864944
-      Rogue_BombExplosion_0_08: 4240716341076786571
-      Rogue_BombExplosion_0_02: 342857790511209056
       Rogue_BombExplosion_0_00: -3397464471521144363
-  spritePackingTag: 
+      Rogue_BombExplosion_0_01: 912921102212864944
+      Rogue_BombExplosion_0_02: 342857790511209056
+      Rogue_BombExplosion_0_03: 9046714887975196720
+      Rogue_BombExplosion_0_04: -6311967976622703756
+      Rogue_BombExplosion_0_05: -1879752718535663827
+      Rogue_BombExplosion_0_06: -318078411873832865
+      Rogue_BombExplosion_0_07: 5678678311018258130
+      Rogue_BombExplosion_0_08: 4240716341076786571
+      Rogue_BombExplosion_0_09: -8244253332281019044
+      Rogue_BombExplosion_0_10: 7946418812262658093
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

@@ -152,11 +152,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 1
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -195,6 +196,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
@@ -207,6 +209,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -219,6 +222,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -231,6 +235,33 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -1171,53 +1202,52 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Rogue_ThrowBombShadow_0_10: -6047998519609128003
-      Rogue_ThrowBombShadow_1_08: 6034110797449888222
-      Rogue_ThrowBombShadow_2_07: -7830997227689095504
-      Rogue_ThrowBombShadow_1_09: 367580434022620689
-      Rogue_ThrowBombShadow_0_03: -1928312578313426687
-      Rogue_ThrowBombShadow_2_10: 7543579459513978570
-      Rogue_ThrowBombShadow_2_00: -2110580067700774517
-      Rogue_ThrowBombShadow_2_06: -1465520943679521863
-      Rogue_ThrowBombShadow_3_05: 9108943060359951825
-      Rogue_ThrowBombShadow_1_02: -3123304784564927242
-      Rogue_ThrowBombShadow_3_09: 523468910922610118
-      Rogue_ThrowBombShadow_0_04: -7223914383729722644
-      Rogue_ThrowBombShadow_2_05: -2112997583276526016
-      Rogue_ThrowBombShadow_3_10: -3605551509012901459
-      Rogue_ThrowBombShadow_3_08: -3722730001216979616
-      Rogue_ThrowBombShadow_3_01: 6528153769766065453
-      Rogue_ThrowBombShadow_0_05: -5581328148927226376
-      Rogue_ThrowBombShadow_1_01: -3535006075242492451
-      Rogue_ThrowBombShadow_3_02: 7158296662034406552
-      Rogue_ThrowBombShadow_2_08: -5154154713435293433
       Rogue_ThrowBombShadow_0_00: 6565050063384907109
-      Rogue_ThrowBombShadow_2_03: 3287033944686898429
-      Rogue_ThrowBombShadow_2_01: 4148551586789333093
-      Rogue_ThrowBombShadow_3_00: 7778248452278999697
-      Rogue_ThrowBombShadow_1_03: 4722363210929247744
-      Rogue_ThrowBombShadow_1_07: -4630006908344993498
-      Rogue_ThrowBombShadow_1_05: -1049898587339089326
-      Rogue_ThrowBombShadow_3_03: 3373589433987315323
-      Rogue_ThrowBombShadow_1_10: -13293205898665057
-      Rogue_ThrowBombShadow_1_06: 390659198217380627
-      Rogue_ThrowBombShadow_1_00: 3965034022466416284
-      Rogue_ThrowBombShadow_3_06: 7681328031615156357
-      Rogue_ThrowBombShadow_0_08: 5285111712558976664
-      Rogue_ThrowBombShadow_1_04: 7162138567131289137
-      Rogue_ThrowBombShadow_3_07: -6651652590261797049
-      Rogue_ThrowBombShadow_0_02: -6611544937356234406
-      Rogue_ThrowBombShadow_3_04: 295367829459251871
-      Rogue_ThrowBombShadow_0_07: -8771446627358447286
       Rogue_ThrowBombShadow_0_01: -462131300467364527
-      Rogue_ThrowBombShadow_0_09: 3795986073830924932
-      Rogue_ThrowBombShadow_2_02: -1246855526166957975
-      Rogue_ThrowBombShadow_2_04: -7263620502985057266
+      Rogue_ThrowBombShadow_0_02: -6611544937356234406
+      Rogue_ThrowBombShadow_0_03: -1928312578313426687
+      Rogue_ThrowBombShadow_0_04: -7223914383729722644
+      Rogue_ThrowBombShadow_0_05: -5581328148927226376
       Rogue_ThrowBombShadow_0_06: -4679348864437616718
+      Rogue_ThrowBombShadow_0_07: -8771446627358447286
+      Rogue_ThrowBombShadow_0_08: 5285111712558976664
+      Rogue_ThrowBombShadow_0_09: 3795986073830924932
+      Rogue_ThrowBombShadow_0_10: -6047998519609128003
+      Rogue_ThrowBombShadow_1_00: 3965034022466416284
+      Rogue_ThrowBombShadow_1_01: -3535006075242492451
+      Rogue_ThrowBombShadow_1_02: -3123304784564927242
+      Rogue_ThrowBombShadow_1_03: 4722363210929247744
+      Rogue_ThrowBombShadow_1_04: 7162138567131289137
+      Rogue_ThrowBombShadow_1_05: -1049898587339089326
+      Rogue_ThrowBombShadow_1_06: 390659198217380627
+      Rogue_ThrowBombShadow_1_07: -4630006908344993498
+      Rogue_ThrowBombShadow_1_08: 6034110797449888222
+      Rogue_ThrowBombShadow_1_09: 367580434022620689
+      Rogue_ThrowBombShadow_1_10: -13293205898665057
+      Rogue_ThrowBombShadow_2_00: -2110580067700774517
+      Rogue_ThrowBombShadow_2_01: 4148551586789333093
+      Rogue_ThrowBombShadow_2_02: -1246855526166957975
+      Rogue_ThrowBombShadow_2_03: 3287033944686898429
+      Rogue_ThrowBombShadow_2_04: -7263620502985057266
+      Rogue_ThrowBombShadow_2_05: -2112997583276526016
+      Rogue_ThrowBombShadow_2_06: -1465520943679521863
+      Rogue_ThrowBombShadow_2_07: -7830997227689095504
+      Rogue_ThrowBombShadow_2_08: -5154154713435293433
       Rogue_ThrowBombShadow_2_09: -748962972746212060
-  spritePackingTag: 
+      Rogue_ThrowBombShadow_2_10: 7543579459513978570
+      Rogue_ThrowBombShadow_3_00: 7778248452278999697
+      Rogue_ThrowBombShadow_3_01: 6528153769766065453
+      Rogue_ThrowBombShadow_3_02: 7158296662034406552
+      Rogue_ThrowBombShadow_3_03: 3373589433987315323
+      Rogue_ThrowBombShadow_3_04: 295367829459251871
+      Rogue_ThrowBombShadow_3_05: 9108943060359951825
+      Rogue_ThrowBombShadow_3_06: 7681328031615156357
+      Rogue_ThrowBombShadow_3_07: -6651652590261797049
+      Rogue_ThrowBombShadow_3_08: -3722730001216979616
+      Rogue_ThrowBombShadow_3_09: 523468910922610118
+      Rogue_ThrowBombShadow_3_10: -3605551509012901459
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

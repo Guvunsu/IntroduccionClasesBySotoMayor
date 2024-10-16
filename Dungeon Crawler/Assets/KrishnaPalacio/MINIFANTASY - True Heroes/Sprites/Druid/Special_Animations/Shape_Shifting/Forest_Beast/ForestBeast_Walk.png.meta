@@ -92,11 +92,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 1
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -135,6 +136,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
@@ -147,6 +149,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -159,6 +162,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -171,6 +175,33 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -691,33 +722,32 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      ForestBeast_Walk_1_05: -7408409330517089104
-      ForestBeast_Walk_1_00: 3987883691794580852
-      ForestBeast_Walk_0_05: -1870381891228859476
-      ForestBeast_Walk_1_01: 7399146624332112819
-      ForestBeast_Walk_2_02: -823467165102485531
-      ForestBeast_Walk_1_03: -5286182249168844797
-      ForestBeast_Walk_0_03: -8042517284514483488
-      ForestBeast_Walk_2_04: -263368818912089198
       ForestBeast_Walk_0_00: -7740294329254793579
+      ForestBeast_Walk_0_01: -6714463828077624257
+      ForestBeast_Walk_0_02: -8172536737500349502
+      ForestBeast_Walk_0_03: -8042517284514483488
+      ForestBeast_Walk_0_04: -1952933533231288088
+      ForestBeast_Walk_0_05: -1870381891228859476
+      ForestBeast_Walk_1_00: 3987883691794580852
+      ForestBeast_Walk_1_01: 7399146624332112819
+      ForestBeast_Walk_1_02: 3812901927073766982
+      ForestBeast_Walk_1_03: -5286182249168844797
+      ForestBeast_Walk_1_04: 5691161591611506263
+      ForestBeast_Walk_1_05: -7408409330517089104
       ForestBeast_Walk_2_00: 988056323257593457
+      ForestBeast_Walk_2_01: -366300289493088664
+      ForestBeast_Walk_2_02: -823467165102485531
+      ForestBeast_Walk_2_03: 1786979082016336587
+      ForestBeast_Walk_2_04: -263368818912089198
+      ForestBeast_Walk_2_05: 3648076581604519505
+      ForestBeast_Walk_3_00: 6076806867969977910
       ForestBeast_Walk_3_01: 1412175606583784918
+      ForestBeast_Walk_3_02: -2420429365514578352
+      ForestBeast_Walk_3_03: 3336176919695665626
       ForestBeast_Walk_3_04: -2775732316510035720
       ForestBeast_Walk_3_05: 8451627004118498675
-      ForestBeast_Walk_0_01: -6714463828077624257
-      ForestBeast_Walk_3_03: 3336176919695665626
-      ForestBeast_Walk_0_02: -8172536737500349502
-      ForestBeast_Walk_1_02: 3812901927073766982
-      ForestBeast_Walk_3_00: 6076806867969977910
-      ForestBeast_Walk_0_04: -1952933533231288088
-      ForestBeast_Walk_1_04: 5691161591611506263
-      ForestBeast_Walk_2_05: 3648076581604519505
-      ForestBeast_Walk_2_03: 1786979082016336587
-      ForestBeast_Walk_3_02: -2420429365514578352
-      ForestBeast_Walk_2_01: -366300289493088664
-  spritePackingTag: 
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

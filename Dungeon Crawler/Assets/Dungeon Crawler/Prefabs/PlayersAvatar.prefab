@@ -57,21 +57,25 @@ PrefabInstance:
       value: PlayersAvatar
       objectReference: {fileID: 0}
     - target: {fileID: 4658189665935228654, guid: ab90cba76176bc44f9b70b84ee440fb0, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -9058724814914859733, guid: 931999edf61c9bb498b0ac5a5cdce39c, type: 3}
+    - target: {fileID: 4658189665935228654, guid: ab90cba76176bc44f9b70b84ee440fb0, type: 3}
       propertyPath: m_Color.b
-      value: 0.09500711
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4658189665935228654, guid: ab90cba76176bc44f9b70b84ee440fb0, type: 3}
       propertyPath: m_Color.g
-      value: 0.5754717
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4658189665935228654, guid: ab90cba76176bc44f9b70b84ee440fb0, type: 3}
       propertyPath: m_Color.r
-      value: 0.14408837
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7996550187066274308, guid: ab90cba76176bc44f9b70b84ee440fb0, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 22100000, guid: 58fa5a0038ca36a4085bb6f4afeb34cd, type: 2}
+      objectReference: {fileID: 22100000, guid: ff0769c03c90c5c4581cff36b86a6d50, type: 2}
     m_RemovedComponents:
     - {fileID: 2660077242759885590, guid: ab90cba76176bc44f9b70b84ee440fb0, type: 3}
     m_RemovedGameObjects: []

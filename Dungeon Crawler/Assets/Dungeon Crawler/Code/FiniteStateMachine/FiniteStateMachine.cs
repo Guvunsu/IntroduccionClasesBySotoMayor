@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -64,6 +65,14 @@ namespace SotomaYorch.DungeonCrawler
             
         }
 
+        protected void CleanAnimatorFlags()
+        {
+            foreach (StateMechanics stateMechanic in Enum.GetValues(typeof(StateMechanics)))
+            {
+                _animator.SetBool(stateMechanic.ToString(), false);
+            }
+        }
+
         #endregion
 
         #region UnityMethods
@@ -93,9 +102,18 @@ namespace SotomaYorch.DungeonCrawler
             _animator.SetBool(value.ToString(), true);
         }
 
+        public void SetState(States value)
+        {
+            CleanAnimatorFlags();
+            _state = value;
+            //InitializeState();
+        }
+
         #endregion
 
         #region GettersSetters
+
+
 
         #endregion
     }

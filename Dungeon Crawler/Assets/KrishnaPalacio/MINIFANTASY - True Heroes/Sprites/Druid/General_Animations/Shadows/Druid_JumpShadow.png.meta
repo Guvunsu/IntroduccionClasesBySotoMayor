@@ -68,11 +68,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 1
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -111,6 +112,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
@@ -123,6 +125,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -135,6 +138,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -147,6 +151,33 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -499,25 +530,24 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Druid_JumpShadow_2_00: -4664385914186717146
-      Druid_JumpShadow_3_00: -6424483304483265703
       Druid_JumpShadow_0_00: 337438350913177620
       Druid_JumpShadow_0_01: 1810587260064336128
-      Druid_JumpShadow_2_01: 4448518423830689733
+      Druid_JumpShadow_0_02: -8557014024652697794
       Druid_JumpShadow_0_03: -7832962928652597673
+      Druid_JumpShadow_1_00: 8696444240147784139
       Druid_JumpShadow_1_01: 4022124555452169499
-      Druid_JumpShadow_3_01: -2362359765199559565
+      Druid_JumpShadow_1_02: -8221272984517592470
+      Druid_JumpShadow_1_03: -8693210589971433573
+      Druid_JumpShadow_2_00: -4664385914186717146
+      Druid_JumpShadow_2_01: 4448518423830689733
       Druid_JumpShadow_2_02: -847832105647844345
       Druid_JumpShadow_2_03: -6521962730631992087
-      Druid_JumpShadow_3_03: -6188699612144635746
+      Druid_JumpShadow_3_00: -6424483304483265703
+      Druid_JumpShadow_3_01: -2362359765199559565
       Druid_JumpShadow_3_02: 2431942709806939014
-      Druid_JumpShadow_1_02: -8221272984517592470
-      Druid_JumpShadow_0_02: -8557014024652697794
-      Druid_JumpShadow_1_00: 8696444240147784139
-      Druid_JumpShadow_1_03: -8693210589971433573
-  spritePackingTag: 
+      Druid_JumpShadow_3_03: -6188699612144635746
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

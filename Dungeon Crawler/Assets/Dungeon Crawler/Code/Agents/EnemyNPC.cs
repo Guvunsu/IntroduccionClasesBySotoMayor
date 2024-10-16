@@ -91,6 +91,38 @@ namespace SotomaYorch.DungeonCrawler
             }
         }
 
+        protected void InitializeSubState()
+        {
+            switch (_currentEnemyBehaviour.type)
+            {
+                case EnemyBehaviourType.STOP:
+                    InitializeStopSubStateMachine();
+                    break;
+                case EnemyBehaviourType.MOVE_TO_RANDOM_DIRECTION:
+                    InitializeMoveToRandomDirectionSubStateMachine();
+                    break;
+                case EnemyBehaviourType.PERSECUTE_THE_AVATAR:
+                    InitializePersecuteTheAvatarSubStateMachine();
+                    break;
+            }
+        }
+
+        protected void FinalizeSubState()
+        {
+            switch (_currentEnemyBehaviour.type)
+            {
+                case EnemyBehaviourType.STOP:
+                    FinalizeStopSubStateMachine();
+                    break;
+                case EnemyBehaviourType.MOVE_TO_RANDOM_DIRECTION:
+                    FinalizeMoveToRandomDirectionSubStateMachine();
+                    break;
+                case EnemyBehaviourType.PERSECUTE_THE_AVATAR:
+                    FinalizePersecuteTheAvatarSubStateMachine();
+                    break;
+            }
+        }
+
         #endregion
 
         #region UnityMethods
@@ -99,43 +131,26 @@ namespace SotomaYorch.DungeonCrawler
         {
             InitializeAgent();
         }
+
         void FixedUpdate()
         {
-            switch (_currentEnemyBehaviour.Type)
+            switch (_currentEnemyBehaviour.type)
             {
-                case EnemyBehaviourType.Stop:
-                    ExecutingStopSubStateMachine():
-                        break;
+                case EnemyBehaviourType.STOP:
+                    ExecutingStopSubStateMachine();
+                    break;
                 case EnemyBehaviourType.MOVE_TO_RANDOM_DIRECTION:
                     ExecutingMoveToRandomDirectionSubStateMachine();
                     break;
                 case EnemyBehaviourType.PERSECUTE_THE_AVATAR:
-                    ExcecutingPersecuteTheAvatarSubstateMachineMethods();
+                    ExecutingPersecuteTheAvatarSubStateMachine();
                     break;
             }
         }
-        protected void FinalizeSubState()
-        {
-            switch (_currentEnemyBehaviour.Type)
-            {
-                case EnemyBehaviourType.Stop:
-                    FinalizeStopSubStateMachine():
-                        break;
-                case EnemyBehaviourType.MOVE_TO_RANDOM_DIRECTION:
-                    FinalizeMoveToRandomDirectionSubStateMachine();
-                    break;
-                case EnemyBehaviourType.PERSECUTE_THE_AVATAR:
-                    FinalizePersecuteTheAvatarSubstateMachineMethods();
-                    break;
-            }
-            void Update()
-            {
-
-            }
 
         #endregion
 
-            #region PublicMethods
+        #region PublicMethods
 
         public override void InitializeAgent()
         {
@@ -155,8 +170,9 @@ namespace SotomaYorch.DungeonCrawler
             }
             InvokeStateMechanic();
 
-            //initialize the proper substate
-            InitializeSubstate();
+            //Initialize the proper sub-state
+            InitializeSubState();
+
             if (_currentEnemyBehaviour.time > 0)
             {
                 //It is not a perpetual finite state,
@@ -164,19 +180,7 @@ namespace SotomaYorch.DungeonCrawler
                 StartCoroutine(TimerForEnemyBehaviour());
             }
         }
-        protected void InitializeSubstate()
-        {
-            switch (_currentEnemyBehaviour.type)
-            {
-                case EnemyBehaviourType.STOP:
-                    InitializeBehaviourType.MOVE_TO_RANDOM_DIRECTIOPN:
-                        InitializeMoveToRandomDirectionSubStateMachine();
-                    break;
-                case EnemyBehaviourType.PERSECUTE_THE_AVATAR:
-                    InitializePersecuteTheAvatarSubStateMachine();
-                    break;
-            }
-        }
+
         #endregion
 
         #region GettersSetters
@@ -185,53 +189,69 @@ namespace SotomaYorch.DungeonCrawler
 
         #region SubStateMachineStates
 
-        #region StopSubstateMachineMethods
-        protected void InitializeStopSubstateMachineMethods()
-        {
+        #region StopSubStateMachineMethods
 
-        }
-        protected void ExcecutingStopSubstateMachineMethods()
+        protected void InitializeStopSubStateMachine()
         {
-
+            //do nothing
         }
-        protected void FinalizeStopSubstateMachineMethods()
+
+        protected void ExecutingStopSubStateMachine()
         {
-
+            //do nothing
         }
-        #endregion StopSubstateMachineMethods
+
+        protected void FinalizeStopSubStateMachine()
+        {
+            //do nothing
+        }
+
+        #endregion StopSubStateMachineMethods
 
         #region MoveToRandomDirectionSubStateMachineMethods
-        protected void InitializeMoveToRandomDirectionSubStateMachineMethods()
+
+        protected void InitializeMoveToRandomDirectionSubStateMachine()
         {
             _rigidbody.velocity =
-                new Vector2(UnityEngine.Random.Range(-1.0f, 1.0f),
-                Unity.Engine.Random.Range(-1.0f, 1.0f).normalized * _currentEnemyBehaviour.speed;
+                new Vector2(
+                    UnityEngine.Random.Range(-1.0f, 1.0f),
+                    UnityEngine.Random.Range(-1.0f, 1.0f)
+                ).normalized 
+                * _currentEnemyBehaviour.speed;
         }
-        protected void ExcecutingMoveToRandomDirectionSubStateMachineMethods()
-        {
 
+        protected void ExecutingMoveToRandomDirectionSubStateMachine()
+        {
+            //Do nothing
         }
-        protected void FinalizeMoveToRandomDirectionSubStateMachineMethods()
+
+        protected void FinalizeMoveToRandomDirectionSubStateMachine()
         {
             _rigidbody.velocity = Vector2.zero;
         }
-        #endregion MoveToRandomDirectionSubstateMachineMethods
 
-        #region PersecuteTheAvatarSubstateMachineMethods
-        protected void InitializePersecuteTheAvatarSubstateMachineMethods()
+        #endregion MoveToRandomDirectionSubStateMachineMethods
+
+        #region PersecuteTheAvatarSubStateMachineMethods
+
+        protected void InitializePersecuteTheAvatarSubStateMachine()
         {
 
         }
-        protected void ExcecutingPersecuteTheAvatarSubstateMachineMethods()
+
+        protected void ExecutingPersecuteTheAvatarSubStateMachine()
+        {
+            
+        }
+
+        protected void FinalizePersecuteTheAvatarSubStateMachine()
         {
 
         }
-        protected void FinalizePersecuteTheAvatarSubstateMachineMethods()
-        {
 
-        }
-        #endregion PersecuterTheAvatarSubstateMachineMethods
+        #endregion PersecuteTheAvatarSubStateMachineMethods
 
         #endregion SubStateMachineStates
+
     }
 }

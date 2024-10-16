@@ -92,11 +92,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 1
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -135,6 +136,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
@@ -147,6 +149,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -159,6 +162,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -171,6 +175,33 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -691,33 +722,32 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      ForestBeast_WalkShadow_0_00: 7025021616566582251
       ForestBeast_WalkShadow_0_01: 4248317455821800160
-      ForestBeast_WalkShadow_0_05: -4322825076996632851
-      ForestBeast_WalkShadow_2_04: 5987914726501691305
+      ForestBeast_WalkShadow_0_02: 8351177152442315081
       ForestBeast_WalkShadow_0_03: -4793892931953936760
-      ForestBeast_WalkShadow_2_03: -7523173465068280387
-      ForestBeast_WalkShadow_2_01: 3238182487605887461
+      ForestBeast_WalkShadow_0_04: -3783876099157459513
+      ForestBeast_WalkShadow_0_05: -4322825076996632851
+      ForestBeast_WalkShadow_1_00: 4016068783577116633
+      ForestBeast_WalkShadow_1_01: -1398440875097796378
       ForestBeast_WalkShadow_1_02: 6457670565775692538
       ForestBeast_WalkShadow_1_03: 8500219314920495927
-      ForestBeast_WalkShadow_1_05: -7842558827345018688
-      ForestBeast_WalkShadow_1_00: 4016068783577116633
-      ForestBeast_WalkShadow_2_00: 5814931133330568996
-      ForestBeast_WalkShadow_1_01: -1398440875097796378
-      ForestBeast_WalkShadow_3_02: -827956712621938154
-      ForestBeast_WalkShadow_0_04: -3783876099157459513
-      ForestBeast_WalkShadow_2_05: -1531577024100262369
-      ForestBeast_WalkShadow_3_03: 1223423725279808952
-      ForestBeast_WalkShadow_0_00: 7025021616566582251
-      ForestBeast_WalkShadow_2_02: 2291188267988588000
-      ForestBeast_WalkShadow_3_00: -1882180822122159084
       ForestBeast_WalkShadow_1_04: 3199836742358134580
-      ForestBeast_WalkShadow_0_02: 8351177152442315081
-      ForestBeast_WalkShadow_3_05: 5517267303672052680
-      ForestBeast_WalkShadow_3_04: 2452679092210210238
+      ForestBeast_WalkShadow_1_05: -7842558827345018688
+      ForestBeast_WalkShadow_2_00: 5814931133330568996
+      ForestBeast_WalkShadow_2_01: 3238182487605887461
+      ForestBeast_WalkShadow_2_02: 2291188267988588000
+      ForestBeast_WalkShadow_2_03: -7523173465068280387
+      ForestBeast_WalkShadow_2_04: 5987914726501691305
+      ForestBeast_WalkShadow_2_05: -1531577024100262369
+      ForestBeast_WalkShadow_3_00: -1882180822122159084
       ForestBeast_WalkShadow_3_01: -8750374545473653550
-  spritePackingTag: 
+      ForestBeast_WalkShadow_3_02: -827956712621938154
+      ForestBeast_WalkShadow_3_03: 1223423725279808952
+      ForestBeast_WalkShadow_3_04: 2452679092210210238
+      ForestBeast_WalkShadow_3_05: 5517267303672052680
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

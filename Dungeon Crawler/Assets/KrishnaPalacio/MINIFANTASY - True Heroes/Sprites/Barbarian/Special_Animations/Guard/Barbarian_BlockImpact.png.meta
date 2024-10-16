@@ -68,11 +68,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 1
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -111,6 +112,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
@@ -123,6 +125,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -135,6 +138,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -147,6 +151,33 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -499,25 +530,24 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Barbarian_BlockImpact_2_03: -6145849762801012585
-      Barbarian_BlockImpact_2_01: 6367566806460741708
-      Barbarian_BlockImpact_1_03: 1029172862565804453
-      Barbarian_BlockImpact_3_02: -4209271273024317124
-      Barbarian_BlockImpact_1_02: -6912031885586402437
-      Barbarian_BlockImpact_0_03: 8843202472582805664
-      Barbarian_BlockImpact_3_00: 4201343556010480945
-      Barbarian_BlockImpact_3_03: -8665206536185982765
       Barbarian_BlockImpact_0_00: -1246346007832541034
-      Barbarian_BlockImpact_2_02: 3955264066390893371
-      Barbarian_BlockImpact_1_00: 2521191363548892291
-      Barbarian_BlockImpact_0_02: -7835424392770714305
       Barbarian_BlockImpact_0_01: 8557302185696377484
-      Barbarian_BlockImpact_3_01: 4238407739135172612
-      Barbarian_BlockImpact_2_00: 8917276960252941260
+      Barbarian_BlockImpact_0_02: -7835424392770714305
+      Barbarian_BlockImpact_0_03: 8843202472582805664
+      Barbarian_BlockImpact_1_00: 2521191363548892291
       Barbarian_BlockImpact_1_01: 8824179071938949391
-  spritePackingTag: 
+      Barbarian_BlockImpact_1_02: -6912031885586402437
+      Barbarian_BlockImpact_1_03: 1029172862565804453
+      Barbarian_BlockImpact_2_00: 8917276960252941260
+      Barbarian_BlockImpact_2_01: 6367566806460741708
+      Barbarian_BlockImpact_2_02: 3955264066390893371
+      Barbarian_BlockImpact_2_03: -6145849762801012585
+      Barbarian_BlockImpact_3_00: 4201343556010480945
+      Barbarian_BlockImpact_3_01: 4238407739135172612
+      Barbarian_BlockImpact_3_02: -4209271273024317124
+      Barbarian_BlockImpact_3_03: -8665206536185982765
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

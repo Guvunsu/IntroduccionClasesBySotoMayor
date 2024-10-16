@@ -200,11 +200,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 1
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -243,6 +244,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
@@ -255,6 +257,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -267,6 +270,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -279,6 +283,33 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -1555,69 +1586,68 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Rogue_ShurikensShadow_0_04: -5367577247020199328
-      Rogue_ShurikensShadow_0_13: 3280375713818480247
-      Rogue_ShurikensShadow_3_13: -3853436053436300794
       Rogue_ShurikensShadow_0_00: -849037136669811579
-      Rogue_ShurikensShadow_0_02: 5552188212166986644
-      Rogue_ShurikensShadow_1_12: -6605361907720684124
-      Rogue_ShurikensShadow_2_09: 4036949632000621243
-      Rogue_ShurikensShadow_3_05: 3313445701121029597
-      Rogue_ShurikensShadow_1_14: -3352871433181746795
-      Rogue_ShurikensShadow_0_10: -7102623476602020535
-      Rogue_ShurikensShadow_1_11: -1533384628774482666
-      Rogue_ShurikensShadow_2_10: -7830864390907486100
-      Rogue_ShurikensShadow_0_09: 1823937953040671437
-      Rogue_ShurikensShadow_1_01: -9074231978403082564
-      Rogue_ShurikensShadow_2_01: -3563184464347528880
-      Rogue_ShurikensShadow_2_04: -5377639122032174922
-      Rogue_ShurikensShadow_3_11: 7801409140666326281
-      Rogue_ShurikensShadow_2_02: 2394164577292812590
-      Rogue_ShurikensShadow_1_03: -2676353149465861189
-      Rogue_ShurikensShadow_2_03: -1591970364936759198
-      Rogue_ShurikensShadow_1_10: 6115220951786667068
-      Rogue_ShurikensShadow_2_07: 8996095394863851350
-      Rogue_ShurikensShadow_0_08: 7257909169677692733
-      Rogue_ShurikensShadow_3_12: 915678191916465090
-      Rogue_ShurikensShadow_1_09: -1466157391405057060
-      Rogue_ShurikensShadow_1_04: -7399545611016763619
-      Rogue_ShurikensShadow_3_04: 4421851718424181841
-      Rogue_ShurikensShadow_3_10: 2159541117756218425
-      Rogue_ShurikensShadow_2_13: -655708742181071598
-      Rogue_ShurikensShadow_1_02: -6487073924304969690
-      Rogue_ShurikensShadow_0_06: 8051574256674473418
-      Rogue_ShurikensShadow_1_00: -2446594685205520506
-      Rogue_ShurikensShadow_2_11: -1712169912369838247
-      Rogue_ShurikensShadow_3_07: 3994642068360712579
-      Rogue_ShurikensShadow_0_12: -5490035498897488269
-      Rogue_ShurikensShadow_1_06: -6763932197765340533
-      Rogue_ShurikensShadow_3_00: 508366792335077239
-      Rogue_ShurikensShadow_2_00: -7965370586156633947
-      Rogue_ShurikensShadow_3_03: 8565541364086427635
-      Rogue_ShurikensShadow_3_02: -7910347337516345611
-      Rogue_ShurikensShadow_3_06: -4227088162630028626
-      Rogue_ShurikensShadow_2_14: -6950083474355658884
-      Rogue_ShurikensShadow_2_12: 8072506533505486004
-      Rogue_ShurikensShadow_2_05: 7107215251644046145
-      Rogue_ShurikensShadow_0_05: -5600218852389729556
-      Rogue_ShurikensShadow_1_05: 7079073557975749423
-      Rogue_ShurikensShadow_2_08: 4514292351597767237
-      Rogue_ShurikensShadow_1_08: 2127499979160506882
-      Rogue_ShurikensShadow_2_06: 7370590163458051860
-      Rogue_ShurikensShadow_1_07: -2042978393453356484
-      Rogue_ShurikensShadow_0_14: 8619223692159360586
-      Rogue_ShurikensShadow_3_08: 8253721575208314047
-      Rogue_ShurikensShadow_3_14: 3757709481768428332
-      Rogue_ShurikensShadow_0_11: -8883533686246605802
-      Rogue_ShurikensShadow_1_13: -3553150789684798528
-      Rogue_ShurikensShadow_3_01: -1351253321091917728
-      Rogue_ShurikensShadow_3_09: 326712709814974300
-      Rogue_ShurikensShadow_0_03: 2231141012602283849
-      Rogue_ShurikensShadow_0_07: -7853604171365775607
       Rogue_ShurikensShadow_0_01: -21475774381264381
-  spritePackingTag: 
+      Rogue_ShurikensShadow_0_02: 5552188212166986644
+      Rogue_ShurikensShadow_0_03: 2231141012602283849
+      Rogue_ShurikensShadow_0_04: -5367577247020199328
+      Rogue_ShurikensShadow_0_05: -5600218852389729556
+      Rogue_ShurikensShadow_0_06: 8051574256674473418
+      Rogue_ShurikensShadow_0_07: -7853604171365775607
+      Rogue_ShurikensShadow_0_08: 7257909169677692733
+      Rogue_ShurikensShadow_0_09: 1823937953040671437
+      Rogue_ShurikensShadow_0_10: -7102623476602020535
+      Rogue_ShurikensShadow_0_11: -8883533686246605802
+      Rogue_ShurikensShadow_0_12: -5490035498897488269
+      Rogue_ShurikensShadow_0_13: 3280375713818480247
+      Rogue_ShurikensShadow_0_14: 8619223692159360586
+      Rogue_ShurikensShadow_1_00: -2446594685205520506
+      Rogue_ShurikensShadow_1_01: -9074231978403082564
+      Rogue_ShurikensShadow_1_02: -6487073924304969690
+      Rogue_ShurikensShadow_1_03: -2676353149465861189
+      Rogue_ShurikensShadow_1_04: -7399545611016763619
+      Rogue_ShurikensShadow_1_05: 7079073557975749423
+      Rogue_ShurikensShadow_1_06: -6763932197765340533
+      Rogue_ShurikensShadow_1_07: -2042978393453356484
+      Rogue_ShurikensShadow_1_08: 2127499979160506882
+      Rogue_ShurikensShadow_1_09: -1466157391405057060
+      Rogue_ShurikensShadow_1_10: 6115220951786667068
+      Rogue_ShurikensShadow_1_11: -1533384628774482666
+      Rogue_ShurikensShadow_1_12: -6605361907720684124
+      Rogue_ShurikensShadow_1_13: -3553150789684798528
+      Rogue_ShurikensShadow_1_14: -3352871433181746795
+      Rogue_ShurikensShadow_2_00: -7965370586156633947
+      Rogue_ShurikensShadow_2_01: -3563184464347528880
+      Rogue_ShurikensShadow_2_02: 2394164577292812590
+      Rogue_ShurikensShadow_2_03: -1591970364936759198
+      Rogue_ShurikensShadow_2_04: -5377639122032174922
+      Rogue_ShurikensShadow_2_05: 7107215251644046145
+      Rogue_ShurikensShadow_2_06: 7370590163458051860
+      Rogue_ShurikensShadow_2_07: 8996095394863851350
+      Rogue_ShurikensShadow_2_08: 4514292351597767237
+      Rogue_ShurikensShadow_2_09: 4036949632000621243
+      Rogue_ShurikensShadow_2_10: -7830864390907486100
+      Rogue_ShurikensShadow_2_11: -1712169912369838247
+      Rogue_ShurikensShadow_2_12: 8072506533505486004
+      Rogue_ShurikensShadow_2_13: -655708742181071598
+      Rogue_ShurikensShadow_2_14: -6950083474355658884
+      Rogue_ShurikensShadow_3_00: 508366792335077239
+      Rogue_ShurikensShadow_3_01: -1351253321091917728
+      Rogue_ShurikensShadow_3_02: -7910347337516345611
+      Rogue_ShurikensShadow_3_03: 8565541364086427635
+      Rogue_ShurikensShadow_3_04: 4421851718424181841
+      Rogue_ShurikensShadow_3_05: 3313445701121029597
+      Rogue_ShurikensShadow_3_06: -4227088162630028626
+      Rogue_ShurikensShadow_3_07: 3994642068360712579
+      Rogue_ShurikensShadow_3_08: 8253721575208314047
+      Rogue_ShurikensShadow_3_09: 326712709814974300
+      Rogue_ShurikensShadow_3_10: 2159541117756218425
+      Rogue_ShurikensShadow_3_11: 7801409140666326281
+      Rogue_ShurikensShadow_3_12: 915678191916465090
+      Rogue_ShurikensShadow_3_13: -3853436053436300794
+      Rogue_ShurikensShadow_3_14: 3757709481768428332
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

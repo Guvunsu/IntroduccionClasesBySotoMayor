@@ -83,11 +83,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 1
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -126,6 +127,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
@@ -138,6 +140,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -150,6 +153,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -162,6 +166,33 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -619,30 +650,29 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Druid_ShapeShiftHumanToForestOwl_0_02: -4317082352598820419
-      Druid_ShapeShiftHumanToForestOwl_0_11: -7520354336560687697
-      Druid_ShapeShiftHumanToForestOwl_0_15: -1915082973638956609
-      Druid_ShapeShiftHumanToForestOwl_0_16: 8227791744951414021
       Druid_ShapeShiftHumanToForestOwl_0_00: -7150383349868347929
-      Druid_ShapeShiftHumanToForestOwl_0_03: 5129169971928514772
-      Druid_ShapeShiftHumanToForestOwl_0_09: -1203006871824933420
-      Druid_ShapeShiftHumanToForestOwl_0_13: 3721684705069666436
-      Druid_ShapeShiftHumanToForestOwl_0_18: 7311376752174308005
-      Druid_ShapeShiftHumanToForestOwl_0_07: -3909224421959799682
-      Druid_ShapeShiftHumanToForestOwl_0_10: 946654947150658535
       Druid_ShapeShiftHumanToForestOwl_0_01: 2137842235759215292
-      Druid_ShapeShiftHumanToForestOwl_0_20: -345980488706696190
-      Druid_ShapeShiftHumanToForestOwl_0_08: 4773455761758369047
-      Druid_ShapeShiftHumanToForestOwl_0_06: -798409522555450657
-      Druid_ShapeShiftHumanToForestOwl_0_14: 8026243590404014277
-      Druid_ShapeShiftHumanToForestOwl_0_19: 1538763924185160940
+      Druid_ShapeShiftHumanToForestOwl_0_02: -4317082352598820419
+      Druid_ShapeShiftHumanToForestOwl_0_03: 5129169971928514772
       Druid_ShapeShiftHumanToForestOwl_0_04: 1668793085687974486
       Druid_ShapeShiftHumanToForestOwl_0_05: -4963609074882122638
-      Druid_ShapeShiftHumanToForestOwl_0_17: -932245557874358979
+      Druid_ShapeShiftHumanToForestOwl_0_06: -798409522555450657
+      Druid_ShapeShiftHumanToForestOwl_0_07: -3909224421959799682
+      Druid_ShapeShiftHumanToForestOwl_0_08: 4773455761758369047
+      Druid_ShapeShiftHumanToForestOwl_0_09: -1203006871824933420
+      Druid_ShapeShiftHumanToForestOwl_0_10: 946654947150658535
+      Druid_ShapeShiftHumanToForestOwl_0_11: -7520354336560687697
       Druid_ShapeShiftHumanToForestOwl_0_12: -6199612772341431351
-  spritePackingTag: 
+      Druid_ShapeShiftHumanToForestOwl_0_13: 3721684705069666436
+      Druid_ShapeShiftHumanToForestOwl_0_14: 8026243590404014277
+      Druid_ShapeShiftHumanToForestOwl_0_15: -1915082973638956609
+      Druid_ShapeShiftHumanToForestOwl_0_16: 8227791744951414021
+      Druid_ShapeShiftHumanToForestOwl_0_17: -932245557874358979
+      Druid_ShapeShiftHumanToForestOwl_0_18: 7311376752174308005
+      Druid_ShapeShiftHumanToForestOwl_0_19: 1538763924185160940
+      Druid_ShapeShiftHumanToForestOwl_0_20: -345980488706696190
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

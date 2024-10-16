@@ -212,11 +212,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 1
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -255,6 +256,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
@@ -267,6 +269,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -279,6 +282,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -291,6 +295,33 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -1651,73 +1682,72 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Rogue_Idle_3_14: 2627064831649824594
-      Rogue_Idle_0_15: 5216935509122743423
-      Rogue_Idle_2_14: 6644951911601527724
-      Rogue_Idle_3_05: 3560693249839596211
-      Rogue_Idle_2_15: 8944654263784555531
-      Rogue_Idle_1_07: -4814239059259539811
-      Rogue_Idle_0_09: 7219205059778931008
-      Rogue_Idle_0_01: -5760282181206330989
-      Rogue_Idle_1_00: -165416595196543542
-      Rogue_Idle_3_12: 6907489012849508687
-      Rogue_Idle_1_13: 2784266849746816743
-      Rogue_Idle_1_02: 6774035353075698575
       Rogue_Idle_0_00: -9058724814914859733
-      Rogue_Idle_1_04: -1503160516238144434
-      Rogue_Idle_2_10: 1388161546070386193
-      Rogue_Idle_3_07: 851016041040784142
+      Rogue_Idle_0_01: -5760282181206330989
       Rogue_Idle_0_02: 7558470524062848596
-      Rogue_Idle_3_00: 2948877515258577580
-      Rogue_Idle_3_02: -5008221175133404428
-      Rogue_Idle_3_08: 2393813270234564333
-      Rogue_Idle_2_00: 1451568073104425249
-      Rogue_Idle_3_04: 9052207959814486163
-      Rogue_Idle_0_14: -9072463652297982535
-      Rogue_Idle_3_15: -5756485307302895973
-      Rogue_Idle_0_13: -105068328573244176
-      Rogue_Idle_2_06: 4113194157382008288
-      Rogue_Idle_1_08: -6975511692224411803
-      Rogue_Idle_2_03: -3627991874279197736
-      Rogue_Idle_1_15: 4811638845724761181
-      Rogue_Idle_2_13: -6816933381756871838
-      Rogue_Idle_0_05: -7182782434554537564
-      Rogue_Idle_2_07: -2601649156826506160
-      Rogue_Idle_1_05: -5300836390668730219
-      Rogue_Idle_1_10: 2573810580580909205
-      Rogue_Idle_2_12: -3225218759050096570
-      Rogue_Idle_3_09: 1021158491459943358
-      Rogue_Idle_0_10: -6826004303778575054
-      Rogue_Idle_3_11: -5542233403441351305
-      Rogue_Idle_0_07: 264043467155571548
-      Rogue_Idle_2_01: -715346600467918928
-      Rogue_Idle_1_01: -4807979252629521490
-      Rogue_Idle_0_08: 7241102676250288814
-      Rogue_Idle_2_11: -4677928797413520288
-      Rogue_Idle_1_12: 5658298871622822053
-      Rogue_Idle_2_02: -2095646980998505051
-      Rogue_Idle_3_01: -623070746792965830
-      Rogue_Idle_0_04: -3968742488980028027
-      Rogue_Idle_3_06: 7791204876607248466
-      Rogue_Idle_0_11: -4506438969465789850
-      Rogue_Idle_3_10: 4380956583999572107
-      Rogue_Idle_1_03: 928523099764091920
       Rogue_Idle_0_03: 2054419080814151945
-      Rogue_Idle_0_12: -3256952223788545919
-      Rogue_Idle_2_08: -1994683372260982505
-      Rogue_Idle_2_04: -4194081814817492071
-      Rogue_Idle_1_14: -631180017082840965
-      Rogue_Idle_1_09: -6045042786478831904
-      Rogue_Idle_2_09: 150019432136072686
+      Rogue_Idle_0_04: -3968742488980028027
+      Rogue_Idle_0_05: -7182782434554537564
       Rogue_Idle_0_06: 3801088457916173241
-      Rogue_Idle_1_11: -3232581312876385692
-      Rogue_Idle_3_03: 8642650414638358812
-      Rogue_Idle_2_05: 8794524683837309341
+      Rogue_Idle_0_07: 264043467155571548
+      Rogue_Idle_0_08: 7241102676250288814
+      Rogue_Idle_0_09: 7219205059778931008
+      Rogue_Idle_0_10: -6826004303778575054
+      Rogue_Idle_0_11: -4506438969465789850
+      Rogue_Idle_0_12: -3256952223788545919
+      Rogue_Idle_0_13: -105068328573244176
+      Rogue_Idle_0_14: -9072463652297982535
+      Rogue_Idle_0_15: 5216935509122743423
+      Rogue_Idle_1_00: -165416595196543542
+      Rogue_Idle_1_01: -4807979252629521490
+      Rogue_Idle_1_02: 6774035353075698575
+      Rogue_Idle_1_03: 928523099764091920
+      Rogue_Idle_1_04: -1503160516238144434
+      Rogue_Idle_1_05: -5300836390668730219
       Rogue_Idle_1_06: -7812186335585618093
+      Rogue_Idle_1_07: -4814239059259539811
+      Rogue_Idle_1_08: -6975511692224411803
+      Rogue_Idle_1_09: -6045042786478831904
+      Rogue_Idle_1_10: 2573810580580909205
+      Rogue_Idle_1_11: -3232581312876385692
+      Rogue_Idle_1_12: 5658298871622822053
+      Rogue_Idle_1_13: 2784266849746816743
+      Rogue_Idle_1_14: -631180017082840965
+      Rogue_Idle_1_15: 4811638845724761181
+      Rogue_Idle_2_00: 1451568073104425249
+      Rogue_Idle_2_01: -715346600467918928
+      Rogue_Idle_2_02: -2095646980998505051
+      Rogue_Idle_2_03: -3627991874279197736
+      Rogue_Idle_2_04: -4194081814817492071
+      Rogue_Idle_2_05: 8794524683837309341
+      Rogue_Idle_2_06: 4113194157382008288
+      Rogue_Idle_2_07: -2601649156826506160
+      Rogue_Idle_2_08: -1994683372260982505
+      Rogue_Idle_2_09: 150019432136072686
+      Rogue_Idle_2_10: 1388161546070386193
+      Rogue_Idle_2_11: -4677928797413520288
+      Rogue_Idle_2_12: -3225218759050096570
+      Rogue_Idle_2_13: -6816933381756871838
+      Rogue_Idle_2_14: 6644951911601527724
+      Rogue_Idle_2_15: 8944654263784555531
+      Rogue_Idle_3_00: 2948877515258577580
+      Rogue_Idle_3_01: -623070746792965830
+      Rogue_Idle_3_02: -5008221175133404428
+      Rogue_Idle_3_03: 8642650414638358812
+      Rogue_Idle_3_04: 9052207959814486163
+      Rogue_Idle_3_05: 3560693249839596211
+      Rogue_Idle_3_06: 7791204876607248466
+      Rogue_Idle_3_07: 851016041040784142
+      Rogue_Idle_3_08: 2393813270234564333
+      Rogue_Idle_3_09: 1021158491459943358
+      Rogue_Idle_3_10: 4380956583999572107
+      Rogue_Idle_3_11: -5542233403441351305
+      Rogue_Idle_3_12: 6907489012849508687
       Rogue_Idle_3_13: -8717618333084716635
-  spritePackingTag: 
+      Rogue_Idle_3_14: 2627064831649824594
+      Rogue_Idle_3_15: -5756485307302895973
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

@@ -68,11 +68,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 1
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -111,6 +112,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
@@ -123,6 +125,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -135,6 +138,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -147,6 +151,33 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -499,25 +530,24 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      ForestOwl_AttackShadow_1_01: 7622290472716147886
-      ForestOwl_AttackShadow_1_00: -4361234726963426566
-      ForestOwl_AttackShadow_3_00: 3809524739643552011
-      ForestOwl_AttackShadow_0_03: 3027329999534060339
-      ForestOwl_AttackShadow_1_02: -7689535989074429010
-      ForestOwl_AttackShadow_2_00: -4444653717585514817
-      ForestOwl_AttackShadow_3_02: -2065700353743308886
-      ForestOwl_AttackShadow_0_01: -2030258959505677360
-      ForestOwl_AttackShadow_2_02: 2981504266284027998
-      ForestOwl_AttackShadow_3_01: -848028920107925445
-      ForestOwl_AttackShadow_3_03: -1238444775623616732
-      ForestOwl_AttackShadow_2_03: -5050365918021389779
-      ForestOwl_AttackShadow_1_03: -5770588193022253817
       ForestOwl_AttackShadow_0_00: -759236750430574899
-      ForestOwl_AttackShadow_2_01: 3259792501223914145
+      ForestOwl_AttackShadow_0_01: -2030258959505677360
       ForestOwl_AttackShadow_0_02: -5253012136585703625
-  spritePackingTag: 
+      ForestOwl_AttackShadow_0_03: 3027329999534060339
+      ForestOwl_AttackShadow_1_00: -4361234726963426566
+      ForestOwl_AttackShadow_1_01: 7622290472716147886
+      ForestOwl_AttackShadow_1_02: -7689535989074429010
+      ForestOwl_AttackShadow_1_03: -5770588193022253817
+      ForestOwl_AttackShadow_2_00: -4444653717585514817
+      ForestOwl_AttackShadow_2_01: 3259792501223914145
+      ForestOwl_AttackShadow_2_02: 2981504266284027998
+      ForestOwl_AttackShadow_2_03: -5050365918021389779
+      ForestOwl_AttackShadow_3_00: 3809524739643552011
+      ForestOwl_AttackShadow_3_01: -848028920107925445
+      ForestOwl_AttackShadow_3_02: -2065700353743308886
+      ForestOwl_AttackShadow_3_03: -1238444775623616732
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

@@ -113,11 +113,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 1
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -156,6 +157,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
@@ -168,6 +170,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -180,6 +183,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -192,6 +196,33 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -859,40 +890,39 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Druid_DieShadow_0_12: 5499297385435102616
-      Druid_DieShadow_0_23: 5731966008385506340
-      Druid_DieShadow_0_11: 4207427227751193276
-      Druid_DieShadow_0_27: 5631915233890455610
-      Druid_DieShadow_0_08: -4715901881342259526
-      Druid_DieShadow_0_18: -6949025028442170237
-      Druid_DieShadow_0_03: -7114827489190038617
-      Druid_DieShadow_0_20: 3474854461221637146
-      Druid_DieShadow_0_02: -8820170771757140733
-      Druid_DieShadow_0_30: 8331415298161214976
-      Druid_DieShadow_0_19: -4416626243939392607
-      Druid_DieShadow_0_07: 8685011650183409364
       Druid_DieShadow_0_00: -7658946487503481271
-      Druid_DieShadow_0_05: 1586405455025490686
-      Druid_DieShadow_0_26: 7235934283615731282
-      Druid_DieShadow_0_22: 7612469327588694494
-      Druid_DieShadow_0_14: 1430082035686964441
-      Druid_DieShadow_0_13: -5585480641058874108
-      Druid_DieShadow_0_10: 6212311076464377955
-      Druid_DieShadow_0_04: -6454701616336092702
-      Druid_DieShadow_0_21: 6821862928221470051
-      Druid_DieShadow_0_17: 4874711981101292985
-      Druid_DieShadow_0_06: -3404411316670555079
-      Druid_DieShadow_0_15: 6367832136270232356
-      Druid_DieShadow_0_24: 1979355521372721302
-      Druid_DieShadow_0_29: -1343116296157383531
-      Druid_DieShadow_0_16: 5288520464909062392
-      Druid_DieShadow_0_25: -5889727483252944613
-      Druid_DieShadow_0_28: 4716987175303852555
       Druid_DieShadow_0_01: 9038679795234479127
+      Druid_DieShadow_0_02: -8820170771757140733
+      Druid_DieShadow_0_03: -7114827489190038617
+      Druid_DieShadow_0_04: -6454701616336092702
+      Druid_DieShadow_0_05: 1586405455025490686
+      Druid_DieShadow_0_06: -3404411316670555079
+      Druid_DieShadow_0_07: 8685011650183409364
+      Druid_DieShadow_0_08: -4715901881342259526
       Druid_DieShadow_0_09: 3796365198836804841
-  spritePackingTag: 
+      Druid_DieShadow_0_10: 6212311076464377955
+      Druid_DieShadow_0_11: 4207427227751193276
+      Druid_DieShadow_0_12: 5499297385435102616
+      Druid_DieShadow_0_13: -5585480641058874108
+      Druid_DieShadow_0_14: 1430082035686964441
+      Druid_DieShadow_0_15: 6367832136270232356
+      Druid_DieShadow_0_16: 5288520464909062392
+      Druid_DieShadow_0_17: 4874711981101292985
+      Druid_DieShadow_0_18: -6949025028442170237
+      Druid_DieShadow_0_19: -4416626243939392607
+      Druid_DieShadow_0_20: 3474854461221637146
+      Druid_DieShadow_0_21: 6821862928221470051
+      Druid_DieShadow_0_22: 7612469327588694494
+      Druid_DieShadow_0_23: 5731966008385506340
+      Druid_DieShadow_0_24: 1979355521372721302
+      Druid_DieShadow_0_25: -5889727483252944613
+      Druid_DieShadow_0_26: 7235934283615731282
+      Druid_DieShadow_0_27: 5631915233890455610
+      Druid_DieShadow_0_28: 4716987175303852555
+      Druid_DieShadow_0_29: -1343116296157383531
+      Druid_DieShadow_0_30: 8331415298161214976
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

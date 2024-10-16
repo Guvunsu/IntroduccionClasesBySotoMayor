@@ -152,11 +152,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 1
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -195,6 +196,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
@@ -207,6 +209,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -219,6 +222,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -231,6 +235,33 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -1171,53 +1202,52 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      Barbarian_BattleCryEffectFrontLayer_0_00: 2010695732519652920
+      Barbarian_BattleCryEffectFrontLayer_0_01: 2793669224193037316
+      Barbarian_BattleCryEffectFrontLayer_0_02: -6068297979519587618
+      Barbarian_BattleCryEffectFrontLayer_0_03: 2093979790111766232
+      Barbarian_BattleCryEffectFrontLayer_0_04: -3687272390095055753
+      Barbarian_BattleCryEffectFrontLayer_0_05: -7072624405026207623
       Barbarian_BattleCryEffectFrontLayer_0_06: 2044939902679301366
       Barbarian_BattleCryEffectFrontLayer_0_07: -372727954013783989
-      Barbarian_BattleCryEffectFrontLayer_0_05: -7072624405026207623
-      Barbarian_BattleCryEffectFrontLayer_3_04: 4533579647476112044
-      Barbarian_BattleCryEffectFrontLayer_2_01: -8077950325848817245
-      Barbarian_BattleCryEffectFrontLayer_1_09: 7747812106882226710
-      Barbarian_BattleCryEffectFrontLayer_2_08: -8990623022749447555
-      Barbarian_BattleCryEffectFrontLayer_2_06: -9037104511846739449
-      Barbarian_BattleCryEffectFrontLayer_3_08: -1498051882002507412
-      Barbarian_BattleCryEffectFrontLayer_1_04: -812112532462856056
-      Barbarian_BattleCryEffectFrontLayer_1_08: -6583779724753779920
-      Barbarian_BattleCryEffectFrontLayer_1_00: -2312485611113907418
-      Barbarian_BattleCryEffectFrontLayer_1_02: 8896210891113938975
-      Barbarian_BattleCryEffectFrontLayer_1_01: -8368987182705059434
-      Barbarian_BattleCryEffectFrontLayer_1_03: 6948776593202548990
-      Barbarian_BattleCryEffectFrontLayer_3_03: -6575558391245979689
-      Barbarian_BattleCryEffectFrontLayer_3_07: -3619905969268515707
-      Barbarian_BattleCryEffectFrontLayer_3_06: -3431943636658109118
-      Barbarian_BattleCryEffectFrontLayer_2_02: -8187369548745176739
-      Barbarian_BattleCryEffectFrontLayer_1_10: 7750767899886389183
-      Barbarian_BattleCryEffectFrontLayer_2_07: -9048816295120381625
-      Barbarian_BattleCryEffectFrontLayer_3_01: 2589133908502176733
-      Barbarian_BattleCryEffectFrontLayer_1_05: 6249834289802124942
-      Barbarian_BattleCryEffectFrontLayer_2_00: 5167342524384058950
-      Barbarian_BattleCryEffectFrontLayer_0_09: -3434268464921475731
-      Barbarian_BattleCryEffectFrontLayer_3_10: -8399733397343313625
-      Barbarian_BattleCryEffectFrontLayer_0_02: -6068297979519587618
-      Barbarian_BattleCryEffectFrontLayer_1_06: 3843912535885003605
-      Barbarian_BattleCryEffectFrontLayer_2_10: -6453227970386617393
-      Barbarian_BattleCryEffectFrontLayer_3_02: 1314656030337980406
-      Barbarian_BattleCryEffectFrontLayer_2_05: 5506118292073949706
       Barbarian_BattleCryEffectFrontLayer_0_08: 7010921153297545086
-      Barbarian_BattleCryEffectFrontLayer_0_01: 2793669224193037316
-      Barbarian_BattleCryEffectFrontLayer_2_04: 952274949291790795
-      Barbarian_BattleCryEffectFrontLayer_0_04: -3687272390095055753
-      Barbarian_BattleCryEffectFrontLayer_1_07: -3897981294936243127
-      Barbarian_BattleCryEffectFrontLayer_0_00: 2010695732519652920
-      Barbarian_BattleCryEffectFrontLayer_2_09: 7954346201038176342
-      Barbarian_BattleCryEffectFrontLayer_3_09: 2183511390821207713
-      Barbarian_BattleCryEffectFrontLayer_0_03: 2093979790111766232
-      Barbarian_BattleCryEffectFrontLayer_3_00: -1737016272351773187
-      Barbarian_BattleCryEffectFrontLayer_2_03: 403977522291971768
-      Barbarian_BattleCryEffectFrontLayer_3_05: 5006550038145665122
+      Barbarian_BattleCryEffectFrontLayer_0_09: -3434268464921475731
       Barbarian_BattleCryEffectFrontLayer_0_10: 5302927833963537956
-  spritePackingTag: 
+      Barbarian_BattleCryEffectFrontLayer_1_00: -2312485611113907418
+      Barbarian_BattleCryEffectFrontLayer_1_01: -8368987182705059434
+      Barbarian_BattleCryEffectFrontLayer_1_02: 8896210891113938975
+      Barbarian_BattleCryEffectFrontLayer_1_03: 6948776593202548990
+      Barbarian_BattleCryEffectFrontLayer_1_04: -812112532462856056
+      Barbarian_BattleCryEffectFrontLayer_1_05: 6249834289802124942
+      Barbarian_BattleCryEffectFrontLayer_1_06: 3843912535885003605
+      Barbarian_BattleCryEffectFrontLayer_1_07: -3897981294936243127
+      Barbarian_BattleCryEffectFrontLayer_1_08: -6583779724753779920
+      Barbarian_BattleCryEffectFrontLayer_1_09: 7747812106882226710
+      Barbarian_BattleCryEffectFrontLayer_1_10: 7750767899886389183
+      Barbarian_BattleCryEffectFrontLayer_2_00: 5167342524384058950
+      Barbarian_BattleCryEffectFrontLayer_2_01: -8077950325848817245
+      Barbarian_BattleCryEffectFrontLayer_2_02: -8187369548745176739
+      Barbarian_BattleCryEffectFrontLayer_2_03: 403977522291971768
+      Barbarian_BattleCryEffectFrontLayer_2_04: 952274949291790795
+      Barbarian_BattleCryEffectFrontLayer_2_05: 5506118292073949706
+      Barbarian_BattleCryEffectFrontLayer_2_06: -9037104511846739449
+      Barbarian_BattleCryEffectFrontLayer_2_07: -9048816295120381625
+      Barbarian_BattleCryEffectFrontLayer_2_08: -8990623022749447555
+      Barbarian_BattleCryEffectFrontLayer_2_09: 7954346201038176342
+      Barbarian_BattleCryEffectFrontLayer_2_10: -6453227970386617393
+      Barbarian_BattleCryEffectFrontLayer_3_00: -1737016272351773187
+      Barbarian_BattleCryEffectFrontLayer_3_01: 2589133908502176733
+      Barbarian_BattleCryEffectFrontLayer_3_02: 1314656030337980406
+      Barbarian_BattleCryEffectFrontLayer_3_03: -6575558391245979689
+      Barbarian_BattleCryEffectFrontLayer_3_04: 4533579647476112044
+      Barbarian_BattleCryEffectFrontLayer_3_05: 5006550038145665122
+      Barbarian_BattleCryEffectFrontLayer_3_06: -3431943636658109118
+      Barbarian_BattleCryEffectFrontLayer_3_07: -3619905969268515707
+      Barbarian_BattleCryEffectFrontLayer_3_08: -1498051882002507412
+      Barbarian_BattleCryEffectFrontLayer_3_09: 2183511390821207713
+      Barbarian_BattleCryEffectFrontLayer_3_10: -8399733397343313625
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

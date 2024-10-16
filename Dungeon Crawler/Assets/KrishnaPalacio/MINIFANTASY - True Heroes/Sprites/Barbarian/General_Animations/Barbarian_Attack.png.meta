@@ -92,11 +92,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 1
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -135,6 +136,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
@@ -147,6 +149,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -159,6 +162,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -171,6 +175,33 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -691,33 +722,32 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Barbarian_Attack_3_00: -6273205725003134203
-      Barbarian_Attack_3_01: -277979921288831975
       Barbarian_Attack_0_00: 5991637865671444795
-      Barbarian_Attack_0_04: -4875877932568694082
       Barbarian_Attack_0_01: -1509284636479994066
       Barbarian_Attack_0_02: -3705630911161992909
-      Barbarian_Attack_1_02: 8441971075767804654
-      Barbarian_Attack_2_00: 8192804226894416783
-      Barbarian_Attack_1_03: -6684207960914669442
       Barbarian_Attack_0_03: 9100506520453741014
-      Barbarian_Attack_3_05: -5041079939370635211
+      Barbarian_Attack_0_04: -4875877932568694082
+      Barbarian_Attack_0_05: -9010328137862984703
       Barbarian_Attack_1_00: 5129538178517244533
+      Barbarian_Attack_1_01: 7219463807765896624
+      Barbarian_Attack_1_02: 8441971075767804654
+      Barbarian_Attack_1_03: -6684207960914669442
+      Barbarian_Attack_1_04: -7329267408530320295
+      Barbarian_Attack_1_05: -7661606118866371598
+      Barbarian_Attack_2_00: 8192804226894416783
       Barbarian_Attack_2_01: 2259271193818376908
       Barbarian_Attack_2_02: 3628647689304206826
-      Barbarian_Attack_3_03: -2200314837693735983
-      Barbarian_Attack_1_04: -7329267408530320295
-      Barbarian_Attack_2_05: 7314693214651657200
-      Barbarian_Attack_2_04: -1620358268433465397
-      Barbarian_Attack_3_04: 3457905277533114029
-      Barbarian_Attack_0_05: -9010328137862984703
-      Barbarian_Attack_3_02: 8175644490951591217
-      Barbarian_Attack_1_01: 7219463807765896624
       Barbarian_Attack_2_03: 2471202259230861621
-      Barbarian_Attack_1_05: -7661606118866371598
-  spritePackingTag: 
+      Barbarian_Attack_2_04: -1620358268433465397
+      Barbarian_Attack_2_05: 7314693214651657200
+      Barbarian_Attack_3_00: -6273205725003134203
+      Barbarian_Attack_3_01: -277979921288831975
+      Barbarian_Attack_3_02: 8175644490951591217
+      Barbarian_Attack_3_03: -2200314837693735983
+      Barbarian_Attack_3_04: 3457905277533114029
+      Barbarian_Attack_3_05: -5041079939370635211
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

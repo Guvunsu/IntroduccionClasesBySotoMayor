@@ -15,7 +15,7 @@ namespace SotomaYorch.DungeonCrawler
     #endregion
 
     //Agent cannot operate without the Rigidbody2D
-    //[RequireComponent(typeof(Rigidbody2D))]
+    [RequireComponent(typeof(Rigidbody2D))]
     public class Agent : MonoBehaviour
     {
         //Configuration parameter of this script
@@ -27,9 +27,8 @@ namespace SotomaYorch.DungeonCrawler
 
         #region References
 
-        [SerializeField, HideInInspector] protected Rigidbody2D _rigidbody;//ponerle el hide despues de poner mis rigidbodies en el script a mi enemigos
+        [SerializeField, HideInInspector] protected Rigidbody2D _rigidbody;
         [SerializeField, HideInInspector] protected FiniteStateMachine _fsm;
-
 
         #endregion
 
@@ -52,7 +51,7 @@ namespace SotomaYorch.DungeonCrawler
         //(according to the computer)
         void Update()
         {
-
+            
         }
 
         //private void PhysicsUpdate()

@@ -361,6 +361,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab1e55543541b84cb77f601debee7d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  state: 4
 --- !u!114 &-3911058567076499054
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -373,6 +374,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab1e55543541b84cb77f601debee7d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  state: 7
 --- !u!114 &-3704716701592342468
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -385,6 +387,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab1e55543541b84cb77f601debee7d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  state: 2
 --- !u!1101 &-3391240789264317595
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -661,31 +664,31 @@ AnimatorController:
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   - m_Name: MOVE_UP
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   - m_Name: MOVE_DOWN
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   - m_Name: MOVE_LEFT
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   - m_Name: MOVE_RIGHT
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
@@ -736,6 +739,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab1e55543541b84cb77f601debee7d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  state: 3
 --- !u!114 &1385260560830345075
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -748,6 +752,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab1e55543541b84cb77f601debee7d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  state: 1
 --- !u!1101 &1419108093399003491
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -966,6 +971,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab1e55543541b84cb77f601debee7d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  state: 0
 --- !u!1102 &4645094101474510379
 AnimatorState:
   serializedVersion: 6
@@ -1084,6 +1090,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab1e55543541b84cb77f601debee7d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  state: 6
 --- !u!1101 &6505887687509108553
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -1121,6 +1128,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bab1e55543541b84cb77f601debee7d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  state: 5
 --- !u!1107 &7745248841551095753
 AnimatorStateMachine:
   serializedVersion: 6
@@ -1132,28 +1140,28 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: -8519519092193957798}
-    m_Position: {x: 310, y: -310, z: 0}
+    m_Position: {x: 970, y: -80, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1709636894955644763}
-    m_Position: {x: 560, y: -310, z: 0}
+    m_Position: {x: 970, y: -310, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -5768398966069598175}
-    m_Position: {x: 820, y: -310, z: 0}
+    m_Position: {x: 710, y: -200, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -3334088640491256741}
-    m_Position: {x: 1060, y: -310, z: 0}
+    m_Position: {x: 1270, y: -200, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -6362651278067157699}
-    m_Position: {x: 100, y: 350, z: 0}
+    m_Position: {x: 610, y: 290, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -5403476141597689918}
-    m_Position: {x: 340, y: 710, z: 0}
+    m_Position: {x: 610, y: 580, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -1563179617199956639}
-    m_Position: {x: 980, y: 760, z: 0}
+    m_Position: {x: 910, y: 420, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 4645094101474510379}
-    m_Position: {x: 1410, y: 600, z: 0}
+    m_Position: {x: 310, y: 420, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []

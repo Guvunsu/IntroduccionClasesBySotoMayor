@@ -104,11 +104,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 1
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -147,6 +148,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
@@ -159,6 +161,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -171,6 +174,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -183,6 +187,33 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -787,37 +818,36 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Druid_RootSummoningShadow_2_04: 451382717242042356
-      Druid_RootSummoningShadow_1_03: -7922761692171429683
+      Druid_RootSummoningShadow_0_00: -574141207184744626
       Druid_RootSummoningShadow_0_01: 4632874960217982825
-      Druid_RootSummoningShadow_1_06: -8469617065627766622
-      Druid_RootSummoningShadow_0_05: -8487582121843509887
       Druid_RootSummoningShadow_0_02: 7659045403036629868
-      Druid_RootSummoningShadow_3_03: 6118099161471927765
-      Druid_RootSummoningShadow_1_02: -6112928736019911797
-      Druid_RootSummoningShadow_1_01: -2451247763949713664
-      Druid_RootSummoningShadow_3_01: 4012842808419847617
-      Druid_RootSummoningShadow_2_00: 3488371805477643414
+      Druid_RootSummoningShadow_0_03: 2387388983770748024
       Druid_RootSummoningShadow_0_04: -1076580718094515657
-      Druid_RootSummoningShadow_2_02: -1626656678991999763
-      Druid_RootSummoningShadow_2_03: -7254047015062097659
+      Druid_RootSummoningShadow_0_05: -8487582121843509887
+      Druid_RootSummoningShadow_0_06: -4469726335631514210
+      Druid_RootSummoningShadow_1_00: -1460880333926948277
+      Druid_RootSummoningShadow_1_01: -2451247763949713664
+      Druid_RootSummoningShadow_1_02: -6112928736019911797
+      Druid_RootSummoningShadow_1_03: -7922761692171429683
       Druid_RootSummoningShadow_1_04: 1605271314462088277
       Druid_RootSummoningShadow_1_05: -6019843023869106441
-      Druid_RootSummoningShadow_1_00: -1460880333926948277
-      Druid_RootSummoningShadow_3_02: 827663611859507420
-      Druid_RootSummoningShadow_2_06: 8855117070829324077
-      Druid_RootSummoningShadow_3_06: -6730525483513443375
-      Druid_RootSummoningShadow_0_00: -574141207184744626
-      Druid_RootSummoningShadow_2_05: -7643155221321811132
-      Druid_RootSummoningShadow_3_00: 7754923520889494085
+      Druid_RootSummoningShadow_1_06: -8469617065627766622
+      Druid_RootSummoningShadow_2_00: 3488371805477643414
       Druid_RootSummoningShadow_2_01: -1540670320620612263
+      Druid_RootSummoningShadow_2_02: -1626656678991999763
+      Druid_RootSummoningShadow_2_03: -7254047015062097659
+      Druid_RootSummoningShadow_2_04: 451382717242042356
+      Druid_RootSummoningShadow_2_05: -7643155221321811132
+      Druid_RootSummoningShadow_2_06: 8855117070829324077
+      Druid_RootSummoningShadow_3_00: 7754923520889494085
+      Druid_RootSummoningShadow_3_01: 4012842808419847617
+      Druid_RootSummoningShadow_3_02: 827663611859507420
+      Druid_RootSummoningShadow_3_03: 6118099161471927765
       Druid_RootSummoningShadow_3_04: -623263313027055889
       Druid_RootSummoningShadow_3_05: -8154950668426381394
-      Druid_RootSummoningShadow_0_06: -4469726335631514210
-      Druid_RootSummoningShadow_0_03: 2387388983770748024
-  spritePackingTag: 
+      Druid_RootSummoningShadow_3_06: -6730525483513443375
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

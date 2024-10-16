@@ -80,11 +80,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 1
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -123,6 +124,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
@@ -135,6 +137,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -147,6 +150,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -159,6 +163,33 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -595,29 +626,28 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      ForestBeast_AttackShadow_2_02: -2107787302057028522
-      ForestBeast_AttackShadow_1_01: 4276195948726684407
-      ForestBeast_AttackShadow_2_00: -8608802437016655079
-      ForestBeast_AttackShadow_0_03: 1327854579113440552
-      ForestBeast_AttackShadow_3_04: -5388723798601095824
-      ForestBeast_AttackShadow_1_00: -3253625354339486387
-      ForestBeast_AttackShadow_0_02: 1840192559160499251
-      ForestBeast_AttackShadow_2_03: -3849736360379562340
-      ForestBeast_AttackShadow_3_01: 3471591339571393035
-      ForestBeast_AttackShadow_1_02: -1401715816777992233
       ForestBeast_AttackShadow_0_00: -6965209812887876397
       ForestBeast_AttackShadow_0_01: -6496158308792513822
-      ForestBeast_AttackShadow_3_03: 2471764711662494660
-      ForestBeast_AttackShadow_2_01: -9057832919455090382
-      ForestBeast_AttackShadow_1_04: 2181890614519643067
+      ForestBeast_AttackShadow_0_02: 1840192559160499251
+      ForestBeast_AttackShadow_0_03: 1327854579113440552
       ForestBeast_AttackShadow_0_04: 7103639816681364708
+      ForestBeast_AttackShadow_1_00: -3253625354339486387
+      ForestBeast_AttackShadow_1_01: 4276195948726684407
+      ForestBeast_AttackShadow_1_02: -1401715816777992233
       ForestBeast_AttackShadow_1_03: 7577247337029193302
+      ForestBeast_AttackShadow_1_04: 2181890614519643067
+      ForestBeast_AttackShadow_2_00: -8608802437016655079
+      ForestBeast_AttackShadow_2_01: -9057832919455090382
+      ForestBeast_AttackShadow_2_02: -2107787302057028522
+      ForestBeast_AttackShadow_2_03: -3849736360379562340
       ForestBeast_AttackShadow_2_04: -5895440728074100209
       ForestBeast_AttackShadow_3_00: -6536949214444714091
+      ForestBeast_AttackShadow_3_01: 3471591339571393035
       ForestBeast_AttackShadow_3_02: -5165665472630082710
-  spritePackingTag: 
+      ForestBeast_AttackShadow_3_03: 2471764711662494660
+      ForestBeast_AttackShadow_3_04: -5388723798601095824
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

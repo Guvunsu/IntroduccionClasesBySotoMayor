@@ -68,11 +68,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 1
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -111,6 +112,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
@@ -123,6 +125,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -135,6 +138,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -147,6 +151,33 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -499,25 +530,24 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Barbarian_BlockGuardDownShadow_2_02: 4295629394927719840
-      Barbarian_BlockGuardDownShadow_3_03: 6842480335679207102
-      Barbarian_BlockGuardDownShadow_3_01: -1871415225171529088
-      Barbarian_BlockGuardDownShadow_3_00: -3728017225765604776
-      Barbarian_BlockGuardDownShadow_2_03: -4385718664031301309
+      Barbarian_BlockGuardDownShadow_0_00: -5101756736566317185
+      Barbarian_BlockGuardDownShadow_0_01: 4192153869110532895
+      Barbarian_BlockGuardDownShadow_0_02: 7879823467716358336
+      Barbarian_BlockGuardDownShadow_0_03: 1513358641537536340
       Barbarian_BlockGuardDownShadow_1_00: 2744030680883675087
       Barbarian_BlockGuardDownShadow_1_01: 8544910771702290939
-      Barbarian_BlockGuardDownShadow_2_00: -5037439083128049539
-      Barbarian_BlockGuardDownShadow_0_01: 4192153869110532895
-      Barbarian_BlockGuardDownShadow_1_03: 2214301358181052777
-      Barbarian_BlockGuardDownShadow_3_02: -4297326188721517852
-      Barbarian_BlockGuardDownShadow_0_03: 1513358641537536340
-      Barbarian_BlockGuardDownShadow_2_01: -63044955524270963
-      Barbarian_BlockGuardDownShadow_0_00: -5101756736566317185
-      Barbarian_BlockGuardDownShadow_0_02: 7879823467716358336
       Barbarian_BlockGuardDownShadow_1_02: 7460057892163928469
-  spritePackingTag: 
+      Barbarian_BlockGuardDownShadow_1_03: 2214301358181052777
+      Barbarian_BlockGuardDownShadow_2_00: -5037439083128049539
+      Barbarian_BlockGuardDownShadow_2_01: -63044955524270963
+      Barbarian_BlockGuardDownShadow_2_02: 4295629394927719840
+      Barbarian_BlockGuardDownShadow_2_03: -4385718664031301309
+      Barbarian_BlockGuardDownShadow_3_00: -3728017225765604776
+      Barbarian_BlockGuardDownShadow_3_01: -1871415225171529088
+      Barbarian_BlockGuardDownShadow_3_02: -4297326188721517852
+      Barbarian_BlockGuardDownShadow_3_03: 6842480335679207102
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

@@ -56,42 +56,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemyNPC
       objectReference: {fileID: 0}
-    - target: {fileID: 4658189665935228654, guid: ab90cba76176bc44f9b70b84ee440fb0, type: 3}
-      propertyPath: m_Color.b
-      value: 0.1511659
-      objectReference: {fileID: 0}
-    - target: {fileID: 4658189665935228654, guid: ab90cba76176bc44f9b70b84ee440fb0, type: 3}
-      propertyPath: m_Color.g
-      value: 0.1511659
-      objectReference: {fileID: 0}
-    - target: {fileID: 4658189665935228654, guid: ab90cba76176bc44f9b70b84ee440fb0, type: 3}
-      propertyPath: m_Color.r
-      value: 0.745283
-      objectReference: {fileID: 0}
-    - target: {fileID: 4918251592204493867, guid: ab90cba76176bc44f9b70b84ee440fb0, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6456717340057506576, guid: ab90cba76176bc44f9b70b84ee440fb0, type: 3}
-      propertyPath: m_Constraints
-      value: 7
-      objectReference: {fileID: 0}
     m_RemovedComponents:
-    - {fileID: 0}
     - {fileID: 2660077242759885590, guid: ab90cba76176bc44f9b70b84ee440fb0, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 3209659465230041952, guid: ab90cba76176bc44f9b70b84ee440fb0, type: 3}
       insertIndex: 1
-      addedObject: {fileID: 3505691652682622573}
+      addedObject: {fileID: 4596535123460400308}
   m_SourcePrefab: {fileID: 100100000, guid: ab90cba76176bc44f9b70b84ee440fb0, type: 3}
 --- !u!1 &1924325280389380605 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3209659465230041952, guid: ab90cba76176bc44f9b70b84ee440fb0, type: 3}
   m_PrefabInstance: {fileID: 3909005602917481117}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &3505691652682622573
+--- !u!114 &4596535123460400308
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

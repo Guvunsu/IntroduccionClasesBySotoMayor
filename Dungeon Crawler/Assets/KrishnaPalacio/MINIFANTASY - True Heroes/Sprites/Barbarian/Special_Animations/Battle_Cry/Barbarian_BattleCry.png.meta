@@ -152,11 +152,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 1
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -195,6 +196,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
@@ -207,6 +209,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -219,6 +222,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -231,6 +235,33 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -1171,53 +1202,52 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      Barbarian_BattleCry_0_00: -6212029722850917738
+      Barbarian_BattleCry_0_01: 3433932145541924047
       Barbarian_BattleCry_0_02: 542415539977777490
-      Barbarian_BattleCry_1_08: 4718916814388812249
-      Barbarian_BattleCry_1_04: 1994712804036653140
-      Barbarian_BattleCry_2_06: 4630744448205500551
-      Barbarian_BattleCry_0_10: -3860449822945585792
-      Barbarian_BattleCry_1_06: -1616920730661815914
+      Barbarian_BattleCry_0_03: 282373421191145904
+      Barbarian_BattleCry_0_04: -1016739238390966569
       Barbarian_BattleCry_0_05: -7790053813796623481
-      Barbarian_BattleCry_3_02: -4279013191206172991
-      Barbarian_BattleCry_3_01: 3955192183461645190
+      Barbarian_BattleCry_0_06: 6732267920850687260
+      Barbarian_BattleCry_0_07: 8250141422075742032
+      Barbarian_BattleCry_0_08: -2829372955219679571
+      Barbarian_BattleCry_0_09: 6212363532642611239
+      Barbarian_BattleCry_0_10: -3860449822945585792
+      Barbarian_BattleCry_1_00: 788859882628681107
+      Barbarian_BattleCry_1_01: 7348522908722226612
+      Barbarian_BattleCry_1_02: 1269796489473343486
       Barbarian_BattleCry_1_03: -3604345570962328858
+      Barbarian_BattleCry_1_04: 1994712804036653140
+      Barbarian_BattleCry_1_05: -9120852559547429249
+      Barbarian_BattleCry_1_06: -1616920730661815914
+      Barbarian_BattleCry_1_07: -2489433394815965073
+      Barbarian_BattleCry_1_08: 4718916814388812249
+      Barbarian_BattleCry_1_09: -4969285545854217614
+      Barbarian_BattleCry_1_10: 2179114754188756268
       Barbarian_BattleCry_2_00: -6227612381776133182
       Barbarian_BattleCry_2_01: -4028115733822121101
-      Barbarian_BattleCry_2_03: -2410690040274014770
-      Barbarian_BattleCry_3_04: 4242658649212303545
-      Barbarian_BattleCry_1_10: 2179114754188756268
-      Barbarian_BattleCry_2_05: 103712594937827259
-      Barbarian_BattleCry_2_04: -1007970121707954949
-      Barbarian_BattleCry_2_09: 6470077920907571639
-      Barbarian_BattleCry_1_07: -2489433394815965073
-      Barbarian_BattleCry_3_09: -1741192253590215712
-      Barbarian_BattleCry_3_05: -6453602353650151424
-      Barbarian_BattleCry_0_07: 8250141422075742032
-      Barbarian_BattleCry_3_10: 291304492723355979
-      Barbarian_BattleCry_0_09: 6212363532642611239
-      Barbarian_BattleCry_1_02: 1269796489473343486
       Barbarian_BattleCry_2_02: -8137646343978192765
-      Barbarian_BattleCry_1_01: 7348522908722226612
-      Barbarian_BattleCry_1_05: -9120852559547429249
-      Barbarian_BattleCry_2_08: 5999333735405828774
-      Barbarian_BattleCry_1_09: -4969285545854217614
+      Barbarian_BattleCry_2_03: -2410690040274014770
+      Barbarian_BattleCry_2_04: -1007970121707954949
+      Barbarian_BattleCry_2_05: 103712594937827259
+      Barbarian_BattleCry_2_06: 4630744448205500551
       Barbarian_BattleCry_2_07: -2546959167127254577
-      Barbarian_BattleCry_0_06: 6732267920850687260
-      Barbarian_BattleCry_3_08: 3444405906761021954
-      Barbarian_BattleCry_1_00: 788859882628681107
-      Barbarian_BattleCry_0_01: 3433932145541924047
-      Barbarian_BattleCry_0_04: -1016739238390966569
-      Barbarian_BattleCry_3_03: 2320558818831195448
-      Barbarian_BattleCry_3_00: -1458221902386360299
-      Barbarian_BattleCry_3_06: 7453832530734073085
+      Barbarian_BattleCry_2_08: 5999333735405828774
+      Barbarian_BattleCry_2_09: 6470077920907571639
       Barbarian_BattleCry_2_10: -4252079527470016425
-      Barbarian_BattleCry_0_08: -2829372955219679571
-      Barbarian_BattleCry_0_03: 282373421191145904
-      Barbarian_BattleCry_0_00: -6212029722850917738
+      Barbarian_BattleCry_3_00: -1458221902386360299
+      Barbarian_BattleCry_3_01: 3955192183461645190
+      Barbarian_BattleCry_3_02: -4279013191206172991
+      Barbarian_BattleCry_3_03: 2320558818831195448
+      Barbarian_BattleCry_3_04: 4242658649212303545
+      Barbarian_BattleCry_3_05: -6453602353650151424
+      Barbarian_BattleCry_3_06: 7453832530734073085
       Barbarian_BattleCry_3_07: 4956566276894704183
-  spritePackingTag: 
+      Barbarian_BattleCry_3_08: 3444405906761021954
+      Barbarian_BattleCry_3_09: -1741192253590215712
+      Barbarian_BattleCry_3_10: 291304492723355979
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

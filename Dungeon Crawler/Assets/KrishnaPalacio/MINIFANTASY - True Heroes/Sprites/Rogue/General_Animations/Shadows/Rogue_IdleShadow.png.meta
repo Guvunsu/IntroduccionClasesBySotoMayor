@@ -212,11 +212,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 1
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -255,6 +256,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
@@ -267,6 +269,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -279,6 +282,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -291,6 +295,33 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -1651,73 +1682,72 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Rogue_IdleShadow_2_05: -5414775848010404276
-      Rogue_IdleShadow_3_12: -5119129417685280777
-      Rogue_IdleShadow_2_04: 5057497601442752400
+      Rogue_IdleShadow_0_00: 2258500770478965397
+      Rogue_IdleShadow_0_01: -141534708666467501
+      Rogue_IdleShadow_0_02: 2592350850665134885
+      Rogue_IdleShadow_0_03: 5803436912670862520
+      Rogue_IdleShadow_0_04: -8767238180540750766
+      Rogue_IdleShadow_0_05: -4672072167233590608
       Rogue_IdleShadow_0_06: -5922111958487420767
-      Rogue_IdleShadow_2_08: 5486065381700055036
-      Rogue_IdleShadow_3_07: -4404847108970068909
-      Rogue_IdleShadow_1_14: -2226271289447247729
-      Rogue_IdleShadow_0_08: -1586371047805715764
-      Rogue_IdleShadow_2_06: 5582091956049791631
-      Rogue_IdleShadow_3_01: -3152544302262881898
-      Rogue_IdleShadow_1_13: -331738997206238218
-      Rogue_IdleShadow_3_13: -1899750204698827030
-      Rogue_IdleShadow_3_08: -5384606829365082846
-      Rogue_IdleShadow_1_04: 2899657379943140228
-      Rogue_IdleShadow_0_14: 1150401731305731063
-      Rogue_IdleShadow_2_09: 5981030683343619725
-      Rogue_IdleShadow_1_00: -222065332887930758
       Rogue_IdleShadow_0_07: -3746815945750036239
-      Rogue_IdleShadow_2_07: -5853665774078763891
-      Rogue_IdleShadow_1_03: -1322151712317482446
+      Rogue_IdleShadow_0_08: -1586371047805715764
+      Rogue_IdleShadow_0_09: 6926959549233715779
       Rogue_IdleShadow_0_10: 1024648843365347813
-      Rogue_IdleShadow_3_05: -2288464140011952817
-      Rogue_IdleShadow_1_12: 5291018894490954808
-      Rogue_IdleShadow_0_13: -4617068353303527863
-      Rogue_IdleShadow_3_10: -8332848891121279682
-      Rogue_IdleShadow_2_11: 5620846126575989761
-      Rogue_IdleShadow_2_12: -3864039017129618832
-      Rogue_IdleShadow_3_11: 2624516867464234388
-      Rogue_IdleShadow_2_03: -3892518870343776268
-      Rogue_IdleShadow_2_13: -6181074006634926042
-      Rogue_IdleShadow_3_02: -5224535651376884301
-      Rogue_IdleShadow_1_07: 374730459436763866
       Rogue_IdleShadow_0_11: 7991093238167366446
       Rogue_IdleShadow_0_12: 1150248224308266941
-      Rogue_IdleShadow_1_06: 5935638605850009986
-      Rogue_IdleShadow_3_14: -6758136099159348985
-      Rogue_IdleShadow_2_02: 2680829520981649332
-      Rogue_IdleShadow_1_01: -2654306400753874844
-      Rogue_IdleShadow_0_00: 2258500770478965397
-      Rogue_IdleShadow_3_03: 7639903589027706009
-      Rogue_IdleShadow_3_09: 1086505383791325280
-      Rogue_IdleShadow_2_00: 10774069601637257
-      Rogue_IdleShadow_1_11: 6454403755847148991
-      Rogue_IdleShadow_3_00: 5708035467615617129
-      Rogue_IdleShadow_1_02: 3491840375736404523
-      Rogue_IdleShadow_1_09: 8605332327148312942
+      Rogue_IdleShadow_0_13: -4617068353303527863
+      Rogue_IdleShadow_0_14: 1150401731305731063
       Rogue_IdleShadow_0_15: -3545629798309908743
-      Rogue_IdleShadow_0_05: -4672072167233590608
-      Rogue_IdleShadow_1_10: 3958599600109331716
-      Rogue_IdleShadow_2_10: -428179353729722967
-      Rogue_IdleShadow_0_03: 5803436912670862520
-      Rogue_IdleShadow_0_02: 2592350850665134885
-      Rogue_IdleShadow_0_09: 6926959549233715779
-      Rogue_IdleShadow_3_04: -3071625976054621392
-      Rogue_IdleShadow_2_15: -7034626192861758120
-      Rogue_IdleShadow_0_01: -141534708666467501
-      Rogue_IdleShadow_2_14: 5600889009697278284
-      Rogue_IdleShadow_1_15: -3970199647895375274
-      Rogue_IdleShadow_2_01: -27367031167151616
-      Rogue_IdleShadow_3_15: 2547932692401278068
-      Rogue_IdleShadow_0_04: -8767238180540750766
+      Rogue_IdleShadow_1_00: -222065332887930758
+      Rogue_IdleShadow_1_01: -2654306400753874844
+      Rogue_IdleShadow_1_02: 3491840375736404523
+      Rogue_IdleShadow_1_03: -1322151712317482446
+      Rogue_IdleShadow_1_04: 2899657379943140228
       Rogue_IdleShadow_1_05: -7910465750251617826
+      Rogue_IdleShadow_1_06: 5935638605850009986
+      Rogue_IdleShadow_1_07: 374730459436763866
       Rogue_IdleShadow_1_08: 1796582833790481037
+      Rogue_IdleShadow_1_09: 8605332327148312942
+      Rogue_IdleShadow_1_10: 3958599600109331716
+      Rogue_IdleShadow_1_11: 6454403755847148991
+      Rogue_IdleShadow_1_12: 5291018894490954808
+      Rogue_IdleShadow_1_13: -331738997206238218
+      Rogue_IdleShadow_1_14: -2226271289447247729
+      Rogue_IdleShadow_1_15: -3970199647895375274
+      Rogue_IdleShadow_2_00: 10774069601637257
+      Rogue_IdleShadow_2_01: -27367031167151616
+      Rogue_IdleShadow_2_02: 2680829520981649332
+      Rogue_IdleShadow_2_03: -3892518870343776268
+      Rogue_IdleShadow_2_04: 5057497601442752400
+      Rogue_IdleShadow_2_05: -5414775848010404276
+      Rogue_IdleShadow_2_06: 5582091956049791631
+      Rogue_IdleShadow_2_07: -5853665774078763891
+      Rogue_IdleShadow_2_08: 5486065381700055036
+      Rogue_IdleShadow_2_09: 5981030683343619725
+      Rogue_IdleShadow_2_10: -428179353729722967
+      Rogue_IdleShadow_2_11: 5620846126575989761
+      Rogue_IdleShadow_2_12: -3864039017129618832
+      Rogue_IdleShadow_2_13: -6181074006634926042
+      Rogue_IdleShadow_2_14: 5600889009697278284
+      Rogue_IdleShadow_2_15: -7034626192861758120
+      Rogue_IdleShadow_3_00: 5708035467615617129
+      Rogue_IdleShadow_3_01: -3152544302262881898
+      Rogue_IdleShadow_3_02: -5224535651376884301
+      Rogue_IdleShadow_3_03: 7639903589027706009
+      Rogue_IdleShadow_3_04: -3071625976054621392
+      Rogue_IdleShadow_3_05: -2288464140011952817
       Rogue_IdleShadow_3_06: 4908062160364230745
-  spritePackingTag: 
+      Rogue_IdleShadow_3_07: -4404847108970068909
+      Rogue_IdleShadow_3_08: -5384606829365082846
+      Rogue_IdleShadow_3_09: 1086505383791325280
+      Rogue_IdleShadow_3_10: -8332848891121279682
+      Rogue_IdleShadow_3_11: 2624516867464234388
+      Rogue_IdleShadow_3_12: -5119129417685280777
+      Rogue_IdleShadow_3_13: -1899750204698827030
+      Rogue_IdleShadow_3_14: -6758136099159348985
+      Rogue_IdleShadow_3_15: 2547932692401278068
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

@@ -65,11 +65,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 1
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -108,6 +109,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
@@ -120,6 +122,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -132,6 +135,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -144,6 +148,33 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -475,24 +506,23 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Druid_ShapeShiftForestHoundToHuman_0_05: -2986993341849477726
-      Druid_ShapeShiftForestHoundToHuman_0_13: -609220039935631344
-      Druid_ShapeShiftForestHoundToHuman_0_09: -7143124999579223616
-      Druid_ShapeShiftForestHoundToHuman_0_12: 402006623085010142
-      Druid_ShapeShiftForestHoundToHuman_0_02: 8591831779398965649
-      Druid_ShapeShiftForestHoundToHuman_0_06: -6127201447619565780
-      Druid_ShapeShiftForestHoundToHuman_0_14: -6068269263153152459
-      Druid_ShapeShiftForestHoundToHuman_0_11: 2855878424079760
-      Druid_ShapeShiftForestHoundToHuman_0_03: -7282242594336624702
-      Druid_ShapeShiftForestHoundToHuman_0_07: -8240667326268163151
       Druid_ShapeShiftForestHoundToHuman_0_00: -144749923112370856
-      Druid_ShapeShiftForestHoundToHuman_0_10: -1823630540016560810
-      Druid_ShapeShiftForestHoundToHuman_0_04: -6569897039351812110
       Druid_ShapeShiftForestHoundToHuman_0_01: 956907288854118469
+      Druid_ShapeShiftForestHoundToHuman_0_02: 8591831779398965649
+      Druid_ShapeShiftForestHoundToHuman_0_03: -7282242594336624702
+      Druid_ShapeShiftForestHoundToHuman_0_04: -6569897039351812110
+      Druid_ShapeShiftForestHoundToHuman_0_05: -2986993341849477726
+      Druid_ShapeShiftForestHoundToHuman_0_06: -6127201447619565780
+      Druid_ShapeShiftForestHoundToHuman_0_07: -8240667326268163151
       Druid_ShapeShiftForestHoundToHuman_0_08: 3076945055880109986
-  spritePackingTag: 
+      Druid_ShapeShiftForestHoundToHuman_0_09: -7143124999579223616
+      Druid_ShapeShiftForestHoundToHuman_0_10: -1823630540016560810
+      Druid_ShapeShiftForestHoundToHuman_0_11: 2855878424079760
+      Druid_ShapeShiftForestHoundToHuman_0_12: 402006623085010142
+      Druid_ShapeShiftForestHoundToHuman_0_13: -609220039935631344
+      Druid_ShapeShiftForestHoundToHuman_0_14: -6068269263153152459
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

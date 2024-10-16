@@ -29,6 +29,8 @@ namespace SotomaYorch.DungeonCrawler
                 {
                     _avatar = avatar;
                     _avatar.gameObject.SetActive(true);
+                    this.transform.parent = avatar.transform;
+                    this.transform.localPosition = Vector2.zero;
                 }
             }
             gameObject.name = this.name + "_Player" + _playerInput.playerIndex;

@@ -60,7 +60,7 @@ namespace SotomaYorch.DungeonCrawler
 
         void Update()
         {
-            
+
         }
 
         private void FixedUpdate()
@@ -77,10 +77,17 @@ namespace SotomaYorch.DungeonCrawler
             if (value.performed)
             {
                 _movementInputVector = value.ReadValue<Vector2>();
+                _fsm.SetMovementDirection = _movementInputVector;
+                _fsm.SetMovementSpeed = 3.0f;
+                CalculateStateMechanicDirection();
+                _fsm.StateMechanic(_movementStateMechanic);
             }
             else if (value.canceled)
             {
                 _movementInputVector = Vector2.zero;
+                _fsm.SetMovementDirection = Vector2.zero;
+                _fsm.SetMovementSpeed = 0.0f;
+                _fsm.StateMechanic(StateMechanics.STOP);
             }
         }
 

@@ -63,6 +63,7 @@ namespace SotomaYorch.DungeonCrawler
         protected IEnumerator TimerForEnemyBehaviour()
         {
             yield return new WaitForSeconds(_currentEnemyBehaviour.time);
+            FinalizeSubState();
             GoToNextEnemyBehaviour();
         }
 
@@ -98,15 +99,43 @@ namespace SotomaYorch.DungeonCrawler
         {
             InitializeAgent();
         }
-
-        void Update()
+        void FixedUpdate()
         {
-            
+            switch (_currentEnemyBehaviour.Type)
+            {
+                case EnemyBehaviourType.Stop:
+                    ExecutingStopSubStateMachine():
+                        break;
+                case EnemyBehaviourType.MOVE_TO_RANDOM_DIRECTION:
+                    ExecutingMoveToRandomDirectionSubStateMachine();
+                    break;
+                case EnemyBehaviourType.PERSECUTE_THE_AVATAR:
+                    ExcecutingPersecuteTheAvatarSubstateMachineMethods();
+                    break;
+            }
         }
+        protected void FinalizeSubState()
+        {
+            switch (_currentEnemyBehaviour.Type)
+            {
+                case EnemyBehaviourType.Stop:
+                    FinalizeStopSubStateMachine():
+                        break;
+                case EnemyBehaviourType.MOVE_TO_RANDOM_DIRECTION:
+                    FinalizeMoveToRandomDirectionSubStateMachine();
+                    break;
+                case EnemyBehaviourType.PERSECUTE_THE_AVATAR:
+                    FinalizePersecuteTheAvatarSubstateMachineMethods();
+                    break;
+            }
+            void Update()
+            {
+
+            }
 
         #endregion
 
-        #region PublicMethods
+            #region PublicMethods
 
         public override void InitializeAgent()
         {
@@ -125,6 +154,9 @@ namespace SotomaYorch.DungeonCrawler
                 _currentEnemyBehaviour.time = -1; //-1 equals an infinity / perpetual state
             }
             InvokeStateMechanic();
+
+            //initialize the proper substate
+            InitializeSubstate();
             if (_currentEnemyBehaviour.time > 0)
             {
                 //It is not a perpetual finite state,
@@ -132,11 +164,74 @@ namespace SotomaYorch.DungeonCrawler
                 StartCoroutine(TimerForEnemyBehaviour());
             }
         }
-
+        protected void InitializeSubstate()
+        {
+            switch (_currentEnemyBehaviour.type)
+            {
+                case EnemyBehaviourType.STOP:
+                    InitializeBehaviourType.MOVE_TO_RANDOM_DIRECTIOPN:
+                        InitializeMoveToRandomDirectionSubStateMachine();
+                    break;
+                case EnemyBehaviourType.PERSECUTE_THE_AVATAR:
+                    InitializePersecuteTheAvatarSubStateMachine();
+                    break;
+            }
+        }
         #endregion
 
         #region GettersSetters
 
         #endregion
+
+        #region SubStateMachineStates
+
+        #region StopSubstateMachineMethods
+        protected void InitializeStopSubstateMachineMethods()
+        {
+
+        }
+        protected void ExcecutingStopSubstateMachineMethods()
+        {
+
+        }
+        protected void FinalizeStopSubstateMachineMethods()
+        {
+
+        }
+        #endregion StopSubstateMachineMethods
+
+        #region MoveToRandomDirectionSubStateMachineMethods
+        protected void InitializeMoveToRandomDirectionSubStateMachineMethods()
+        {
+            _rigidbody.velocity =
+                new Vector2(UnityEngine.Random.Range(-1.0f, 1.0f),
+                Unity.Engine.Random.Range(-1.0f, 1.0f).normalized * _currentEnemyBehaviour.speed;
+        }
+        protected void ExcecutingMoveToRandomDirectionSubStateMachineMethods()
+        {
+
+        }
+        protected void FinalizeMoveToRandomDirectionSubStateMachineMethods()
+        {
+            _rigidbody.velocity = Vector2.zero;
+        }
+        #endregion MoveToRandomDirectionSubstateMachineMethods
+
+        #region PersecuteTheAvatarSubstateMachineMethods
+        protected void InitializePersecuteTheAvatarSubstateMachineMethods()
+        {
+
+        }
+        protected void ExcecutingPersecuteTheAvatarSubstateMachineMethods()
+        {
+
+        }
+        protected void FinalizePersecuteTheAvatarSubstateMachineMethods()
+        {
+
+        }
+        #endregion PersecuterTheAvatarSubstateMachineMethods
+
+        #endregion SubStateMachineStates
     }
 }

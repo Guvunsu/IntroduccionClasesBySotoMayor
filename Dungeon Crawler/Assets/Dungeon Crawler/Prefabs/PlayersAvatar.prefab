@@ -68,6 +68,10 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.14408837
       objectReference: {fileID: 0}
+    - target: {fileID: 7996550187066274308, guid: ab90cba76176bc44f9b70b84ee440fb0, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 22100000, guid: 58fa5a0038ca36a4085bb6f4afeb34cd, type: 2}
     m_RemovedComponents:
     - {fileID: 2660077242759885590, guid: ab90cba76176bc44f9b70b84ee440fb0, type: 3}
     m_RemovedGameObjects: []
@@ -76,9 +80,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3209659465230041952, guid: ab90cba76176bc44f9b70b84ee440fb0, type: 3}
       insertIndex: 1
       addedObject: {fileID: 5222869770499505733}
-    - targetCorrespondingSourceObject: {fileID: 3209659465230041952, guid: ab90cba76176bc44f9b70b84ee440fb0, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1410072228090446716}
   m_SourcePrefab: {fileID: 100100000, guid: ab90cba76176bc44f9b70b84ee440fb0, type: 3}
 --- !u!1 &356886694692863271 stripped
 GameObject:
@@ -98,36 +99,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealthPoints: 3
-  _rigidbody: {fileID: 0}
+  _rigidbody: {fileID: 8206179744199306583}
   _fsm: {fileID: 6556910479042582227}
   playerIndex: 0
---- !u!50 &1410072228090446716
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 356886694692863271}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
 --- !u!114 &6556910479042582227 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8252346721500424340, guid: ab90cba76176bc44f9b70b84ee440fb0, type: 3}
@@ -139,3 +113,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0bde01278646ef4d96054a83d7a46c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!50 &8206179744199306583 stripped
+Rigidbody2D:
+  m_CorrespondingSourceObject: {fileID: 6456717340057506576, guid: ab90cba76176bc44f9b70b84ee440fb0, type: 3}
+  m_PrefabInstance: {fileID: 2916338911577570887}
+  m_PrefabAsset: {fileID: 0}

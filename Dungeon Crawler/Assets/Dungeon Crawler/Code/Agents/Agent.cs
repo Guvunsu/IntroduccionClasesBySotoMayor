@@ -27,7 +27,7 @@ namespace SotomaYorch.DungeonCrawler
 
         #region References
 
-        [SerializeField, HideInInspector] protected Rigidbody2D _rigidbody;
+        [SerializeField, HideInInspector] protected Rigidbody2D _rigidbody;//ponerle el hide despues de poner mis rigidbodies en el script a mi enemigos
         [SerializeField, HideInInspector] protected FiniteStateMachine _fsm;
 
 
@@ -52,7 +52,7 @@ namespace SotomaYorch.DungeonCrawler
         //(according to the computer)
         void Update()
         {
-            
+
         }
 
         //private void PhysicsUpdate()

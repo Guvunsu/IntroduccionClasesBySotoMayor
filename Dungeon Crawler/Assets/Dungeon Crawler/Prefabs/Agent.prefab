@@ -50,7 +50,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealthPoints: 3
-  _rigidbody: {fileID: 0}
+  _rigidbody: {fileID: 6456717340057506576}
   _fsm: {fileID: 8252346721500424340}
 --- !u!114 &8252346721500424340
 MonoBehaviour:

@@ -36,6 +36,8 @@ namespace SotomaYorch.DungeonCrawler
         protected EnemyBehaviourState _currentEnemyBehaviourState;
         protected EnemyBehaviour _currentEnemyBehaviour;
         protected int _currentEnemyBehaviourIndex;
+        protected Transform _avatarsTransform;
+        protected StateMechanics _previousMovementDirection;
 
         #endregion
 
@@ -55,7 +57,7 @@ namespace SotomaYorch.DungeonCrawler
                 case EnemyBehaviourType.PERSECUTE_THE_AVATAR:
                     //TODO: Obtain the State Mechanic direction, 
                     //according to the direction of the enemy
-                    _fsm.StateMechanic(StateMechanics.MOVE_RIGHT);
+                    _fsm.StateMechanic(_movementStateMechanic);
                     break;
             }
         }
@@ -82,6 +84,8 @@ namespace SotomaYorch.DungeonCrawler
                     _currentEnemyBehaviourIndex = 0;
                 _currentEnemyBehaviour = scriptBehaviours.persecutionBehaviours[_currentEnemyBehaviourIndex];
             }
+            InitializeSubState();
+            CalculateStateMechanicDirection();
             InvokeStateMechanic();
             if (_currentEnemyBehaviour.time > 0)
             {
@@ -123,9 +127,67 @@ namespace SotomaYorch.DungeonCrawler
             }
         }
 
+        protected void IntializePatrolBehaviour()
+        {
+            StopAllCoroutines();
+            //To initialize the sub-finite state machine
+            _currentEnemyBehaviourState = EnemyBehaviourState.PATROL;
+            _currentEnemyBehaviourIndex = 0;
+
+            if (scriptBehaviours.patrolBehaviours.Length > 0)
+            {
+                _currentEnemyBehaviour = scriptBehaviours.patrolBehaviours[0];
+            }
+            else
+            {
+                //Plan if the array is empty for this enemy NPC
+                _currentEnemyBehaviour.type = EnemyBehaviourType.STOP;
+                _currentEnemyBehaviour.time = -1; //-1 equals an infinity / perpetual state
+            }
+            //Initialize the proper sub-state
+            InitializeSubState();
+            CalculateStateMechanicDirection();
+            InvokeStateMechanic();
+
+
+            if (_currentEnemyBehaviour.time > 0)
+            {
+                //It is not a perpetual finite state,
+                //so we will start the clock ;)
+                StartCoroutine(TimerForEnemyBehaviour());
+            }
+        }
         #endregion
 
         #region UnityMethods
+        public void InitializePersecutingBehaviour()
+        {
+            //To initialize the sub-finite state machine
+            _currentEnemyBehaviourState = EnemyBehaviourState.PERSECUTION;
+            _currentEnemyBehaviourIndex = 0;
+
+            if (scriptBehaviours.patrolBehaviours.Length > 0)
+            {
+                _currentEnemyBehaviour = scriptBehaviours.persecutionBehaviours[0];
+            }
+            else
+            {
+                //Plan if the array is empty for this enemy NPC
+                _currentEnemyBehaviour.type = EnemyBehaviourType.PERSECUTE_THE_AVATAR;
+                _currentEnemyBehaviour.time = -1; //-1 equals an infinity / perpetual state
+                _currentEnemyBehaviour.speed = 1.0f;
+            }
+            InvokeStateMechanic();
+            InitializeSubState();
+
+            if (_currentEnemyBehaviour.time > 0)
+            {
+                //It is not a perpetual finite state,
+                //so we will start the clock ;)
+                StartCoroutine(TimerForEnemyBehaviour());
+            }
+        }
+
 
         void Start()
         {
@@ -147,38 +209,29 @@ namespace SotomaYorch.DungeonCrawler
                     break;
             }
         }
-
+        private void OnTriggerEnter2D(Collider2D other)
+        {
+            if (other.gameObject.tag == "Player")
+            {
+                _avatarsTransform = other.gameObject.transform;
+                InitializePersecutingBehaviour();
+            }
+        }
+        private void OnTriggerExit2D(Collider2D other)
+        {
+            if (other.gameObject.tag == "Player")
+            {
+                _avatarsTransform = null;
+                InitializeAgent();
+            }
+        }
         #endregion
 
         #region PublicMethods
 
         public override void InitializeAgent()
         {
-            //To initialize the sub-finite state machine
-            _currentEnemyBehaviourState = EnemyBehaviourState.PATROL;
-            _currentEnemyBehaviourIndex = 0;
-
-            if (scriptBehaviours.patrolBehaviours.Length > 0)
-            {
-                _currentEnemyBehaviour = scriptBehaviours.patrolBehaviours[0];
-            }
-            else
-            {
-                //Plan if the array is empty for this enemy NPC
-                _currentEnemyBehaviour.type = EnemyBehaviourType.STOP;
-                _currentEnemyBehaviour.time = -1; //-1 equals an infinity / perpetual state
-            }
-            InvokeStateMechanic();
-
-            //Initialize the proper sub-state
-            InitializeSubState();
-
-            if (_currentEnemyBehaviour.time > 0)
-            {
-                //It is not a perpetual finite state,
-                //so we will start the clock ;)
-                StartCoroutine(TimerForEnemyBehaviour());
-            }
+            IntializePatrolBehaviour();
         }
 
         #endregion
@@ -193,7 +246,8 @@ namespace SotomaYorch.DungeonCrawler
 
         protected void InitializeStopSubStateMachine()
         {
-            //do nothing
+            _fsm.SetMovementSpeed = 0.0f;
+            _fsm.SetMovementDirection = Vector2.zero;
         }
 
         protected void ExecutingStopSubStateMachine()
@@ -212,12 +266,17 @@ namespace SotomaYorch.DungeonCrawler
 
         protected void InitializeMoveToRandomDirectionSubStateMachine()
         {
-            _rigidbody.velocity =
-                new Vector2(
-                    UnityEngine.Random.Range(-1.0f, 1.0f),
-                    UnityEngine.Random.Range(-1.0f, 1.0f)
-                ).normalized 
-                * _currentEnemyBehaviour.speed;
+            do
+            {
+
+                _movementDirection =
+                    new Vector2(
+                        UnityEngine.Random.Range(-1.0f, 1.0f),
+                        UnityEngine.Random.Range(-1.0f, 1.0f)
+                    ).normalized;
+            } while (_movementDirection.magnitude == 0.0f);
+            _fsm.SetMovementDirection = _movementDirection;
+            _fsm.SetMovementSpeed = _currentEnemyBehaviour.speed;
         }
 
         protected void ExecutingMoveToRandomDirectionSubStateMachine()
@@ -236,17 +295,27 @@ namespace SotomaYorch.DungeonCrawler
 
         protected void InitializePersecuteTheAvatarSubStateMachine()
         {
-
+            _fsm.SetMovementDirection = (_avatarsTransform.position - transform.position).normalized;
+            _fsm.SetMovementSpeed = _currentEnemyBehaviour.speed;
+            _previousMovementDirection = _movementStateMechanic;
         }
 
         protected void ExecutingPersecuteTheAvatarSubStateMachine()
-        {
-            
+        {// as the avatar may move, we have to update the direction towards him/her
+            _movementDirection = (_avatarsTransform.position - transform.position).normalized;
+            _fsm.SetMovementDirection = _movementDirection;
+            CalculateStateMechanicDirection();
+            if (_previousMovementDirection != _movementStateMechanic)
+            {
+                InvokeStateMechanic();
+                _previousMovementDirection = _movementStateMechanic;
+            }
         }
 
         protected void FinalizePersecuteTheAvatarSubStateMachine()
         {
-
+            _fsm.SetMovementSpeed = 0.0f;
+            _fsm.SetMovementDirection = Vector2.zero;
         }
 
         #endregion PersecuteTheAvatarSubStateMachineMethods

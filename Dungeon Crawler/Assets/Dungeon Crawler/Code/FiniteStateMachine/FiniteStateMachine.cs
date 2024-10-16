@@ -48,21 +48,23 @@ namespace SotomaYorch.DungeonCrawler
 
         #region References
 
-        [SerializeField,HideInInspector] protected Animator _animator;
-
+        [SerializeField, HideInInspector] protected Animator _animator;
+        [SerializeField, HideInInspector] protected FiniteStateMachine _fms;
+        [SerializeField] Rigidbody2D _rigidbody;
         #endregion
 
         #region RuntimeVariables
 
         protected States _state;
-
+        [SerializeField] protected Vector2 _movementDirection;
+        [SerializeField] protected float _movementSpeed;
         #endregion
 
         #region LocalMethods
 
         protected void InitializeFiniteStateMachine()
         {
-            
+
         }
 
         protected void CleanAnimatorFlags()
@@ -84,12 +86,12 @@ namespace SotomaYorch.DungeonCrawler
 
         void Update()
         {
-            
+
         }
 
         private void FixedUpdate()
         {
-            
+            _rigidbody.velocity = _movementDirection * _movementSpeed;
         }
 
         #endregion
@@ -112,9 +114,19 @@ namespace SotomaYorch.DungeonCrawler
         #endregion
 
         #region GettersSetters
+        public Vector2 GetMovementDirection
+        {
+            get { return _movementDirection; }
+        }
+        public Vector2 SetMovementDirection
+        {
+            set { _movementDirection = value; }
+        }
+        public float SetMovementSpeed
+        {
+            set { _movementSpeed = value; }
 
-
-
-        #endregion
+            #endregion
+        }
     }
 }

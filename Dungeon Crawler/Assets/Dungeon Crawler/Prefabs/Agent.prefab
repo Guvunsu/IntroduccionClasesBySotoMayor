@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 4658189665935228654}
   - component: {fileID: 6456717340057506576}
   - component: {fileID: 4918251592204493867}
-  - component: {fileID: 661041700099199659}
+  - component: {fileID: 2983987965368585359}
   m_Layer: 0
   m_Name: Agent
   m_TagString: Untagged
@@ -66,8 +66,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _animator: {fileID: 7996550187066274308}
-  _fms: {fileID: 0}
   _rigidbody: {fileID: 6456717340057506576}
+  _state: 0
   _movementDirection: {x: 0, y: 0}
   _movementSpeed: 0
 --- !u!95 &7996550187066274308
@@ -202,7 +202,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0015000105, y: 0.060837805}
+  m_Offset: {x: -0.0015, y: 0.0585}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.406}
@@ -215,7 +215,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.75, y: 0.13}
   m_EdgeRadius: 0
---- !u!61 &661041700099199659
+--- !u!61 &2983987965368585359
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

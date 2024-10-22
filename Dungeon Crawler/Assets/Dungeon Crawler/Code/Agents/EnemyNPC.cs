@@ -29,6 +29,7 @@ namespace SotomaYorch.DungeonCrawler
 
         #region References
 
+
         #endregion
 
         #region RuntimeVariables
@@ -37,7 +38,7 @@ namespace SotomaYorch.DungeonCrawler
         protected EnemyBehaviour _currentEnemyBehaviour;
         protected int _currentEnemyBehaviourIndex;
         protected Transform _avatarsTransform;
-        protected StateMechanics _previousMovementDirection;
+        protected StateMechanics _previousMovementStateMechanic;
 
         #endregion
 
@@ -127,7 +128,7 @@ namespace SotomaYorch.DungeonCrawler
             }
         }
 
-        protected void IntializePatrolBehaviour()
+        protected void InitializePatrolBehaviour()
         {
             StopAllCoroutines();
             //To initialize the sub-finite state machine
@@ -148,8 +149,6 @@ namespace SotomaYorch.DungeonCrawler
             InitializeSubState();
             CalculateStateMechanicDirection();
             InvokeStateMechanic();
-
-
             if (_currentEnemyBehaviour.time > 0)
             {
                 //It is not a perpetual finite state,
@@ -157,37 +156,35 @@ namespace SotomaYorch.DungeonCrawler
                 StartCoroutine(TimerForEnemyBehaviour());
             }
         }
-        #endregion
 
-        #region UnityMethods
-        public void InitializePersecutingBehaviour()
+        protected void InitializePersecutionBehaviour()
         {
-            //To initialize the sub-finite state machine
+            StopAllCoroutines();
             _currentEnemyBehaviourState = EnemyBehaviourState.PERSECUTION;
             _currentEnemyBehaviourIndex = 0;
 
-            if (scriptBehaviours.patrolBehaviours.Length > 0)
+            if (scriptBehaviours.persecutionBehaviours.Length > 0)
             {
                 _currentEnemyBehaviour = scriptBehaviours.persecutionBehaviours[0];
             }
             else
             {
-                //Plan if the array is empty for this enemy NPC
                 _currentEnemyBehaviour.type = EnemyBehaviourType.PERSECUTE_THE_AVATAR;
-                _currentEnemyBehaviour.time = -1; //-1 equals an infinity / perpetual state
+                _currentEnemyBehaviour.time = -1;
                 _currentEnemyBehaviour.speed = 1.0f;
             }
-            InvokeStateMechanic();
             InitializeSubState();
-
+            CalculateStateMechanicDirection();
+            InvokeStateMechanic();
             if (_currentEnemyBehaviour.time > 0)
             {
-                //It is not a perpetual finite state,
-                //so we will start the clock ;)
                 StartCoroutine(TimerForEnemyBehaviour());
             }
         }
 
+        #endregion
+
+        #region UnityMethods
 
         void Start()
         {
@@ -209,29 +206,32 @@ namespace SotomaYorch.DungeonCrawler
                     break;
             }
         }
+
         private void OnTriggerEnter2D(Collider2D other)
         {
             if (other.gameObject.tag == "Player")
             {
                 _avatarsTransform = other.gameObject.transform;
-                InitializePersecutingBehaviour();
+                InitializePersecutionBehaviour();
             }
         }
+
         private void OnTriggerExit2D(Collider2D other)
         {
             if (other.gameObject.tag == "Player")
             {
                 _avatarsTransform = null;
-                InitializeAgent();
+                InitializePatrolBehaviour();
             }
         }
+
         #endregion
 
         #region PublicMethods
 
         public override void InitializeAgent()
         {
-            IntializePatrolBehaviour();
+            InitializePatrolBehaviour();
         }
 
         #endregion
@@ -268,14 +268,13 @@ namespace SotomaYorch.DungeonCrawler
         {
             do
             {
-
-                _movementDirection =
-                    new Vector2(
-                        UnityEngine.Random.Range(-1.0f, 1.0f),
-                        UnityEngine.Random.Range(-1.0f, 1.0f)
-                    ).normalized;
+                _movementDirection = new Vector2(
+                                    UnityEngine.Random.Range(-1.0f, 1.0f),
+                                    UnityEngine.Random.Range(-1.0f, 1.0f)
+                                ).normalized;
             } while (_movementDirection.magnitude == 0.0f);
             _fsm.SetMovementDirection = _movementDirection;
+            
             _fsm.SetMovementSpeed = _currentEnemyBehaviour.speed;
         }
 
@@ -286,7 +285,8 @@ namespace SotomaYorch.DungeonCrawler
 
         protected void FinalizeMoveToRandomDirectionSubStateMachine()
         {
-            _rigidbody.velocity = Vector2.zero;
+            _fsm.SetMovementDirection = Vector2.zero;
+            _fsm.SetMovementSpeed = 0.0f;
         }
 
         #endregion MoveToRandomDirectionSubStateMachineMethods
@@ -297,18 +297,18 @@ namespace SotomaYorch.DungeonCrawler
         {
             _fsm.SetMovementDirection = (_avatarsTransform.position - transform.position).normalized;
             _fsm.SetMovementSpeed = _currentEnemyBehaviour.speed;
-            _previousMovementDirection = _movementStateMechanic;
+            _previousMovementStateMechanic = _movementStateMechanic;
         }
 
         protected void ExecutingPersecuteTheAvatarSubStateMachine()
-        {// as the avatar may move, we have to update the direction towards him/her
-            _movementDirection = (_avatarsTransform.position - transform.position).normalized;
-            _fsm.SetMovementDirection = _movementDirection;
+        {
+            //as the avatar may move, we have to update the direction towards him / her
+            _fsm.SetMovementDirection = (_avatarsTransform.position - transform.position).normalized;
             CalculateStateMechanicDirection();
-            if (_previousMovementDirection != _movementStateMechanic)
+            if (_previousMovementStateMechanic != _movementStateMechanic)
             {
                 InvokeStateMechanic();
-                _previousMovementDirection = _movementStateMechanic;
+                _previousMovementStateMechanic = _movementStateMechanic;
             }
         }
 

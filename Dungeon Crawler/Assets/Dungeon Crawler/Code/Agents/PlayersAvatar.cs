@@ -60,7 +60,7 @@ namespace SotomaYorch.DungeonCrawler
 
         void Update()
         {
-
+            
         }
 
         private void FixedUpdate()

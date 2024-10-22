@@ -30,16 +30,17 @@ namespace SotomaYorch.DungeonCrawler
         [SerializeField, HideInInspector] protected Rigidbody2D _rigidbody;
         [SerializeField, HideInInspector] protected FiniteStateMachine _fsm;
 
-        #endregion References
+        #endregion
 
         #region RuntimeVariables
 
         protected Vector2 _movementDirection;
         protected StateMechanics _movementStateMechanic;
 
-        #endregion RunTimeVariables
+        #endregion
 
         #region LocalMethods
+
         protected virtual void CalculateStateMechanicDirection()
         {
             if (Vector2.Dot(_fsm.GetMovementDirection, Vector2.down) >= 0.5f)
@@ -49,7 +50,7 @@ namespace SotomaYorch.DungeonCrawler
             else if (Vector2.Dot(_fsm.GetMovementDirection, Vector2.right) >= 0.5f)
             {
                 _movementStateMechanic = StateMechanics.MOVE_RIGHT;
-            }
+            }   
             else if (Vector2.Dot(_fsm.GetMovementDirection, Vector2.up) >= 0.5f)
             {
                 _movementStateMechanic = StateMechanics.MOVE_UP;
@@ -59,7 +60,8 @@ namespace SotomaYorch.DungeonCrawler
                 _movementStateMechanic = StateMechanics.MOVE_LEFT;
             }
         }
-        #endregion LocalMethods
+
+        #endregion
 
         #region UnityMethods
 
@@ -72,7 +74,7 @@ namespace SotomaYorch.DungeonCrawler
         //(according to the computer)
         void Update()
         {
-
+            
         }
 
         //private void PhysicsUpdate()

@@ -56,6 +56,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemyNPC
       objectReference: {fileID: 0}
+    - target: {fileID: 4658189665935228654, guid: ab90cba76176bc44f9b70b84ee440fb0, type: 3}
+      propertyPath: m_SpriteSortPoint
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2660077242759885590, guid: ab90cba76176bc44f9b70b84ee440fb0, type: 3}
     m_RemovedGameObjects: []
@@ -64,6 +68,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3209659465230041952, guid: ab90cba76176bc44f9b70b84ee440fb0, type: 3}
       insertIndex: 1
       addedObject: {fileID: 4596535123460400308}
+    - targetCorrespondingSourceObject: {fileID: 3209659465230041952, guid: ab90cba76176bc44f9b70b84ee440fb0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 626658013357685539}
   m_SourcePrefab: {fileID: 100100000, guid: ab90cba76176bc44f9b70b84ee440fb0, type: 3}
 --- !u!1 &1924325280389380605 stripped
 GameObject:
@@ -86,6 +93,41 @@ MonoBehaviour:
   _rigidbody: {fileID: 8044921885514000781}
   _fsm: {fileID: 4952176715906159113}
   scriptBehaviours: {fileID: 11400000, guid: 35a780a15e68ef947a69b645c34ab9da, type: 2}
+--- !u!58 &626658013357685539
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1924325280389380605}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 4
 --- !u!114 &4952176715906159113 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8252346721500424340, guid: ab90cba76176bc44f9b70b84ee440fb0, type: 3}

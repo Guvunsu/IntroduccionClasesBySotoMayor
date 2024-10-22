@@ -27,6 +27,7 @@ namespace SotomaYorch.DungeonCrawler
             {
                 if ((int)avatar.playerIndex == _playerInput.playerIndex)
                 {
+                    Debug.Log(":D");
                     _avatar = avatar;
                     _avatar.gameObject.SetActive(true);
                     this.transform.parent = avatar.transform;
@@ -42,7 +43,7 @@ namespace SotomaYorch.DungeonCrawler
 
         public void OnMove(InputAction.CallbackContext value)
         {
-            _avatar.OnMOVE(value);
+            _avatar?.OnMOVE(value);
         }
 
         #endregion

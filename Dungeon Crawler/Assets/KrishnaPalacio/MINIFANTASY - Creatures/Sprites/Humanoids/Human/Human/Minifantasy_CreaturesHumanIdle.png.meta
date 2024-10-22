@@ -1553,7 +1553,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 448
-        y: 33
+        y: 32
         width: 32
         height: 32
       alignment: 9
@@ -1594,7 +1594,7 @@ TextureImporter:
       name: Minifantasy_CreaturesHumanIdle_0_15
       rect:
         serializedVersion: 2
-        x: 479
+        x: 480
         y: 96
         width: 32
         height: 32

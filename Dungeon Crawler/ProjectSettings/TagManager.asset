@@ -44,3 +44,9 @@ TagManager:
   - name: Ui
     uniqueID: 2712266649
     locked: 0
+  - name: HurtBox
+    uniqueID: 3276163855
+    locked: 0
+  - name: HitBox
+    uniqueID: 3479168597
+    locked: 0

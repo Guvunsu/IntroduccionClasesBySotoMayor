@@ -20,11 +20,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 1
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -63,6 +64,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
@@ -75,6 +77,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -87,6 +90,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -99,6 +103,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -111,6 +116,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -123,6 +129,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -1147,67 +1154,66 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Button_Vertical_9: -1841409650
-      Button_Large_7: -1305036713
-      Button_Horizontal_9: -1557871141
-      Button_Horizontal_11: -965219502
-      GuiButtons_2: -1475500822
-      Button_Horizontal_8: 1308230419
-      Button_Large_4: 979734761
-      Button_Vertical_Hovering_0: -1952287572
-      Button_Large_11: -1320431685
-      Button_Large_5: -414805371
-      Button_Vertical_11: 1348358431
-      Button_Vertical_8: 1574192197
-      GuiButtonsOriginal_3: -780183092
-      Button_Large_9: -1679272260
-      Button_Horizontal_6: 834364935
-      Button_Small_10: -383362264
-      Button_Horizontal_5: -447750308
-      Button_Small_11: -760036009
-      Button_Horizontal_2: 2032717444
-      Button_Small_7: -1804303246
-      Button_Vertical_0: -1812752691
-      Button_Large_3: -652005
-      GuiButtonsOriginal_1: -1356259796
-      Button_Horizontal_4: 2089981186
-      Button_Large_10: -291228680
-      GuiButtonsOriginal_2: 278326762
-      Button_Large_0: 1212395413
-      Button_Vertical_6: 1683639176
-      GuiButtonsOriginal_6: 1461019272
-      Button_Small_3: 58498582
-      Button_Vertical_10: 1335168699
-      Button_Vertical_2: 566056392
       Button_Horizontal_0: -866786935
-      Button_Small_2: -298038920
-      Button_Large_8: -1811040698
-      GuiButtonsOriginal_4: -27449560
-      Button_Large_2: 1530641399
-      Button_Horizontal_7: -1188878432
-      Button_Vertical_4: 334690344
-      Button_Small_4: 2017969897
       Button_Horizontal_10: -362838893
-      Button_Large_Hovering_0: -1710392277
-      GuiButtonsOriginal_5: -1229947763
-      Button_Vertical_3: 1155868887
-      GuiButtons_1: 1304744754
-      Button_Small_Hovering_0: 1921561765
-      Button_Large_6: 70858899
-      Button_Small_8: -1675294910
-      Button_Horizontal_Hovering_0: 144797337
-      Button_Small_0: 1529267511
-      Button_Vertical_7: 1998918630
-      Button_Small_9: -1546068864
-      Button_Vertical_5: 798233122
+      Button_Horizontal_11: -965219502
+      Button_Horizontal_2: 2032717444
       Button_Horizontal_3: -1759973219
-      GuiButtons_0: 1949169681
-      Button_Small_6: 535386604
+      Button_Horizontal_4: 2089981186
+      Button_Horizontal_5: -447750308
+      Button_Horizontal_6: 834364935
+      Button_Horizontal_7: -1188878432
+      Button_Horizontal_8: 1308230419
+      Button_Horizontal_9: -1557871141
+      Button_Horizontal_Hovering_0: 144797337
+      Button_Large_0: 1212395413
+      Button_Large_10: -291228680
+      Button_Large_11: -1320431685
+      Button_Large_2: 1530641399
+      Button_Large_3: -652005
+      Button_Large_4: 979734761
+      Button_Large_5: -414805371
+      Button_Large_6: 70858899
+      Button_Large_7: -1305036713
+      Button_Large_8: -1811040698
+      Button_Large_9: -1679272260
+      Button_Large_Hovering_0: -1710392277
+      Button_Small_0: 1529267511
+      Button_Small_10: -383362264
+      Button_Small_11: -760036009
+      Button_Small_2: -298038920
+      Button_Small_3: 58498582
+      Button_Small_4: 2017969897
       Button_Small_5: 1618212691
+      Button_Small_6: 535386604
+      Button_Small_7: -1804303246
+      Button_Small_8: -1675294910
+      Button_Small_9: -1546068864
+      Button_Small_Hovering_0: 1921561765
+      Button_Vertical_0: -1812752691
+      Button_Vertical_10: 1335168699
+      Button_Vertical_11: 1348358431
+      Button_Vertical_2: 566056392
+      Button_Vertical_3: 1155868887
+      Button_Vertical_4: 334690344
+      Button_Vertical_5: 798233122
+      Button_Vertical_6: 1683639176
+      Button_Vertical_7: 1998918630
+      Button_Vertical_8: 1574192197
+      Button_Vertical_9: -1841409650
+      Button_Vertical_Hovering_0: -1952287572
       GuiButtonsOriginal_0: -1952287572
-  spritePackingTag: 
+      GuiButtonsOriginal_1: -1356259796
+      GuiButtonsOriginal_2: 278326762
+      GuiButtonsOriginal_3: -780183092
+      GuiButtonsOriginal_4: -27449560
+      GuiButtonsOriginal_5: -1229947763
+      GuiButtonsOriginal_6: 1461019272
+      GuiButtons_0: 1949169681
+      GuiButtons_1: 1304744754
+      GuiButtons_2: -1475500822
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

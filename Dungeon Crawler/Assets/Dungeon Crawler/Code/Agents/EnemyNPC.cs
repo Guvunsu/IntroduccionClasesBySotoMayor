@@ -190,6 +190,7 @@ namespace SotomaYorch.DungeonCrawler
         {
             InitializeAgent();
         }
+
         private void OnDisable()
         {
             StopAllCoroutines();
@@ -278,7 +279,7 @@ namespace SotomaYorch.DungeonCrawler
                                 ).normalized;
             } while (_movementDirection.magnitude == 0.0f);
             _fsm.SetMovementDirection = _movementDirection;
-
+            
             _fsm.SetMovementSpeed = _currentEnemyBehaviour.speed;
         }
 

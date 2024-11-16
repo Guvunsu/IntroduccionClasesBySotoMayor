@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - HitBox
+  - HurtBox
   layers:
   - Default
   - TransparentFX
@@ -12,8 +14,8 @@ TagManager:
   - Water
   - UI
   - Player
-  - 
-  - 
+  - EnemyNPC
+  - DestroyableObject
   - 
   - 
   - 
@@ -41,12 +43,6 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Ui
-    uniqueID: 2712266649
-    locked: 0
-  - name: HurtBox
-    uniqueID: 3276163855
-    locked: 0
-  - name: HitBox
-    uniqueID: 3479168597
+  - name: GUI
+    uniqueID: 1733166425
     locked: 0

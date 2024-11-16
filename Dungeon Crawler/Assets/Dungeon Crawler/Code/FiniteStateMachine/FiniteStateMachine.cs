@@ -18,7 +18,13 @@ namespace SotomaYorch.DungeonCrawler
         MOVING_DOWN,
         MOVING_UP,
         MOVING_RIGHT,
-        MOVING_LEFT
+        MOVING_LEFT,
+        //ATTACKING
+        ATTACKING_UP,
+        ATTACKING_DOWN,
+        ATTACKING_LEFT,
+        ATTACKING_RIGHT,
+        DEATH
     }
 
     public enum StateMechanics
@@ -29,7 +35,10 @@ namespace SotomaYorch.DungeonCrawler
         MOVE_UP,
         MOVE_DOWN,
         MOVE_LEFT,
-        MOVE_RIGHT
+        MOVE_RIGHT,
+        //ATTACK
+        ATTACK,
+        DIE //TODO: Complete the code to administate this new state
     }
 
     #endregion
@@ -50,6 +59,7 @@ namespace SotomaYorch.DungeonCrawler
 
         [SerializeField,HideInInspector] protected Animator _animator;
         [SerializeField,HideInInspector] protected Rigidbody2D _rigidbody;
+        [SerializeField] protected Agent _agent;
 
         #endregion
 
@@ -61,11 +71,35 @@ namespace SotomaYorch.DungeonCrawler
 
         #endregion
 
-        #region LocalMethods
+        #region RuntimeMethods
+
+        protected void InitializeState()
+        {
+            switch (_state)
+            {
+                case States.DEATH:
+                    gameObject.SetActive(false); //PROTOTYPE TO DELETE
+                    break;
+                case States.ATTACKING_UP:
+                case States.ATTACKING_LEFT:
+                case States.ATTACKING_RIGHT:
+                case States.ATTACKING_DOWN:
+                    if (_agent as PlayersAvatar)
+                    {
+                        ((PlayersAvatar)_agent).ActivateHitBox();
+                    }
+                    //TODO: Move the Hit Box according to the direction
+                    //the avatar is facing
+                    break;
+            }
+        }
 
         protected void InitializeFiniteStateMachine()
         {
-            
+            if (_agent == null)
+            {
+                _agent = GetComponent<Agent>();
+            }
         }
 
         protected void CleanAnimatorFlags()
@@ -80,9 +114,11 @@ namespace SotomaYorch.DungeonCrawler
 
         #region UnityMethods
 
-        private void Start()
+        private void OnDrawGizmos()
         {
+            #if UNITY_EDITOR
             InitializeFiniteStateMachine();
+            #endif
         }
 
         private void FixedUpdate()
@@ -104,7 +140,8 @@ namespace SotomaYorch.DungeonCrawler
         {
             CleanAnimatorFlags();
             _state = value;
-            //InitializeState();
+            //TODO: Pending to develop
+            InitializeState();
         }
 
         #endregion

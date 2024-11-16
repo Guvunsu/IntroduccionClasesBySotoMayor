@@ -33,6 +33,8 @@ namespace SotomaYorch.DungeonCrawler
 
         #region References
 
+        [SerializeField] protected HitBox _hitBox;
+
         #endregion
 
         #region RuntimeVariables
@@ -47,15 +49,21 @@ namespace SotomaYorch.DungeonCrawler
         {
             base.InitializeAgent();
             _movementInputVector = Vector2.zero;
+            if (_hitBox == null )
+            {
+                _hitBox = transform.GetChild(0).gameObject.GetComponent<HitBox>();
+            }
         }
 
         #endregion
 
         #region UnityMethods
 
-        void Start()
+        private void OnDrawGizmos()
         {
+            #if UNITY_EDITOR
             InitializeAgent();
+            #endif
         }
 
         void Update()
@@ -71,6 +79,11 @@ namespace SotomaYorch.DungeonCrawler
         #endregion
 
         #region PublicMethods
+
+        public void ActivateHitBox()
+        {
+            _hitBox.ActivateHitBox();
+        }
 
         public void OnMOVE(InputAction.CallbackContext value)
         {
@@ -89,6 +102,26 @@ namespace SotomaYorch.DungeonCrawler
                 _fsm.SetMovementSpeed = 0.0f;
                 _fsm.StateMechanic(StateMechanics.STOP);
             }
+        }
+
+        public void OnATTACK(InputAction.CallbackContext value)
+        {
+            _fsm.StateMechanic(StateMechanics.ATTACK);
+        }
+
+        public void OnSPRINT(InputAction.CallbackContext value)
+        {
+
+        }
+
+        public void OnPAUSE(InputAction.CallbackContext value)
+        {
+
+        }
+
+        public void OnINTERACT(InputAction.CallbackContext value)
+        {
+
         }
 
         #endregion
